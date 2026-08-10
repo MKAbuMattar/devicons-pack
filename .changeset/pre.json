@@ -15,5 +15,7 @@
     "@devicons-pack/vue": "1.6.0",
     "@devicons-pack/web-components": "1.6.0"
   },
-  "changesets": []
+  "changesets": [
+    "monorepo-v2"
+  ]
 }
