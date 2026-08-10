@@ -1,6 +1,6 @@
 # @devicons-pack/web-components
 
-## 2.0.0
+## 2.0.0-beta.0
 
 ### Major Changes
 

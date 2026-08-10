@@ -1,6 +1,6 @@
 {
   "name": "@devicons-pack/angular",
-  "version": "2.0.0",
+  "version": "2.0.0-beta.0",
   "description": "Devicons for Angular — a standalone devIcon directive with tree-shakeable icon data (flat, high-contrast, modern).",
   "keywords": [
     "devicons",
