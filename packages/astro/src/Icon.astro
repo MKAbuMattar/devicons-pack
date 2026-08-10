@@ -1,0 +1,24 @@
+---
+import type {IconSlug, IconVariant} from '@devicons-pack/svg';
+import {loadIconSvg} from './load.js';
+
+interface Props {
+  /** Icon slug, e.g. "rocket" */
+  name: IconSlug;
+  /** Icon style — "flat" (default), "high-contrast", or "modern" */
+  variant?: IconVariant;
+  /** Accessible label; without it the icon is aria-hidden (decorative) */
+  title?: string;
+  [attr: string]: unknown;
+}
+
+const {name, variant = 'original', title, ...attrs} = Astro.props;
+
+const svg = await loadIconSvg(name, variant, {
+  role: 'img',
+  ...(title ? {'aria-label': title} : {'aria-hidden': 'true'}),
+  ...attrs,
+});
+---
+
+<Fragment set:html={svg} />

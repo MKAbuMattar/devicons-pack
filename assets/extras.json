@@ -1,0 +1,4992 @@
+{
+  "aarch64": {
+    "tags": [
+      "architecture",
+      "programming",
+      "language",
+      "ARM"
+    ],
+    "altnames": [
+      "arm64"
+    ]
+  },
+  "adonisjs": {
+    "tags": [
+      "nodejs",
+      "framework"
+    ],
+    "altnames": [
+      "adonis"
+    ]
+  },
+  "aerospike": {
+    "tags": [
+      "data",
+      "database",
+      "nosql"
+    ],
+    "altnames": []
+  },
+  "aframe": {
+    "tags": [
+      "framework",
+      "html",
+      "javascript",
+      "js",
+      "web"
+    ],
+    "altnames": [
+      "a-frame"
+    ]
+  },
+  "aftereffects": {
+    "tags": [
+      "video",
+      "editor"
+    ],
+    "altnames": [
+      "adobeaftereffects",
+      "ae"
+    ]
+  },
+  "akka": {
+    "tags": [
+      "framework",
+      "java",
+      "scala",
+      "open-source"
+    ],
+    "altnames": [
+      "akka-framework"
+    ]
+  },
+  "algolia": {
+    "tags": [
+      "algorithms",
+      "api",
+      "documentation",
+      "tool"
+    ],
+    "altnames": []
+  },
+  "almalinux": {
+    "tags": [
+      "linux",
+      "os",
+      "open-source"
+    ],
+    "altnames": [
+      "AlmaLinux OS"
+    ]
+  },
+  "alpinejs": {
+    "tags": [
+      "framework",
+      "javascript"
+    ],
+    "altnames": [
+      "Alpine"
+    ]
+  },
+  "amazonwebservices": {
+    "tags": [
+      "cloud",
+      "hosting",
+      "server"
+    ],
+    "altnames": [
+      "aws"
+    ]
+  },
+  "anaconda": {
+    "tags": [
+      "python",
+      "data-science"
+    ],
+    "altnames": []
+  },
+  "android": {
+    "tags": [
+      "os",
+      "mobile"
+    ],
+    "altnames": []
+  },
+  "androidstudio": {
+    "tags": [
+      "application",
+      "editor",
+      "jetbrains",
+      "ide",
+      "android",
+      "mobile"
+    ],
+    "altnames": []
+  },
+  "angular": {
+    "tags": [
+      "framework",
+      "javascript"
+    ],
+    "altnames": []
+  },
+  "angularjs": {
+    "tags": [
+      "framework",
+      "javascript"
+    ],
+    "altnames": []
+  },
+  "angularmaterial": {
+    "tags": [
+      "framework",
+      "javascript"
+    ],
+    "altnames": []
+  },
+  "ansible": {
+    "tags": [
+      "automation",
+      "provisioning",
+      "deployment",
+      "continuous-delivery"
+    ],
+    "altnames": []
+  },
+  "ansys": {
+    "tags": [
+      "simulation"
+    ],
+    "altnames": []
+  },
+  "antdesign": {
+    "tags": [
+      "reactjs",
+      "design",
+      "language"
+    ],
+    "altnames": []
+  },
+  "apache": {
+    "tags": [
+      "php"
+    ],
+    "altnames": [
+      "The Apache Software Foundation"
+    ]
+  },
+  "apacheairflow": {
+    "tags": [
+      "platform",
+      "pipeline",
+      "orchestrator",
+      "open-source"
+    ],
+    "altnames": [
+      "Airflow"
+    ]
+  },
+  "apachekafka": {
+    "tags": [
+      "streaming",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "apachespark": {
+    "tags": [
+      "data-processing",
+      "data-science",
+      "machine-learning"
+    ],
+    "altnames": []
+  },
+  "apex": {
+    "tags": [
+      "language"
+    ],
+    "altnames": []
+  },
+  "apl": {
+    "tags": [
+      "programming",
+      "language",
+      "open-source",
+      "cross-platform"
+    ],
+    "altnames": [
+      "A Programming Language"
+    ]
+  },
+  "apollographql": {
+    "tags": [
+      "platform",
+      "graphql",
+      "api"
+    ],
+    "altnames": [
+      "Apollo"
+    ]
+  },
+  "appcelerator": {
+    "tags": [
+      "app",
+      "mobile"
+    ],
+    "altnames": []
+  },
+  "apple": {
+    "tags": [
+      "brand",
+      "mobile"
+    ],
+    "altnames": []
+  },
+  "appwrite": {
+    "tags": [
+      "cloud",
+      "platform",
+      "server"
+    ],
+    "altnames": []
+  },
+  "archlinux": {
+    "tags": [
+      "linux",
+      "distribution",
+      "desktop"
+    ],
+    "altnames": []
+  },
+  "arduino": {
+    "tags": [
+      "microcontroller",
+      "hardware"
+    ],
+    "altnames": []
+  },
+  "argocd": {
+    "tags": [
+      "gitops",
+      "continuous-delivery"
+    ],
+    "altnames": []
+  },
+  "artixlinux": {
+    "tags": [
+      "linux",
+      "os",
+      "distribution",
+      "desktop"
+    ],
+    "altnames": [
+      "artix"
+    ]
+  },
+  "astro": {
+    "tags": [
+      "static site generator",
+      "framework",
+      "web-development"
+    ],
+    "altnames": []
+  },
+  "atom": {
+    "tags": [
+      "editor"
+    ],
+    "altnames": []
+  },
+  "awk": {
+    "tags": [
+      "programming",
+      "language",
+      "unix"
+    ],
+    "altnames": [
+      "the awk programming language"
+    ]
+  },
+  "axios": {
+    "tags": [
+      "http",
+      "promise",
+      "nodejs"
+    ],
+    "altnames": []
+  },
+  "azure": {
+    "tags": [
+      "cloud",
+      "devops"
+    ],
+    "altnames": [
+      "microsoftazure"
+    ]
+  },
+  "azuredevops": {
+    "tags": [
+      "azure",
+      "devops",
+      "cloud",
+      "version control",
+      "vcs"
+    ],
+    "altnames": [
+      "azure-devops"
+    ]
+  },
+  "azuresqldatabase": {
+    "tags": [
+      "azure",
+      "database",
+      "tool",
+      "sql"
+    ],
+    "altnames": [
+      "azure-sql-database"
+    ]
+  },
+  "babel": {
+    "tags": [
+      "javascript",
+      "transpiler"
+    ],
+    "altnames": [
+      "babeljs"
+    ]
+  },
+  "babylonjs": {
+    "tags": [
+      "3d",
+      "javascript",
+      "library",
+      "web"
+    ],
+    "altnames": [
+      "babylon.js"
+    ]
+  },
+  "backbonejs": {
+    "tags": [
+      "javascript",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "ballerina": {
+    "tags": [
+      "java",
+      "cloud",
+      "server",
+      "networking"
+    ],
+    "altnames": [
+      "bal"
+    ]
+  },
+  "bamboo": {
+    "tags": [
+      "platform",
+      "integration",
+      "server"
+    ],
+    "altnames": [
+      "atlassianbamboo"
+    ]
+  },
+  "bash": {
+    "tags": [
+      "shell",
+      "command",
+      "scripting"
+    ],
+    "altnames": [
+      "bourneagainshell"
+    ]
+  },
+  "bazel": {
+    "tags": [
+      "build",
+      "automation",
+      "open-source"
+    ],
+    "altnames": [
+      "buildtoolbazel"
+    ]
+  },
+  "beats": {
+    "tags": [
+      "elastic",
+      "data-transfer"
+    ],
+    "altnames": []
+  },
+  "behance": {
+    "tags": [
+      "social",
+      "website"
+    ],
+    "altnames": []
+  },
+  "bevyengine": {
+    "tags": [
+      "game-engine",
+      "game",
+      "rust",
+      "open-source"
+    ],
+    "altnames": [
+      "bevy engine",
+      "bevy"
+    ]
+  },
+  "biome": {
+    "tags": [
+      "linter",
+      "javascript",
+      "typescript",
+      "code-quality",
+      "coding-style",
+      "format",
+      "tool"
+    ],
+    "altnames": [
+      "biomejs"
+    ]
+  },
+  "bitbucket": {
+    "tags": [
+      "version-control"
+    ],
+    "altnames": [
+      "atlassianbitbucket"
+    ]
+  },
+  "blazor": {
+    "tags": [
+      "dotnet",
+      ".net",
+      "framework",
+      "design",
+      "ui"
+    ],
+    "altnames": []
+  },
+  "blender": {
+    "tags": [
+      "modelling",
+      "python",
+      "3d",
+      "animation"
+    ],
+    "altnames": []
+  },
+  "bootstrap": {
+    "tags": [
+      "css",
+      "framework",
+      "html",
+      "javascript",
+      "library"
+    ],
+    "altnames": []
+  },
+  "bower": {
+    "tags": [
+      "package",
+      "manager"
+    ],
+    "altnames": []
+  },
+  "browserstack": {
+    "tags": [
+      "website",
+      "app",
+      "testing",
+      "tool"
+    ],
+    "altnames": []
+  },
+  "bulma": {
+    "tags": [
+      "css",
+      "framework"
+    ],
+    "altnames": [
+      "bulmacss"
+    ]
+  },
+  "bun": {
+    "tags": [
+      "javascript",
+      "zig",
+      "language"
+    ],
+    "altnames": []
+  },
+  "c": {
+    "tags": [
+      "language"
+    ],
+    "altnames": []
+  },
+  "cairo": {
+    "tags": [
+      "graphic",
+      "library",
+      "c",
+      "open-source"
+    ],
+    "altnames": [
+      "cairographics"
+    ]
+  },
+  "cakephp": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": []
+  },
+  "canva": {
+    "tags": [
+      "design"
+    ],
+    "altnames": []
+  },
+  "capacitor": {
+    "tags": [
+      "javascript",
+      "js",
+      "ionic",
+      "framework",
+      "universal"
+    ],
+    "altnames": [
+      "capacitorjs"
+    ]
+  },
+  "carbon": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": [
+      "Carbon Language"
+    ]
+  },
+  "cassandra": {
+    "tags": [
+      "nosql",
+      "database",
+      "open-source"
+    ],
+    "altnames": [
+      "Apache Cassandra"
+    ]
+  },
+  "centos": {
+    "tags": [
+      "server",
+      "linux"
+    ],
+    "altnames": []
+  },
+  "ceylon": {
+    "tags": [
+      "language"
+    ],
+    "altnames": [
+      "eclipseceylon",
+      "ceylonlang"
+    ]
+  },
+  "chakraui": {
+    "tags": [
+      "ui",
+      "library"
+    ],
+    "altnames": [
+      "chakra ui"
+    ]
+  },
+  "chartjs": {
+    "tags": [
+      "javascript",
+      "chart",
+      "framework"
+    ],
+    "altnames": [
+      "chart.js"
+    ]
+  },
+  "chrome": {
+    "tags": [
+      "browser"
+    ],
+    "altnames": [
+      "googlechrome"
+    ]
+  },
+  "circleci": {
+    "tags": [
+      "integration",
+      "platform"
+    ],
+    "altnames": []
+  },
+  "clarity": {
+    "tags": [
+      "programming",
+      "language",
+      "blockchain"
+    ],
+    "altnames": [
+      "clarity-lang"
+    ]
+  },
+  "clickhouse": {
+    "tags": [
+      "cloud",
+      "column-oriented",
+      "database",
+      "warehouse"
+    ],
+    "altnames": []
+  },
+  "clion": {
+    "tags": [
+      "jetbrains",
+      "editor",
+      "c",
+      "c++",
+      "cpp",
+      "cplusplus"
+    ],
+    "altnames": []
+  },
+  "clojure": {
+    "tags": [
+      "language",
+      "jvm"
+    ],
+    "altnames": []
+  },
+  "clojurescript": {
+    "tags": [
+      "language"
+    ],
+    "altnames": []
+  },
+  "cloudflare": {
+    "tags": [
+      "web",
+      "cdn",
+      "dns",
+      "proxy",
+      "security"
+    ],
+    "altnames": []
+  },
+  "cloudflareworkers": {
+    "tags": [
+      "platform",
+      "serverless",
+      "deploy",
+      "performance",
+      "javascript"
+    ],
+    "altnames": [
+      "Cloudflare Workers"
+    ]
+  },
+  "cloudrun": {
+    "tags": [
+      "platform",
+      "serverless",
+      "deploy",
+      "cloud-computing-platform"
+    ],
+    "altnames": [
+      "Cloud Run"
+    ]
+  },
+  "cmake": {
+    "tags": [
+      "build"
+    ],
+    "altnames": []
+  },
+  "cobol": {
+    "tags": [
+      "language"
+    ],
+    "altnames": []
+  },
+  "codeac": {
+    "tags": [
+      "platform",
+      "integration"
+    ],
+    "altnames": [
+      "codeacio"
+    ]
+  },
+  "codecov": {
+    "tags": [
+      "platform",
+      "integration"
+    ],
+    "altnames": []
+  },
+  "codeigniter": {
+    "tags": [
+      "php",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "codepen": {
+    "tags": [
+      "social",
+      "website",
+      "editor"
+    ],
+    "altnames": []
+  },
+  "coffeescript": {
+    "tags": [
+      "javascript",
+      "transpiler",
+      "language"
+    ],
+    "altnames": []
+  },
+  "composer": {
+    "tags": [
+      "package",
+      "manager",
+      "php"
+    ],
+    "altnames": []
+  },
+  "confluence": {
+    "tags": [
+      "collaboration",
+      "documentation",
+      "wiki"
+    ],
+    "altnames": [
+      "atlassianconfluence"
+    ]
+  },
+  "consul": {
+    "tags": [
+      "networking",
+      "infrastructure",
+      "security",
+      "tool"
+    ],
+    "altnames": [
+      "HashiCorp Consul"
+    ]
+  },
+  "contao": {
+    "tags": [
+      "cms"
+    ],
+    "altnames": []
+  },
+  "corejs": {
+    "tags": [
+      "javascript",
+      "library",
+      "polyfill",
+      "tool"
+    ],
+    "altnames": [
+      "core-js",
+      "core.js"
+    ]
+  },
+  "cosmosdb": {
+    "tags": [
+      "database",
+      "nosql",
+      "cloud",
+      "azure"
+    ],
+    "altnames": [
+      "azurecosmosdb"
+    ]
+  },
+  "couchbase": {
+    "tags": [
+      "database",
+      "nosql",
+      "cloud"
+    ],
+    "altnames": []
+  },
+  "couchdb": {
+    "tags": [
+      "database"
+    ],
+    "altnames": [
+      "apachecouchdb"
+    ]
+  },
+  "cpanel": {
+    "tags": [
+      "hosting",
+      "web hosting",
+      "server",
+      "control panel"
+    ],
+    "altnames": []
+  },
+  "cplusplus": {
+    "tags": [
+      "language"
+    ],
+    "altnames": [
+      "c++",
+      "cpp"
+    ]
+  },
+  "crystal": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": [
+      "crystallang"
+    ]
+  },
+  "csharp": {
+    "tags": [
+      "language"
+    ],
+    "altnames": [
+      "c#"
+    ]
+  },
+  "css3": {
+    "tags": [
+      "language",
+      "programming"
+    ],
+    "altnames": [
+      "cascadingstylesheets3"
+    ]
+  },
+  "cucumber": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": [
+      "cucumberjs"
+    ]
+  },
+  "cypressio": {
+    "tags": [
+      "testing",
+      "framework"
+    ],
+    "altnames": [
+      "cypress"
+    ]
+  },
+  "d3js": {
+    "tags": [],
+    "altnames": []
+  },
+  "dart": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": [
+      "googledart"
+    ]
+  },
+  "datadog": {
+    "tags": [
+      "monitoring",
+      "platform",
+      "integration"
+    ],
+    "altnames": []
+  },
+  "datagrip": {
+    "tags": [
+      "jetbrains",
+      "ide",
+      "sql",
+      "database"
+    ],
+    "altnames": []
+  },
+  "dataspell": {
+    "tags": [
+      "jetbrains",
+      "ide",
+      "jupyter notebook",
+      "data science"
+    ],
+    "altnames": []
+  },
+  "datatables": {
+    "tags": [
+      "css",
+      "framework",
+      "html",
+      "javascript",
+      "library"
+    ],
+    "altnames": []
+  },
+  "dbeaver": {
+    "tags": [
+      "tool",
+      "database"
+    ],
+    "altnames": []
+  },
+  "debian": {
+    "tags": [
+      "os",
+      "server"
+    ],
+    "altnames": []
+  },
+  "delphi": {
+    "tags": [
+      "language"
+    ],
+    "altnames": [
+      "embarcadero"
+    ]
+  },
+  "denojs": {
+    "tags": [
+      "javascript",
+      "rust",
+      "runtime"
+    ],
+    "altnames": []
+  },
+  "detaspace": {
+    "tags": [
+      "cloud",
+      "hosting",
+      "server"
+    ],
+    "altnames": [
+      "Deta",
+      "Deta Space"
+    ]
+  },
+  "devicon": {
+    "tags": [
+      "iconset"
+    ],
+    "altnames": []
+  },
+  "digitalocean": {
+    "tags": [
+      "cloud",
+      "hosting",
+      "database",
+      "storage"
+    ],
+    "altnames": []
+  },
+  "discloud": {
+    "tags": [
+      "cloud",
+      "hosting",
+      "database",
+      "storage"
+    ],
+    "altnames": []
+  },
+  "discordjs": {
+    "tags": [
+      "wrapper",
+      "api_wrapper",
+      "nodejs"
+    ],
+    "altnames": []
+  },
+  "django": {
+    "tags": [],
+    "altnames": []
+  },
+  "djangorest": {
+    "tags": [
+      "framework",
+      "rest",
+      "api",
+      "python",
+      "web"
+    ],
+    "altnames": [
+      "Django REST framework"
+    ]
+  },
+  "docker": {
+    "tags": [
+      "platform",
+      "deploy"
+    ],
+    "altnames": []
+  },
+  "doctrine": {
+    "tags": [],
+    "altnames": []
+  },
+  "dot-net": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": [
+      "dotnet",
+      ".net"
+    ]
+  },
+  "dotnetcore": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": [
+      ".netcore"
+    ]
+  },
+  "dovecot": {
+    "tags": [
+      "imap",
+      "pop3",
+      "e-mail"
+    ],
+    "altnames": []
+  },
+  "dreamweaver": {
+    "tags": [
+      "web-development",
+      "editor",
+      "software",
+      "tool"
+    ],
+    "altnames": [
+      "Adobe Dreamweaver"
+    ]
+  },
+  "dropwizard": {
+    "tags": [
+      "java",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "drupal": {
+    "tags": [
+      "cms"
+    ],
+    "altnames": []
+  },
+  "duckdb": {
+    "tags": [
+      "database",
+      "sql"
+    ],
+    "altnames": []
+  },
+  "dyalog": {
+    "tags": [
+      "language"
+    ],
+    "altnames": []
+  },
+  "dynamodb": {
+    "tags": [
+      "key-value",
+      "database",
+      "java"
+    ],
+    "altnames": []
+  },
+  "dynatrace": {
+    "tags": [
+      "monitoring",
+      "performance",
+      "cloud"
+    ],
+    "altnames": []
+  },
+  "eclipse": {
+    "tags": [
+      "editor",
+      "IDE"
+    ],
+    "altnames": [
+      "Eclipse IDE"
+    ]
+  },
+  "ecto": {
+    "tags": [
+      "data",
+      "elixir",
+      "integration",
+      "query"
+    ],
+    "altnames": []
+  },
+  "elasticsearch": {
+    "tags": [
+      "elastic",
+      "data",
+      "logs"
+    ],
+    "altnames": []
+  },
+  "electron": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": [
+      "electronjs"
+    ]
+  },
+  "eleventy": {
+    "tags": [
+      "ssg",
+      "static site generator"
+    ],
+    "altnames": [
+      "11ty"
+    ]
+  },
+  "elixir": {
+    "tags": [
+      "language"
+    ],
+    "altnames": [
+      "elexirlang"
+    ]
+  },
+  "elm": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": [
+      "elmlang"
+    ]
+  },
+  "emacs": {
+    "tags": [
+      "editor"
+    ],
+    "altnames": [
+      "editingmacros"
+    ]
+  },
+  "embeddedc": {
+    "tags": [
+      "language",
+      "programming"
+    ],
+    "altnames": []
+  },
+  "ember": {
+    "tags": [
+      "framework",
+      "javascript",
+      "web-development",
+      "build"
+    ],
+    "altnames": [
+      "ember.js",
+      "emberjs"
+    ]
+  },
+  "entityframeworkcore": {
+    "tags": [
+      "dotnet",
+      ".net",
+      "framework",
+      "database"
+    ],
+    "altnames": [
+      "ef core",
+      "entity framework core"
+    ]
+  },
+  "envoy": {
+    "tags": [
+      "proxy",
+      "cloud"
+    ],
+    "altnames": [
+      "envoyproxy"
+    ]
+  },
+  "erlang": {
+    "tags": [],
+    "altnames": []
+  },
+  "eslint": {
+    "tags": [
+      "linter",
+      "javascript",
+      "code-quality",
+      "coding-style"
+    ],
+    "altnames": []
+  },
+  "expo": {
+    "tags": [
+      "framework",
+      "react",
+      "react-native"
+    ],
+    "altnames": []
+  },
+  "express": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": [
+      "expressjs"
+    ]
+  },
+  "facebook": {
+    "tags": [
+      "auth"
+    ],
+    "altnames": []
+  },
+  "fastapi": {
+    "tags": [
+      "python",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "fastify": {
+    "tags": [
+      "framework",
+      "web",
+      "node.js",
+      "javascript",
+      "performance"
+    ],
+    "altnames": []
+  },
+  "faunadb": {
+    "tags": [
+      "database"
+    ],
+    "altnames": [
+      "fauna"
+    ]
+  },
+  "feathersjs": {
+    "tags": [
+      "framework",
+      "rest"
+    ],
+    "altnames": []
+  },
+  "fedora": {
+    "tags": [
+      "linux",
+      "distribution",
+      "desktop"
+    ],
+    "altnames": []
+  },
+  "fiber": {
+    "tags": [
+      "framework",
+      "go",
+      "web"
+    ],
+    "altnames": [
+      "GoFiber"
+    ]
+  },
+  "figma": {
+    "tags": [
+      "design"
+    ],
+    "altnames": []
+  },
+  "filamentphp": {
+    "tags": [
+      "framework",
+      "laravel"
+    ],
+    "altnames": []
+  },
+  "filezilla": {
+    "tags": [
+      "ftp"
+    ],
+    "altnames": []
+  },
+  "firebase": {
+    "tags": [
+      "auth",
+      "hosting",
+      "storage",
+      "cloud"
+    ],
+    "altnames": []
+  },
+  "firebird": {
+    "tags": [
+      "database"
+    ],
+    "altnames": []
+  },
+  "firefox": {
+    "tags": [
+      "browser"
+    ],
+    "altnames": [
+      "mozillafirefox"
+    ]
+  },
+  "flask": {
+    "tags": [
+      "python",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "flutter": {
+    "tags": [
+      "framework",
+      "sdk"
+    ],
+    "altnames": []
+  },
+  "forgejo": {
+    "tags": [
+      "software",
+      "git",
+      "version-control"
+    ],
+    "altnames": []
+  },
+  "fortran": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": []
+  },
+  "foundation": {
+    "tags": [
+      "framework",
+      "css"
+    ],
+    "altnames": []
+  },
+  "framermotion": {
+    "tags": [
+      "library",
+      "open-source",
+      "react",
+      "animation"
+    ],
+    "altnames": [
+      "framer-motion",
+      "framer"
+    ]
+  },
+  "framework7": {
+    "tags": [
+      "framework",
+      "cross-platform",
+      "development",
+      "mobile",
+      "android",
+      "ios",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "fsharp": {
+    "tags": [
+      "language"
+    ],
+    "altnames": [
+      "f#"
+    ]
+  },
+  "fusion": {
+    "tags": [
+      "design"
+    ],
+    "altnames": [
+      "Autodesk Fusion",
+      "Autodesk Fusion 360"
+    ]
+  },
+  "gardener": {
+    "tags": [
+      "kubernetes",
+      "cloud"
+    ],
+    "altnames": []
+  },
+  "gatling": {
+    "tags": [
+      "framework",
+      "testing"
+    ],
+    "altnames": []
+  },
+  "gatsby": {
+    "tags": [
+      "reactjs",
+      "framework"
+    ],
+    "altnames": [
+      "gatsbyjs"
+    ]
+  },
+  "gazebo": {
+    "tags": [
+      "robotics",
+      "3d"
+    ],
+    "altnames": []
+  },
+  "gcc": {
+    "tags": [
+      "compiler",
+      "linux"
+    ],
+    "altnames": [
+      "gnucompilercollection"
+    ]
+  },
+  "gentoo": {
+    "tags": [
+      "linux",
+      "distribution",
+      "desktop"
+    ],
+    "altnames": []
+  },
+  "ghost": {
+    "tags": [
+      "cms"
+    ],
+    "altnames": []
+  },
+  "gimp": {
+    "tags": [
+      "graphic"
+    ],
+    "altnames": []
+  },
+  "git": {
+    "tags": [
+      "version-control"
+    ],
+    "altnames": []
+  },
+  "gitbook": {
+    "tags": [
+      "documentation",
+      "pages",
+      "git",
+      "markup"
+    ],
+    "altnames": []
+  },
+  "github": {
+    "tags": [
+      "version-control"
+    ],
+    "altnames": []
+  },
+  "githubactions": {
+    "tags": [
+      "devops",
+      "integration"
+    ],
+    "altnames": [
+      "GitHub Actions"
+    ]
+  },
+  "githubcodespaces": {
+    "tags": [
+      "development",
+      "remote-development",
+      "editor",
+      "browser",
+      "cloud"
+    ],
+    "altnames": [
+      "GitHub Codespaces"
+    ]
+  },
+  "gitkraken": {
+    "tags": [
+      "git",
+      "version-control"
+    ],
+    "altnames": []
+  },
+  "gitlab": {
+    "tags": [
+      "version-control"
+    ],
+    "altnames": []
+  },
+  "gitpod": {
+    "tags": [
+      "open-source",
+      "remote-development",
+      "cloud",
+      "IDE"
+    ],
+    "altnames": [
+      "gitpod-io"
+    ]
+  },
+  "gitter": {
+    "tags": [
+      "social",
+      "chat"
+    ],
+    "altnames": []
+  },
+  "gleam": {
+    "tags": [
+      "language",
+      "programming"
+    ],
+    "altnames": []
+  },
+  "glitch": {
+    "tags": [
+      "web-apps",
+      "online-platform",
+      "programming-environment",
+      "collaborative-environment"
+    ],
+    "altnames": []
+  },
+  "go": {
+    "tags": [
+      "language"
+    ],
+    "altnames": [
+      "golang"
+    ]
+  },
+  "godot": {
+    "tags": [
+      "game-engine",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "goland": {
+    "tags": [
+      "jetbrains",
+      "ide",
+      "go"
+    ],
+    "altnames": []
+  },
+  "google": {
+    "tags": [
+      "auth"
+    ],
+    "altnames": []
+  },
+  "googlecloud": {
+    "tags": [
+      "google",
+      "cloud"
+    ],
+    "altnames": []
+  },
+  "googlecolab": {
+    "tags": [
+      "cloud-computing-platform",
+      "data science",
+      "google",
+      "machine-learning",
+      "python",
+      "virtual machine"
+    ],
+    "altnames": [
+      "googlecolaboratory"
+    ]
+  },
+  "gradle": {
+    "tags": [
+      "open-source",
+      "task-runner"
+    ],
+    "altnames": [
+      "apachegradle",
+      "gradlebuildtool"
+    ]
+  },
+  "grafana": {
+    "tags": [
+      "monitoring",
+      "analytics",
+      "metrics",
+      "logs",
+      "visualization",
+      "web-application"
+    ],
+    "altnames": []
+  },
+  "grails": {
+    "tags": [
+      "framework",
+      "groovy",
+      "web-development",
+      "jvm",
+      "build"
+    ],
+    "altnames": [
+      "Grails Framework"
+    ]
+  },
+  "graphql": {
+    "tags": [
+      "language",
+      "data",
+      "query"
+    ],
+    "altnames": []
+  },
+  "groovy": {
+    "tags": [
+      "programming",
+      "language",
+      "jvm"
+    ],
+    "altnames": [
+      "groovylang",
+      "apachegroovy"
+    ]
+  },
+  "grpc": {
+    "tags": [
+      "programming",
+      "c++",
+      "java",
+      "python",
+      "go",
+      "library"
+    ],
+    "altnames": [
+      "grpcio",
+      "Google Remote Procedure Call"
+    ]
+  },
+  "grunt": {
+    "tags": [
+      "task-runner",
+      "nodejs"
+    ],
+    "altnames": [
+      "gruntjs"
+    ]
+  },
+  "gulp": {
+    "tags": [
+      "task-runner",
+      "nodejs"
+    ],
+    "altnames": [
+      "gulpjs"
+    ]
+  },
+  "hadoop": {
+    "tags": [
+      "framework",
+      "big data",
+      "open-source",
+      "software",
+      "library",
+      "framework",
+      "java"
+    ],
+    "altnames": [
+      "Apache Hadoop"
+    ]
+  },
+  "handlebars": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": [
+      "handlebarsjs"
+    ]
+  },
+  "harbor": {
+    "tags": [
+      "docker",
+      "artifact",
+      "oci",
+      "registry"
+    ],
+    "altnames": []
+  },
+  "hardhat": {
+    "tags": [
+      "ethereum",
+      "development",
+      "solidity",
+      "javascript",
+      "typescript"
+    ],
+    "altnames": []
+  },
+  "harvester": {
+    "tags": [
+      "kubernetes",
+      "operating-system",
+      "hypervisor",
+      "rancher"
+    ],
+    "altnames": [
+      "harvesterhci"
+    ]
+  },
+  "haskell": {
+    "tags": [
+      "language",
+      "functional"
+    ],
+    "altnames": []
+  },
+  "haxe": {
+    "tags": [
+      "language"
+    ],
+    "altnames": []
+  },
+  "helm": {
+    "tags": [
+      "package",
+      "manager",
+      "kubernetes"
+    ],
+    "altnames": []
+  },
+  "heroku": {
+    "tags": [
+      "cloud"
+    ],
+    "altnames": []
+  },
+  "hibernate": {
+    "tags": [
+      "database",
+      "framework",
+      "java"
+    ],
+    "altnames": []
+  },
+  "homebrew": {
+    "tags": [
+      "package",
+      "manager",
+      "linux",
+      "apple",
+      "os"
+    ],
+    "altnames": []
+  },
+  "hoppscotch": {
+    "tags": [
+      "rest",
+      "testing",
+      "api"
+    ],
+    "altnames": []
+  },
+  "html5": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": [
+      "hypertextmarkdownlanguage5"
+    ]
+  },
+  "htmx": {
+    "tags": [
+      "framework",
+      "web",
+      "html",
+      "ui"
+    ],
+    "altnames": [
+      "html ui framework"
+    ]
+  },
+  "hugo": {
+    "tags": [
+      "framework",
+      "ssg",
+      "static-site-generator",
+      "go",
+      "html",
+      "css"
+    ],
+    "altnames": [
+      "gohugo"
+    ]
+  },
+  "hyperv": {
+    "tags": [
+      "hypervisor",
+      "operating-system"
+    ],
+    "altnames": [
+      "hyper-v"
+    ]
+  },
+  "ie10": {
+    "tags": [
+      "browser"
+    ],
+    "altnames": [
+      "internetexplorer10"
+    ]
+  },
+  "ifttt": {
+    "tags": [
+      "automation",
+      "applets",
+      "programming"
+    ],
+    "altnames": [
+      "ifthisthenthat"
+    ]
+  },
+  "illustrator": {
+    "tags": [
+      "editor",
+      "vector"
+    ],
+    "altnames": [
+      "adobeillustrator"
+    ]
+  },
+  "inertiajs": {
+    "tags": [
+      "javascript",
+      "js",
+      "library"
+    ],
+    "altnames": [
+      "inertia.js"
+    ]
+  },
+  "influxdb": {
+    "tags": [
+      "database",
+      "monitoring",
+      "open-source",
+      "api"
+    ],
+    "altnames": []
+  },
+  "inkscape": {
+    "tags": [
+      "editor",
+      "vector"
+    ],
+    "altnames": []
+  },
+  "insomnia": {
+    "tags": [
+      "open-source",
+      "Rest API",
+      "Soap API",
+      "JSON-XML"
+    ],
+    "altnames": [
+      "Insomnia Rest Client"
+    ]
+  },
+  "intellij": {
+    "tags": [
+      "jetbrains",
+      "editor",
+      "java"
+    ],
+    "altnames": [
+      "intellijidea"
+    ]
+  },
+  "ionic": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": []
+  },
+  "jaegertracing": {
+    "tags": [
+      "monitoring",
+      "tracing"
+    ],
+    "altnames": [
+      "jaeger"
+    ]
+  },
+  "jamstack": {
+    "tags": [
+      "javascript",
+      "markup"
+    ],
+    "altnames": []
+  },
+  "jasmine": {
+    "tags": [
+      "testing"
+    ],
+    "altnames": [
+      "jasminejs"
+    ]
+  },
+  "java": {
+    "tags": [
+      "programming",
+      "language",
+      "jvm"
+    ],
+    "altnames": []
+  },
+  "javascript": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": [
+      "js",
+      "ecmascript"
+    ]
+  },
+  "jeet": {
+    "tags": [
+      "framework",
+      "css"
+    ],
+    "altnames": []
+  },
+  "jekyll": {
+    "tags": [
+      "ruby",
+      "blog"
+    ],
+    "altnames": [
+      "jestjs"
+    ]
+  },
+  "jenkins": {
+    "tags": [
+      "platform",
+      "integration",
+      "server"
+    ],
+    "altnames": [
+      "hudson"
+    ]
+  },
+  "jest": {
+    "tags": [
+      "testing",
+      "javascript"
+    ],
+    "altnames": [
+      "jestjs"
+    ]
+  },
+  "jetbrains": {
+    "tags": [
+      "ide"
+    ],
+    "altnames": [
+      "intellijsoftware"
+    ]
+  },
+  "jetpackcompose": {
+    "tags": [
+      "framework",
+      "language",
+      "kotlin",
+      "android"
+    ],
+    "altnames": []
+  },
+  "jhipster": {
+    "tags": [
+      "development",
+      "framework",
+      "java",
+      "platform",
+      "web",
+      "web-application",
+      "web-development"
+    ],
+    "altnames": []
+  },
+  "jira": {
+    "tags": [
+      "platform",
+      "organize"
+    ],
+    "altnames": [
+      "atlassianjira"
+    ]
+  },
+  "jiraalign": {
+    "tags": [
+      "development",
+      "integration",
+      "software"
+    ],
+    "altnames": [
+      "Jira Align"
+    ]
+  },
+  "jquery": {
+    "tags": [
+      "library",
+      "javascript"
+    ],
+    "altnames": [
+      "jqueryjs"
+    ]
+  },
+  "json": {
+    "tags": [
+      "format",
+      "standard",
+      "file-format",
+      "object-notation"
+    ],
+    "altnames": [
+      "JavaScript Object Notation"
+    ]
+  },
+  "jule": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": [
+      "julelang"
+    ]
+  },
+  "julia": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": [
+      "julialang"
+    ]
+  },
+  "junit": {
+    "tags": [
+      "testing",
+      "framework",
+      "java"
+    ],
+    "altnames": []
+  },
+  "jupyter": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": [
+      "jupyternotebook"
+    ]
+  },
+  "k3os": {
+    "tags": [
+      "kubernetes",
+      "operating-system",
+      "k3s",
+      "rancher"
+    ],
+    "altnames": []
+  },
+  "k3s": {
+    "tags": [
+      "kubernetes",
+      "container",
+      "platform"
+    ],
+    "altnames": []
+  },
+  "k6": {
+    "tags": [
+      "testing",
+      "performance",
+      "load"
+    ],
+    "altnames": []
+  },
+  "kaggle": {
+    "tags": [
+      "platform",
+      "auth",
+      "machine-learning"
+    ],
+    "altnames": []
+  },
+  "kaldi": {
+    "tags": [
+      "audio",
+      "open-source",
+      "library"
+    ],
+    "altnames": []
+  },
+  "kalilinux": {
+    "tags": [
+      "linux",
+      "operating-system",
+      "security"
+    ],
+    "altnames": [
+      "kali"
+    ]
+  },
+  "karatelabs": {
+    "tags": [
+      "framework",
+      "testing"
+    ],
+    "altnames": [
+      "karate"
+    ]
+  },
+  "karma": {
+    "tags": [
+      "testing",
+      "test-runner"
+    ],
+    "altnames": [
+      "karmarunner",
+      "karmajs"
+    ]
+  },
+  "kdeneon": {
+    "tags": [
+      "linux",
+      "operating system",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "keras": {
+    "tags": [
+      "machine-learning",
+      "python",
+      "library"
+    ],
+    "altnames": []
+  },
+  "kibana": {
+    "tags": [
+      "elastic",
+      "dashboard"
+    ],
+    "altnames": []
+  },
+  "knexjs": {
+    "tags": [
+      "database",
+      "query",
+      "sql",
+      "javascript",
+      "library"
+    ],
+    "altnames": []
+  },
+  "knockout": {
+    "tags": [
+      "framework",
+      "javascript"
+    ],
+    "altnames": [
+      "knockoutjs"
+    ]
+  },
+  "kotlin": {
+    "tags": [
+      "language",
+      "jetbrains",
+      "jvm"
+    ],
+    "altnames": [
+      "kotlinlang"
+    ]
+  },
+  "krakenjs": {
+    "tags": [
+      "nodejs",
+      "framework"
+    ],
+    "altnames": [
+      "kraken"
+    ]
+  },
+  "ktor": {
+    "tags": [
+      "jetbrains",
+      "kotlin",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "kubeflow": {
+    "tags": [
+      "kubernetes",
+      "deployment",
+      "machine-learning"
+    ],
+    "altnames": []
+  },
+  "kubernetes": {
+    "tags": [
+      "container",
+      "deployment"
+    ],
+    "altnames": []
+  },
+  "labview": {
+    "tags": [
+      "language"
+    ],
+    "altnames": []
+  },
+  "laminas": {
+    "tags": [
+      "php",
+      "framework",
+      "web",
+      "mvc",
+      "middleware"
+    ],
+    "altnames": [
+      "Laminas Project",
+      "Zend Framework"
+    ]
+  },
+  "laravel": {
+    "tags": [
+      "php",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "laraveljetstream": {
+    "tags": [
+      "php",
+      "laravel",
+      "tailwind",
+      "scaffolding"
+    ],
+    "altnames": [
+      "jetstream",
+      "Laravel Jetstream"
+    ]
+  },
+  "latex": {
+    "tags": [
+      "latex3",
+      "latex2e",
+      "markup",
+      "tex",
+      "typesetting-system"
+    ],
+    "altnames": []
+  },
+  "leetcode": {
+    "tags": [
+      "online-platform",
+      "coding-platform",
+      "platform",
+      "coding",
+      "dsa",
+      "interview-preparation"
+    ],
+    "altnames": []
+  },
+  "less": {
+    "tags": [
+      "css",
+      "pre-processor"
+    ],
+    "altnames": [
+      "lesscss"
+    ]
+  },
+  "libgdx": {
+    "tags": [
+      "framework",
+      "java",
+      "game-development",
+      "cross-platform",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "linkedin": {
+    "tags": [
+      "social",
+      "auth"
+    ],
+    "altnames": []
+  },
+  "linux": {
+    "tags": [
+      "os"
+    ],
+    "altnames": []
+  },
+  "linuxmint": {
+    "tags": [
+      "os",
+      "linux"
+    ],
+    "altnames": []
+  },
+  "liquibase": {
+    "tags": [
+      "tool",
+      "database"
+    ],
+    "altnames": []
+  },
+  "livewire": {
+    "tags": [
+      "framework",
+      "laravel",
+      "php",
+      "open-source"
+    ],
+    "altnames": [
+      "laravel-livewire"
+    ]
+  },
+  "llvm": {
+    "tags": [
+      "compiler",
+      "framework",
+      "c++",
+      "open-source"
+    ],
+    "altnames": [
+      "Low Level Virtual Machine"
+    ]
+  },
+  "lodash": {
+    "tags": [
+      "javascript",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "logstash": {
+    "tags": [
+      "logs",
+      "elastic"
+    ],
+    "altnames": []
+  },
+  "love2d": {
+    "tags": [
+      "programming",
+      "game-engine"
+    ],
+    "altnames": [
+      "löve"
+    ]
+  },
+  "lua": {
+    "tags": [
+      "programming",
+      "language",
+      "object-oriented",
+      "scripting",
+      "procedural",
+      "prototype-based",
+      "functional"
+    ],
+    "altnames": [
+      "lualang"
+    ]
+  },
+  "lumen": {
+    "tags": [
+      "laravel",
+      "php",
+      "framework",
+      "micro-framework"
+    ],
+    "altnames": [
+      "Laravel Lumen",
+      "Lumen Laravel",
+      "Laravel Lumen Framework",
+      "laravel.lumen"
+    ]
+  },
+  "magento": {
+    "tags": [
+      "php",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "mapbox": {
+    "tags": [
+      "map",
+      "navigation",
+      "data"
+    ],
+    "altnames": []
+  },
+  "mariadb": {
+    "tags": [
+      "database",
+      "sql",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "markdown": {
+    "tags": [
+      "markup",
+      "language"
+    ],
+    "altnames": [
+      "md"
+    ]
+  },
+  "materializecss": {
+    "tags": [
+      "framework",
+      "css",
+      "design",
+      "material-design"
+    ],
+    "altnames": [
+      "materialize",
+      "materialize-css",
+      "materialize css"
+    ]
+  },
+  "materialui": {
+    "tags": [
+      "framework",
+      "design",
+      "ui"
+    ],
+    "altnames": [
+      "mui"
+    ]
+  },
+  "matlab": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": []
+  },
+  "matplotlib": {
+    "tags": [
+      "plotting",
+      "library",
+      "math",
+      "visualization",
+      "python",
+      "api"
+    ],
+    "altnames": []
+  },
+  "mattermost": {
+    "tags": [
+      "app",
+      "chat",
+      "collaboration",
+      "open-source",
+      "platform"
+    ],
+    "altnames": []
+  },
+  "maven": {
+    "tags": [
+      "build"
+    ],
+    "altnames": [
+      "apachemaven",
+      "mvn"
+    ]
+  },
+  "maya": {
+    "tags": [
+      "mel",
+      "pymel",
+      "python",
+      "3d",
+      "programming",
+      "vfx",
+      "graphic",
+      "graphics",
+      "game",
+      "animation"
+    ],
+    "altnames": []
+  },
+  "memcached": {
+    "tags": [
+      "data",
+      "database",
+      "nosql"
+    ],
+    "altnames": []
+  },
+  "mercurial": {
+    "tags": [
+      "version-control"
+    ],
+    "altnames": []
+  },
+  "meteor": {
+    "tags": [
+      "javascript",
+      "framework"
+    ],
+    "altnames": [
+      "meteorjs"
+    ]
+  },
+  "microsoftsqlserver": {
+    "tags": [
+      "database",
+      "sql",
+      "db"
+    ],
+    "altnames": [
+      "msql",
+      "mssql",
+      "Microsoft SQL Server"
+    ]
+  },
+  "minitab": {
+    "tags": [
+      "package",
+      "statistics"
+    ],
+    "altnames": []
+  },
+  "mithril": {
+    "tags": [
+      "javascript",
+      "framework",
+      "frontend",
+      "js"
+    ],
+    "altnames": [
+      "mithril.js"
+    ]
+  },
+  "mobx": {
+    "tags": [
+      "state-management",
+      "testing",
+      "reactjs",
+      "nodejs"
+    ],
+    "altnames": [
+      "mobxjs"
+    ]
+  },
+  "mocha": {
+    "tags": [
+      "testing"
+    ],
+    "altnames": []
+  },
+  "modx": {
+    "tags": [
+      "cms",
+      "php",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "moleculer": {
+    "tags": [
+      "nodejs",
+      "javascript",
+      "js",
+      "microservices",
+      "micro-services",
+      "framework"
+    ],
+    "altnames": [
+      "moleculerjs",
+      "moleculer.js"
+    ]
+  },
+  "mongodb": {
+    "tags": [
+      "database"
+    ],
+    "altnames": []
+  },
+  "mongoose": {
+    "tags": [
+      "data-model",
+      "nodejs"
+    ],
+    "altnames": [
+      "mongoosejs"
+    ]
+  },
+  "monogame": {
+    "tags": [
+      "engine",
+      "game-engine",
+      "C#",
+      "c-sharp",
+      "csharp"
+    ],
+    "altnames": []
+  },
+  "moodle": {
+    "tags": [
+      "platform"
+    ],
+    "altnames": []
+  },
+  "msdos": {
+    "tags": [
+      "os"
+    ],
+    "altnames": [
+      "microsoftdiskoperatingsystem"
+    ]
+  },
+  "mysql": {
+    "tags": [
+      "database",
+      "language"
+    ],
+    "altnames": [
+      "mystructuredquerylanguage"
+    ]
+  },
+  "nano": {
+    "tags": [
+      "text editor",
+      "editor",
+      "GNU",
+      "terminal"
+    ],
+    "altnames": [
+      "gnu-nano",
+      "GNU nano"
+    ]
+  },
+  "nats": {
+    "tags": [
+      "streaming",
+      "open-source",
+      "go"
+    ],
+    "altnames": [
+      "nats-io",
+      "nats.io",
+      "NATS-io",
+      "NATS.io"
+    ]
+  },
+  "neo4j": {
+    "tags": [
+      "database"
+    ],
+    "altnames": []
+  },
+  "neovim": {
+    "tags": [
+      "text editor",
+      "editor",
+      "ide",
+      "IDE",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "nestjs": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": []
+  },
+  "netbeans": {
+    "tags": [
+      "ide",
+      "java",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "netbox": {
+    "tags": [
+      "network",
+      "automation",
+      "infrastructure",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "netlify": {
+    "tags": [
+      "cloud hosting",
+      "serverless",
+      "dynamic websites",
+      "web applications",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "networkx": {
+    "tags": [
+      "graph",
+      "library",
+      "python"
+    ],
+    "altnames": []
+  },
+  "newrelic": {
+    "tags": [
+      "monitoring",
+      "observability",
+      "analysis"
+    ],
+    "altnames": []
+  },
+  "nextjs": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": []
+  },
+  "nginx": {
+    "tags": [
+      "server"
+    ],
+    "altnames": []
+  },
+  "ngrok": {
+    "tags": [
+      "networking",
+      "server"
+    ],
+    "altnames": []
+  },
+  "ngrx": {
+    "tags": [
+      "state-management",
+      "angular",
+      "redux",
+      "store",
+      "javascript"
+    ],
+    "altnames": []
+  },
+  "nhibernate": {
+    "tags": [
+      "library",
+      "dotnet",
+      ".net",
+      "object-relational mapper",
+      "orm",
+      "C#",
+      "c-sharp"
+    ],
+    "altnames": []
+  },
+  "nim": {
+    "tags": [
+      "programming",
+      "functional",
+      "object-oriented",
+      "procedural"
+    ],
+    "altnames": [
+      "nimlang"
+    ]
+  },
+  "nimble": {
+    "tags": [
+      "package-manager"
+    ],
+    "altnames": []
+  },
+  "nixos": {
+    "tags": [
+      "os"
+    ],
+    "altnames": []
+  },
+  "nodejs": {
+    "tags": [
+      "javascript",
+      "language"
+    ],
+    "altnames": []
+  },
+  "nodemon": {
+    "tags": [
+      "nodejs",
+      "tool",
+      "javascript"
+    ],
+    "altnames": [
+      "nodemonjs"
+    ]
+  },
+  "nodered": {
+    "tags": [
+      "programming",
+      "tool"
+    ],
+    "altnames": [
+      "node-red"
+    ]
+  },
+  "nodewebkit": {
+    "tags": [],
+    "altnames": [
+      "nwjs"
+    ]
+  },
+  "nomad": {
+    "tags": [
+      "container",
+      "virtual machine",
+      "deployment"
+    ],
+    "altnames": [
+      "HashiCorp Nomad"
+    ]
+  },
+  "norg": {
+    "tags": [
+      "note-taking",
+      "organization"
+    ],
+    "altnames": [
+      "neorg"
+    ]
+  },
+  "notion": {
+    "tags": [
+      "project-management"
+    ],
+    "altnames": []
+  },
+  "npm": {
+    "tags": [
+      "package",
+      "manager"
+    ],
+    "altnames": [
+      "npmjs",
+      "nodepackagemanager"
+    ]
+  },
+  "npss": {
+    "tags": [],
+    "altnames": []
+  },
+  "nuget": {
+    "tags": [
+      "package",
+      "manager"
+    ],
+    "altnames": []
+  },
+  "numpy": {
+    "tags": [
+      "library",
+      "python"
+    ],
+    "altnames": []
+  },
+  "nuxt": {
+    "tags": [
+      "js",
+      "javascript",
+      "framework",
+      "fullstack",
+      "vuejs"
+    ],
+    "altnames": []
+  },
+  "nuxtjs": {
+    "tags": [
+      "js",
+      "javascript",
+      "framework",
+      "frontend",
+      "vuejs"
+    ],
+    "altnames": []
+  },
+  "oauth": {
+    "tags": [
+      "authentication",
+      "security"
+    ],
+    "altnames": []
+  },
+  "objectivec": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": []
+  },
+  "ocaml": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": []
+  },
+  "ohmyzsh": {
+    "tags": [
+      "shell",
+      "script",
+      "scripting",
+      "language",
+      "command"
+    ],
+    "altnames": [
+      "omz",
+      "ohmyz.sh",
+      "Oh My Zsh"
+    ]
+  },
+  "okta": {
+    "tags": [
+      "auth",
+      "security"
+    ],
+    "altnames": [
+      "okta developer"
+    ]
+  },
+  "openal": {
+    "tags": [
+      "library",
+      "audio",
+      "game",
+      "3d"
+    ],
+    "altnames": []
+  },
+  "openapi": {
+    "tags": [
+      "specification",
+      "api",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "opencl": {
+    "tags": [
+      "framework",
+      "language",
+      "heterogeneous-computing",
+      "cpp",
+      "api",
+      "khronos",
+      "programming"
+    ],
+    "altnames": []
+  },
+  "opencv": {
+    "tags": [
+      "library",
+      "c/c++",
+      "computer-vision"
+    ],
+    "altnames": []
+  },
+  "opengl": {
+    "tags": [
+      "library",
+      "graphics",
+      "game",
+      "3d"
+    ],
+    "altnames": [
+      "opengraphicslibrary"
+    ]
+  },
+  "openstack": {
+    "tags": [
+      "infrastructure-as-a-service",
+      "cloud-computing-platform"
+    ],
+    "altnames": []
+  },
+  "opensuse": {
+    "tags": [
+      "linux",
+      "distribution",
+      "desktop"
+    ],
+    "altnames": []
+  },
+  "opentelemetry": {
+    "tags": [
+      "telemetry"
+    ],
+    "altnames": []
+  },
+  "opera": {
+    "tags": [
+      "browser"
+    ],
+    "altnames": []
+  },
+  "oracle": {
+    "tags": [
+      "database"
+    ],
+    "altnames": [
+      "oracledatabase"
+    ]
+  },
+  "ory": {
+    "tags": [
+      "library",
+      "open-source",
+      "security"
+    ],
+    "altnames": []
+  },
+  "p5js": {
+    "tags": [
+      "javascript",
+      "js",
+      "library"
+    ],
+    "altnames": [
+      "p5.js"
+    ]
+  },
+  "packer": {
+    "tags": [
+      "infrastructure",
+      "infrastructure-as-code",
+      "continuous-delivery"
+    ],
+    "altnames": []
+  },
+  "pandas": {
+    "tags": [
+      "library",
+      "python"
+    ],
+    "altnames": []
+  },
+  "passport": {
+    "tags": [
+      "authentication",
+      "security"
+    ],
+    "altnames": [
+      "passportjs"
+    ]
+  },
+  "perl": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": []
+  },
+  "pfsense": {
+    "tags": [
+      "cloud",
+      "network",
+      "open-source",
+      "security",
+      "software"
+    ],
+    "altnames": [
+      "pfSense"
+    ]
+  },
+  "phalcon": {
+    "tags": [
+      "php",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "phoenix": {
+    "tags": [
+      "framework",
+      "build",
+      "web",
+      "web-development",
+      "development",
+      "elixir"
+    ],
+    "altnames": [
+      "Phoenix Framework"
+    ]
+  },
+  "photonengine": {
+    "tags": [
+      "game",
+      "game-engine"
+    ],
+    "altnames": [
+      "photon"
+    ]
+  },
+  "photoshop": {
+    "tags": [
+      "editor",
+      "graphic"
+    ],
+    "altnames": [
+      "adobephotoshop"
+    ]
+  },
+  "php": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": [
+      "PHP Hypertext Preprocessor",
+      "Personal Home Page"
+    ]
+  },
+  "phpstorm": {
+    "tags": [
+      "jetbrains",
+      "editor",
+      "php",
+      "web",
+      "html"
+    ],
+    "altnames": []
+  },
+  "pixijs": {
+    "tags": [
+      "animation",
+      "graphics",
+      "html",
+      "javascript",
+      "library",
+      "visualization",
+      "ui"
+    ],
+    "altnames": []
+  },
+  "playwright": {
+    "tags": [
+      "testing",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "plotly": {
+    "tags": [
+      "frontend",
+      "machine-learning",
+      "dashboard"
+    ],
+    "altnames": []
+  },
+  "pm2": {
+    "tags": [
+      "nodejs",
+      "javascript",
+      "js",
+      "manager",
+      "monitoring"
+    ],
+    "altnames": []
+  },
+  "pnpm": {
+    "tags": [
+      "package",
+      "manager"
+    ],
+    "altnames": [
+      "performant npm"
+    ]
+  },
+  "podman": {
+    "tags": [
+      "container",
+      "pods",
+      "docker"
+    ],
+    "altnames": []
+  },
+  "poetry": {
+    "tags": [
+      "package-manager",
+      "python"
+    ],
+    "altnames": [
+      "python-poetry"
+    ]
+  },
+  "polygon": {
+    "tags": [
+      "ethereum",
+      "erc20",
+      "blockchain"
+    ],
+    "altnames": []
+  },
+  "portainer": {
+    "tags": [
+      "docker",
+      "kubernetes",
+      "orchestrator"
+    ],
+    "altnames": []
+  },
+  "postcss": {
+    "tags": [
+      "pre-processor",
+      "css",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "postgresql": {
+    "tags": [
+      "database"
+    ],
+    "altnames": []
+  },
+  "postman": {
+    "tags": [
+      "tool",
+      "testing"
+    ],
+    "altnames": []
+  },
+  "powershell": {
+    "tags": [
+      "command-line",
+      "shell",
+      "terminal",
+      "cli",
+      "windows",
+      "cmdlets"
+    ],
+    "altnames": [
+      "ps"
+    ]
+  },
+  "premierepro": {
+    "tags": [
+      "editor",
+      "video"
+    ],
+    "altnames": [
+      "adobepremierepro"
+    ]
+  },
+  "primeng": {
+    "tags": [
+      "angular",
+      "ui",
+      "component",
+      "library",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "prisma": {
+    "tags": [
+      "orm",
+      "nodejs",
+      "typescript"
+    ],
+    "altnames": []
+  },
+  "processing": {
+    "tags": [
+      "java",
+      "python",
+      "android",
+      "application",
+      "ide",
+      "framework"
+    ],
+    "altnames": [
+      "processingpy"
+    ]
+  },
+  "processwire": {
+    "tags": [
+      "cms",
+      "php",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "prolog": {
+    "tags": [
+      "programming",
+      "logic",
+      "language",
+      "open-source"
+    ],
+    "altnames": [
+      "swi-prolog"
+    ]
+  },
+  "prometheus": {
+    "tags": [
+      "monitoring",
+      "observability",
+      "analysis"
+    ],
+    "altnames": []
+  },
+  "protractor": {
+    "tags": [
+      "framework",
+      "javascript"
+    ],
+    "altnames": [
+      "protractorjs",
+      "protractortest"
+    ]
+  },
+  "proxmox": {
+    "tags": [
+      "container",
+      "lxc",
+      "virtual machine"
+    ],
+    "altnames": []
+  },
+  "pug": {
+    "tags": [
+      "framework",
+      "javascript",
+      "nodejs"
+    ],
+    "altnames": [
+      "pugjs"
+    ]
+  },
+  "pulsar": {
+    "tags": [
+      "open-source",
+      "cross-platform",
+      "editor"
+    ],
+    "altnames": [
+      "Pulsar Edit"
+    ]
+  },
+  "pulumi": {
+    "tags": [
+      "infrastructure-as-code",
+      "cloud"
+    ],
+    "altnames": []
+  },
+  "puppeteer": {
+    "tags": [
+      "open-source",
+      "devtools protocol",
+      "testing",
+      "extension"
+    ],
+    "altnames": []
+  },
+  "purescript": {
+    "tags": [
+      "functional",
+      "programming",
+      "javascript"
+    ],
+    "altnames": []
+  },
+  "putty": {
+    "tags": [
+      "ssh",
+      "server"
+    ],
+    "altnames": []
+  },
+  "pycharm": {
+    "tags": [
+      "jetbrains",
+      "editor"
+    ],
+    "altnames": []
+  },
+  "pypi": {
+    "tags": [
+      "python",
+      "package",
+      "programming"
+    ],
+    "altnames": [
+      "Python Package Index"
+    ]
+  },
+  "pyscript": {
+    "tags": [
+      "browser",
+      "python",
+      "html",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "pytest": {
+    "tags": [
+      "python",
+      "framework",
+      "testing"
+    ],
+    "altnames": []
+  },
+  "python": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": []
+  },
+  "pytorch": {
+    "tags": [
+      "programming",
+      "framework",
+      "machine-learning",
+      "python"
+    ],
+    "altnames": []
+  },
+  "qodana": {
+    "tags": [
+      "jetbrains",
+      "code quality",
+      "security"
+    ],
+    "altnames": []
+  },
+  "qt": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": []
+  },
+  "qtest": {
+    "tags": [
+      "testing"
+    ],
+    "altnames": []
+  },
+  "quarkus": {
+    "tags": [
+      "java",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "quasar": {
+    "tags": [
+      "framework",
+      "javascript"
+    ],
+    "altnames": []
+  },
+  "qwik": {
+    "tags": [
+      "framework",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "r": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": [
+      "rlang"
+    ]
+  },
+  "rabbitmq": {
+    "tags": [
+      "message-broker",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "racket": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": []
+  },
+  "radstudio": {
+    "tags": [
+      "editor",
+      "IDE"
+    ],
+    "altnames": [
+      "RAD Studio"
+    ]
+  },
+  "rails": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": [
+      "rubyonrails"
+    ]
+  },
+  "railway": {
+    "tags": [
+      "hosting",
+      "platform",
+      "deployment"
+    ],
+    "altnames": []
+  },
+  "rancher": {
+    "tags": [
+      "kubernetes",
+      "orchestrator"
+    ],
+    "altnames": []
+  },
+  "raspberrypi": {
+    "tags": [
+      "arm",
+      "computer"
+    ],
+    "altnames": [
+      "rpi"
+    ]
+  },
+  "reach": {
+    "tags": [
+      "web3",
+      "blockchain",
+      "development"
+    ],
+    "altnames": [
+      "Reach Lang"
+    ]
+  },
+  "react": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": [
+      "reactjs"
+    ]
+  },
+  "reactbootstrap": {
+    "tags": [
+      "framework",
+      "library",
+      "frontend",
+      "reactjs",
+      "javascript"
+    ],
+    "altnames": [
+      "React-Bootstrap",
+      "react bootstrap"
+    ]
+  },
+  "reactnative": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": [
+      "react-native"
+    ]
+  },
+  "reactnavigation": {
+    "tags": [
+      "routing",
+      "navigation",
+      "react native",
+      "app",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "reactrouter": {
+    "tags": [
+      "framework",
+      "react"
+    ],
+    "altnames": []
+  },
+  "readthedocs": {
+    "tags": [
+      "documentation",
+      "python",
+      "open-source"
+    ],
+    "altnames": [
+      "Read The Docs"
+    ]
+  },
+  "realm": {
+    "tags": [
+      "sql",
+      "database",
+      "cloud"
+    ],
+    "altnames": []
+  },
+  "rect": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": [
+      "rectlang"
+    ]
+  },
+  "redhat": {
+    "tags": [
+      "server",
+      "linux"
+    ],
+    "altnames": []
+  },
+  "redis": {
+    "tags": [
+      "server"
+    ],
+    "altnames": [
+      "remotedictionaryserver"
+    ]
+  },
+  "redux": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": [
+      "reduxjs"
+    ]
+  },
+  "reflex": {
+    "tags": [
+      "framework",
+      "python",
+      "web"
+    ],
+    "altnames": []
+  },
+  "remix": {
+    "tags": [
+      "framework",
+      "fullstack",
+      "web"
+    ],
+    "altnames": [
+      "remix.run"
+    ]
+  },
+  "renpy": {
+    "tags": [
+      "programming",
+      "game-engine",
+      "engine",
+      "python"
+    ],
+    "altnames": [
+      "Ren'Py"
+    ]
+  },
+  "replit": {
+    "tags": [
+      "software"
+    ],
+    "altnames": []
+  },
+  "rexx": {
+    "tags": [
+      "language"
+    ],
+    "altnames": []
+  },
+  "rider": {
+    "tags": [
+      "jetbrains",
+      "ide",
+      "editor",
+      "dotnet"
+    ],
+    "altnames": []
+  },
+  "rocksdb": {
+    "tags": [
+      "database"
+    ],
+    "altnames": []
+  },
+  "rockylinux": {
+    "tags": [
+      "os",
+      "open-source",
+      "linux"
+    ],
+    "altnames": [
+      "rocky"
+    ]
+  },
+  "rollup": {
+    "tags": [
+      "bundler",
+      "build",
+      "javascript"
+    ],
+    "altnames": [
+      "rollupjs",
+      "rollup.js"
+    ]
+  },
+  "ros": {
+    "tags": [
+      "robotics"
+    ],
+    "altnames": [
+      "robotoperatingsystem"
+    ]
+  },
+  "rspec": {
+    "tags": [
+      "ruby",
+      "framework",
+      "testing"
+    ],
+    "altnames": []
+  },
+  "rstudio": {
+    "tags": [
+      "editor",
+      "package",
+      "statistics"
+    ],
+    "altnames": []
+  },
+  "ruby": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": [
+      "rubylang"
+    ]
+  },
+  "rubymine": {
+    "tags": [
+      "jetbrains",
+      "editor"
+    ],
+    "altnames": []
+  },
+  "rust": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": [
+      "rustlang"
+    ]
+  },
+  "rxjs": {
+    "tags": [
+      "javascript",
+      "library",
+      "observability"
+    ],
+    "altnames": [
+      "Reactive Extensions for JavaScript"
+    ]
+  },
+  "safari": {
+    "tags": [
+      "browser"
+    ],
+    "altnames": [
+      "applesafari"
+    ]
+  },
+  "salesforce": {
+    "tags": [
+      "platform",
+      "ecommerce"
+    ],
+    "altnames": []
+  },
+  "sanity": {
+    "tags": [
+      "CMS"
+    ],
+    "altnames": []
+  },
+  "sass": {
+    "tags": [
+      "pre-processor",
+      "css"
+    ],
+    "altnames": [
+      "scss"
+    ]
+  },
+  "scala": {
+    "tags": [
+      "programming",
+      "language",
+      "jvm"
+    ],
+    "altnames": [
+      "scalalang"
+    ]
+  },
+  "scalingo": {
+    "tags": [
+      "cloud",
+      "platform",
+      "hosting"
+    ],
+    "altnames": []
+  },
+  "scikitlearn": {
+    "tags": [
+      "machine-learning",
+      "python",
+      "tool",
+      "library"
+    ],
+    "altnames": [
+      "scikit-learn",
+      "scikit",
+      "sklearn"
+    ]
+  },
+  "sdl": {
+    "tags": [
+      "library",
+      "cross-platform",
+      "multimedia",
+      "game"
+    ],
+    "altnames": [
+      "simpledirectmedialayer"
+    ]
+  },
+  "selenium": {
+    "tags": [
+      "webdrive",
+      "automation"
+    ],
+    "altnames": []
+  },
+  "sema": {
+    "tags": [
+      "software",
+      "development",
+      "company",
+      "code-review",
+      "open-source"
+    ],
+    "altnames": [
+      "Sema Software"
+    ]
+  },
+  "sentry": {
+    "tags": [
+      "monitoring",
+      "analytics",
+      "metrics"
+    ],
+    "altnames": []
+  },
+  "sequelize": {
+    "tags": [
+      "database",
+      "language"
+    ],
+    "altnames": [
+      "sequelizejs"
+    ]
+  },
+  "shopware": {
+    "tags": [
+      "cloud",
+      "platform"
+    ],
+    "altnames": []
+  },
+  "shotgrid": {
+    "tags": [
+      "web-application",
+      "autodesk",
+      "project-management",
+      "pipeline",
+      "production-tool",
+      "production-tracking"
+    ],
+    "altnames": []
+  },
+  "sketch": {
+    "tags": [
+      "application"
+    ],
+    "altnames": []
+  },
+  "slack": {
+    "tags": [
+      "chat"
+    ],
+    "altnames": []
+  },
+  "socketio": {
+    "tags": [
+      "library",
+      "networking",
+      "websockets"
+    ],
+    "altnames": []
+  },
+  "solidity": {
+    "tags": [
+      "programming",
+      "language",
+      "blockchain"
+    ],
+    "altnames": [
+      "soliditylang"
+    ]
+  },
+  "solidjs": {
+    "tags": [
+      "javascript",
+      "framework",
+      "frontend"
+    ],
+    "altnames": []
+  },
+  "sonarqube": {
+    "tags": [
+      "tool",
+      "security"
+    ],
+    "altnames": [
+      "sonar"
+    ]
+  },
+  "sourceengine": {
+    "tags": [
+      "game-engine",
+      "valve",
+      "javascript"
+    ],
+    "altnames": [
+      "source engine"
+    ]
+  },
+  "sourcetree": {
+    "tags": [
+      "version-control"
+    ],
+    "altnames": []
+  },
+  "spack": {
+    "tags": [
+      "package-manager",
+      "package",
+      "manager",
+      "python",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "spicedb": {
+    "tags": [
+      "database",
+      "authorization",
+      "access-control",
+      "Zanzibar"
+    ],
+    "altnames": []
+  },
+  "splunk": {
+    "tags": [
+      "platform",
+      "data",
+      "log",
+      "monitoring"
+    ],
+    "altnames": []
+  },
+  "spring": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": [
+      "springframework"
+    ]
+  },
+  "spss": {
+    "tags": [
+      "package",
+      "statistics"
+    ],
+    "altnames": [
+      "ibmspss"
+    ]
+  },
+  "spyder": {
+    "tags": [
+      "python",
+      "ide",
+      "editor",
+      "data-science"
+    ],
+    "altnames": []
+  },
+  "sqlalchemy": {
+    "tags": [
+      "python",
+      "orm"
+    ],
+    "altnames": []
+  },
+  "sqldeveloper": {
+    "tags": [
+      "tool",
+      "database"
+    ],
+    "altnames": []
+  },
+  "sqlite": {
+    "tags": [
+      "sql",
+      "database",
+      "db"
+    ],
+    "altnames": []
+  },
+  "ssh": {
+    "tags": [
+      "security"
+    ],
+    "altnames": [
+      "secureshell"
+    ]
+  },
+  "stackblitz": {
+    "tags": [
+      "IDE",
+      "editor",
+      "remote-development"
+    ],
+    "altnames": []
+  },
+  "stackoverflow": {
+    "tags": [
+      "website",
+      "development",
+      "community"
+    ],
+    "altnames": [
+      "Stack Overflow"
+    ]
+  },
+  "stata": {
+    "tags": [
+      "analysis",
+      "data",
+      "data-science",
+      "software",
+      "statistics"
+    ],
+    "altnames": []
+  },
+  "stenciljs": {
+    "tags": [
+      "framework",
+      "ui"
+    ],
+    "altnames": [
+      "stencil"
+    ]
+  },
+  "storybook": {
+    "tags": [
+      "framework",
+      "documentation",
+      "ui"
+    ],
+    "altnames": [
+      "storybookjs"
+    ]
+  },
+  "streamlit": {
+    "tags": [
+      "python",
+      "machine-learning",
+      "data-science"
+    ],
+    "altnames": []
+  },
+  "styledcomponents": {
+    "tags": [
+      "css",
+      "javascript",
+      "js",
+      "library",
+      "nodejs",
+      "web"
+    ],
+    "altnames": [
+      "Styled Components",
+      "styled-components"
+    ]
+  },
+  "stylus": {
+    "tags": [
+      "css",
+      "pre-processor"
+    ],
+    "altnames": [
+      "styluslang"
+    ]
+  },
+  "subversion": {
+    "tags": [
+      "svn",
+      "version"
+    ],
+    "altnames": [
+      "apachesubversion"
+    ]
+  },
+  "sulu": {
+    "tags": [
+      "cms",
+      "platform"
+    ],
+    "altnames": []
+  },
+  "supabase": {
+    "tags": [
+      "authentication",
+      "cloud-computing-platform",
+      "database",
+      "storage"
+    ],
+    "altnames": []
+  },
+  "surrealdb": {
+    "tags": [
+      "db",
+      "database",
+      "storage"
+    ],
+    "altnames": []
+  },
+  "svelte": {
+    "tags": [
+      "javascript",
+      "framework",
+      "compiler"
+    ],
+    "altnames": [
+      "sveltejs"
+    ]
+  },
+  "svgo": {
+    "tags": [
+      "svg",
+      "optimization",
+      "tool",
+      "javascript",
+      "library",
+      "node.js"
+    ],
+    "altnames": []
+  },
+  "swagger": {
+    "tags": [
+      "development",
+      "software",
+      "tool"
+    ],
+    "altnames": [
+      "Swagger"
+    ]
+  },
+  "swift": {
+    "tags": [
+      "language"
+    ],
+    "altnames": []
+  },
+  "swiper": {
+    "tags": [
+      "library",
+      "javascript",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "symfony": {
+    "tags": [
+      "framework",
+      "php"
+    ],
+    "altnames": []
+  },
+  "tailwindcss": {
+    "tags": [
+      "css",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "talos": {
+    "tags": [
+      "container",
+      "linux",
+      "distribution"
+    ],
+    "altnames": []
+  },
+  "tauri": {
+    "tags": [
+      "nodejs",
+      "rust",
+      "desktop",
+      "framework",
+      "programming"
+    ],
+    "altnames": []
+  },
+  "teleport": {
+    "tags": [
+      "ssh",
+      "security",
+      "auth",
+      "authentication",
+      "infrastructure"
+    ],
+    "altnames": []
+  },
+  "tensorflow": {
+    "tags": [
+      "library",
+      "machine-learning",
+      "deep-learning"
+    ],
+    "altnames": []
+  },
+  "terraform": {
+    "tags": [
+      "deployment",
+      "architecture",
+      "automation"
+    ],
+    "altnames": []
+  },
+  "terramate": {
+    "tags": [
+      "deployment",
+      "devops",
+      "automation"
+    ],
+    "altnames": []
+  },
+  "tex": {
+    "tags": [
+      "typesetting-system",
+      "markup",
+      "tex"
+    ],
+    "altnames": []
+  },
+  "thealgorithms": {
+    "tags": [
+      "organization",
+      "algorithms"
+    ],
+    "altnames": []
+  },
+  "threedsmax": {
+    "tags": [
+      "3d",
+      "programming",
+      "vfx",
+      "graphic",
+      "graphics",
+      "game",
+      "animation"
+    ],
+    "altnames": [
+      "Autodesk 3ds Max",
+      "3dsmax"
+    ]
+  },
+  "threejs": {
+    "tags": [
+      "javascript",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "thymeleaf": {
+    "tags": [
+      "engine",
+      "html",
+      "java",
+      "server"
+    ],
+    "altnames": []
+  },
+  "titaniumsdk": {
+    "tags": [
+      "app",
+      "mobile",
+      "javascript",
+      "cross-platform",
+      "sdk"
+    ],
+    "altnames": []
+  },
+  "tmux": {
+    "tags": [
+      "cli",
+      "terminal",
+      "multiplexer"
+    ],
+    "altnames": []
+  },
+  "tomcat": {
+    "tags": [
+      "server"
+    ],
+    "altnames": []
+  },
+  "tortoisegit": {
+    "tags": [
+      "git"
+    ],
+    "altnames": []
+  },
+  "towergit": {
+    "tags": [
+      "git"
+    ],
+    "altnames": [
+      "towergitclient"
+    ]
+  },
+  "traefikmesh": {
+    "tags": [
+      "mesh",
+      "kubernetes"
+    ],
+    "altnames": []
+  },
+  "traefikproxy": {
+    "tags": [
+      "proxy",
+      "router"
+    ],
+    "altnames": []
+  },
+  "travis": {
+    "tags": [
+      "platform",
+      "integration"
+    ],
+    "altnames": [
+      "travisci"
+    ]
+  },
+  "trello": {
+    "tags": [
+      "platform",
+      "organize"
+    ],
+    "altnames": [
+      "atlassiantrello"
+    ]
+  },
+  "trpc": {
+    "tags": [
+      "typescript",
+      "javascript",
+      "typesafe",
+      "api"
+    ],
+    "altnames": [
+      "Typescript Remote Procedure Call"
+    ]
+  },
+  "turbo": {
+    "tags": [
+      "spa",
+      "js"
+    ],
+    "altnames": []
+  },
+  "twilio": {
+    "tags": [
+      "api",
+      "automation",
+      "platform"
+    ],
+    "altnames": []
+  },
+  "twitter": {
+    "tags": [
+      "auth"
+    ],
+    "altnames": [
+      "x"
+    ]
+  },
+  "typescript": {
+    "tags": [
+      "programming",
+      "transpiler",
+      "javascript",
+      "language"
+    ],
+    "altnames": [
+      "ts"
+    ]
+  },
+  "typo3": {
+    "tags": [
+      "cms",
+      "php"
+    ],
+    "altnames": []
+  },
+  "ubuntu": {
+    "tags": [
+      "os",
+      "open-source",
+      "linux"
+    ],
+    "altnames": []
+  },
+  "unifiedmodelinglanguage": {
+    "tags": [
+      "modeling",
+      "design",
+      "language"
+    ],
+    "altnames": [
+      "uml",
+      "unified modeling language"
+    ]
+  },
+  "unity": {
+    "tags": [
+      "C#",
+      "c-sharp",
+      "csharp",
+      "engine",
+      "game-engine"
+    ],
+    "altnames": []
+  },
+  "unix": {
+    "tags": [
+      "os"
+    ],
+    "altnames": []
+  },
+  "unrealengine": {
+    "tags": [
+      "c++",
+      "engine",
+      "game-engine"
+    ],
+    "altnames": []
+  },
+  "uwsgi": {
+    "tags": [
+      "hosting"
+    ],
+    "altnames": [
+      "uwebservergatewayinterface"
+    ]
+  },
+  "v8": {
+    "tags": [
+      "javascript-runtime",
+      "framework",
+      "javascript",
+      "web",
+      "cpp"
+    ],
+    "altnames": [
+      "v8 engine"
+    ]
+  },
+  "vaadin": {
+    "tags": [
+      "framework",
+      "java",
+      "web"
+    ],
+    "altnames": []
+  },
+  "vagrant": {
+    "tags": [
+      "platform"
+    ],
+    "altnames": []
+  },
+  "vala": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": []
+  },
+  "vault": {
+    "tags": [
+      "tool",
+      "security",
+      "infrastructure"
+    ],
+    "altnames": [
+      "HashiCorp Vault"
+    ]
+  },
+  "veevalidate": {
+    "tags": [
+      "vuejs",
+      "vuejs-library",
+      "package"
+    ],
+    "altnames": []
+  },
+  "vercel": {
+    "tags": [
+      "hosting",
+      "platform",
+      "deployment",
+      "git"
+    ],
+    "altnames": []
+  },
+  "vertx": {
+    "tags": [
+      "sdk",
+      "java",
+      "framework"
+    ],
+    "altnames": [
+      "eclipsevertx"
+    ]
+  },
+  "vim": {
+    "tags": [
+      "editor"
+    ],
+    "altnames": [
+      "viimproved"
+    ]
+  },
+  "visualbasic": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": [
+      "vb"
+    ]
+  },
+  "visualstudio": {
+    "tags": [
+      "editor"
+    ],
+    "altnames": [
+      "vs"
+    ]
+  },
+  "vite": {
+    "tags": [
+      "web3",
+      "blockchain",
+      "DAG"
+    ],
+    "altnames": []
+  },
+  "vitejs": {
+    "tags": [
+      "javascript",
+      "build",
+      "compiler",
+      "esbuild"
+    ],
+    "altnames": [
+      "vite.js",
+      "Vite"
+    ]
+  },
+  "vitess": {
+    "tags": [
+      "sharding",
+      "database",
+      "mysql"
+    ],
+    "altnames": []
+  },
+  "vitest": {
+    "tags": [
+      "framework",
+      "open-source",
+      "testing",
+      "vite"
+    ],
+    "altnames": []
+  },
+  "vscode": {
+    "tags": [
+      "editor",
+      "ide"
+    ],
+    "altnames": [
+      "visualstudiocode"
+    ]
+  },
+  "vscodium": {
+    "tags": [
+      "editor",
+      "ide",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "vsphere": {
+    "tags": [
+      "hypervisor",
+      "operating-system",
+      "vmware"
+    ],
+    "altnames": [
+      "vmwarevsphere"
+    ]
+  },
+  "vuejs": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": []
+  },
+  "vuestorefront": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": []
+  },
+  "vuetify": {
+    "tags": [
+      "css",
+      "framework",
+      "vuejs-library",
+      "material-design"
+    ],
+    "altnames": []
+  },
+  "vulkan": {
+    "tags": [
+      "api",
+      "3d",
+      "library",
+      "graphics",
+      "game"
+    ],
+    "altnames": []
+  },
+  "vyper": {
+    "tags": [
+      "blockchain",
+      "ethereum",
+      "language",
+      "programming",
+      "python"
+    ],
+    "altnames": [
+      "vyperlang"
+    ]
+  },
+  "waku": {
+    "tags": [
+      "react",
+      "javascript",
+      "framework",
+      "web"
+    ],
+    "altnames": []
+  },
+  "wasm": {
+    "tags": [
+      "binary",
+      "programming",
+      "virtual machine",
+      "web",
+      "language"
+    ],
+    "altnames": [
+      "WebAssembly"
+    ]
+  },
+  "web3js": {
+    "tags": [
+      "blockchain",
+      "ecommerce"
+    ],
+    "altnames": [
+      "web3.js"
+    ]
+  },
+  "webflow": {
+    "tags": [
+      "cms",
+      "ecommerce"
+    ],
+    "altnames": []
+  },
+  "webgpu": {
+    "tags": [
+      "graphics",
+      "framework",
+      "web"
+    ],
+    "altnames": []
+  },
+  "weblate": {
+    "tags": [
+      "localization"
+    ],
+    "altnames": []
+  },
+  "webpack": {
+    "tags": [
+      "package",
+      "manager"
+    ],
+    "altnames": [
+      "webpackjs"
+    ]
+  },
+  "webstorm": {
+    "tags": [
+      "jetbrains",
+      "editor"
+    ],
+    "altnames": []
+  },
+  "windows11": {
+    "tags": [
+      "os"
+    ],
+    "altnames": []
+  },
+  "windows8": {
+    "tags": [
+      "os"
+    ],
+    "altnames": []
+  },
+  "wolfram": {
+    "tags": [
+      "data-science",
+      "functional",
+      "programming"
+    ],
+    "altnames": [
+      "wolframlanguage"
+    ]
+  },
+  "woocommerce": {
+    "tags": [
+      "ecommerce"
+    ],
+    "altnames": []
+  },
+  "wordpress": {
+    "tags": [
+      "cms"
+    ],
+    "altnames": []
+  },
+  "xamarin": {
+    "tags": [
+      "application",
+      "programming",
+      "editor",
+      "ide",
+      "ios",
+      "mobile",
+      "apple",
+      "android",
+      "windows"
+    ],
+    "altnames": []
+  },
+  "xcode": {
+    "tags": [
+      "application",
+      "editor",
+      "ide",
+      "ios",
+      "iphone",
+      "mobile",
+      "apple"
+    ],
+    "altnames": []
+  },
+  "xd": {
+    "tags": [
+      "design",
+      "editor",
+      "ui"
+    ],
+    "altnames": [
+      "adobexd"
+    ]
+  },
+  "xml": {
+    "tags": [
+      "markup",
+      "language"
+    ],
+    "altnames": [
+      "extensiblemarkuplanguage"
+    ]
+  },
+  "yaml": {
+    "tags": [
+      "data",
+      "language"
+    ],
+    "altnames": [
+      "YAML Ain't Markup Language"
+    ]
+  },
+  "yarn": {
+    "tags": [
+      "package",
+      "manager",
+      "javascript",
+      "js"
+    ],
+    "altnames": []
+  },
+  "yii": {
+    "tags": [
+      "php",
+      "framework"
+    ],
+    "altnames": [
+      "yesitis"
+    ]
+  },
+  "yugabytedb": {
+    "tags": [
+      "database",
+      "relational",
+      "sql",
+      "scale",
+      "open-source"
+    ],
+    "altnames": []
+  },
+  "yunohost": {
+    "tags": [
+      "os"
+    ],
+    "altnames": []
+  },
+  "zend": {
+    "tags": [
+      "php",
+      "framework"
+    ],
+    "altnames": []
+  },
+  "zig": {
+    "tags": [
+      "language"
+    ],
+    "altnames": [
+      "ziglang"
+    ]
+  },
+  "zsh": {
+    "tags": [
+      "shell",
+      "script",
+      "scripting",
+      "language",
+      "command"
+    ],
+    "altnames": []
+  },
+  "zustand": {
+    "tags": [
+      "framework"
+    ],
+    "altnames": []
+  }
+}

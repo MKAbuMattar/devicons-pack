@@ -1,0 +1,33 @@
+name: Icon issue
+description: A specific icon is missing, misnamed, or renders wrong.
+title: "icon: "
+labels: ["icons"]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Icon slug
+      description: The slug as used in imports (browse the gallery at https://devicons-pack.mkabumattar.com).
+      placeholder: "e.g. javascript"
+    validations:
+      required: true
+  - type: dropdown
+    id: set
+    attributes:
+      label: Set
+      options:
+        - original
+        - plain
+        - line
+        - original-wordmark
+        - plain-wordmark
+        - line-wordmark
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong?
+      description: Missing entirely, wrong artwork, bad slug/name, broken rendering? Note that artwork comes from the devicons/devicon icons package — artwork changes must happen upstream; this repo can fix slugs, names, and processing.
+    validations:
+      required: true

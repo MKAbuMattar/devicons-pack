@@ -1,0 +1,9192 @@
+{
+  "count": 578,
+  "styles": [
+    "original",
+    "plain",
+    "line",
+    "original-wordmark",
+    "plain-wordmark",
+    "line-wordmark"
+  ],
+  "icons": [
+    {
+      "slug": "aarch64",
+      "name": "Aarch64",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "architecture",
+        "programming",
+        "language",
+        "ARM"
+      ],
+      "altnames": [
+        "arm64"
+      ]
+    },
+    {
+      "slug": "adonisjs",
+      "name": "Adonisjs",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "nodejs",
+        "framework"
+      ],
+      "altnames": [
+        "adonis"
+      ]
+    },
+    {
+      "slug": "aerospike",
+      "name": "Aerospike",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "data",
+        "database",
+        "nosql"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "aframe",
+      "name": "Aframe",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "html",
+        "javascript",
+        "js",
+        "web"
+      ],
+      "altnames": [
+        "a-frame"
+      ]
+    },
+    {
+      "slug": "aftereffects",
+      "name": "Aftereffects",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "video",
+        "editor"
+      ],
+      "altnames": [
+        "adobeaftereffects",
+        "ae"
+      ]
+    },
+    {
+      "slug": "akka",
+      "name": "Akka",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "java",
+        "scala",
+        "open-source"
+      ],
+      "altnames": [
+        "akka-framework"
+      ]
+    },
+    {
+      "slug": "algolia",
+      "name": "Algolia",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "algorithms",
+        "api",
+        "documentation",
+        "tool"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "almalinux",
+      "name": "Almalinux",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "linux",
+        "os",
+        "open-source"
+      ],
+      "altnames": [
+        "AlmaLinux OS"
+      ]
+    },
+    {
+      "slug": "alpinejs",
+      "name": "Alpinejs",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "javascript"
+      ],
+      "altnames": [
+        "Alpine"
+      ]
+    },
+    {
+      "slug": "amazonwebservices",
+      "name": "Amazonwebservices",
+      "styles": [
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "cloud",
+        "hosting",
+        "server"
+      ],
+      "altnames": [
+        "aws"
+      ]
+    },
+    {
+      "slug": "anaconda",
+      "name": "Anaconda",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "python",
+        "data-science"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "android",
+      "name": "Android",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "os",
+        "mobile"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "androidstudio",
+      "name": "Androidstudio",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "application",
+        "editor",
+        "jetbrains",
+        "ide",
+        "android",
+        "mobile"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "angular",
+      "name": "Angular",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "javascript"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "angularjs",
+      "name": "Angularjs",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "javascript"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "angularmaterial",
+      "name": "Angularmaterial",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "framework",
+        "javascript"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "ansible",
+      "name": "Ansible",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "automation",
+        "provisioning",
+        "deployment",
+        "continuous-delivery"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "ansys",
+      "name": "Ansys",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "simulation"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "antdesign",
+      "name": "Antdesign",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "reactjs",
+        "design",
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "apache",
+      "name": "Apache",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "php"
+      ],
+      "altnames": [
+        "The Apache Software Foundation"
+      ]
+    },
+    {
+      "slug": "apacheairflow",
+      "name": "Apacheairflow",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "platform",
+        "pipeline",
+        "orchestrator",
+        "open-source"
+      ],
+      "altnames": [
+        "Airflow"
+      ]
+    },
+    {
+      "slug": "apachekafka",
+      "name": "Apachekafka",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "streaming",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "apachespark",
+      "name": "Apachespark",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "data-processing",
+        "data-science",
+        "machine-learning"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "apex",
+      "name": "Apex",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "apl",
+      "name": "Apl",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "programming",
+        "language",
+        "open-source",
+        "cross-platform"
+      ],
+      "altnames": [
+        "A Programming Language"
+      ]
+    },
+    {
+      "slug": "apollographql",
+      "name": "Apollographql",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "platform",
+        "graphql",
+        "api"
+      ],
+      "altnames": [
+        "Apollo"
+      ]
+    },
+    {
+      "slug": "appcelerator",
+      "name": "Appcelerator",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "app",
+        "mobile"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "apple",
+      "name": "Apple",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "brand",
+        "mobile"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "appwrite",
+      "name": "Appwrite",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "cloud",
+        "platform",
+        "server"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "archlinux",
+      "name": "Archlinux",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "linux",
+        "distribution",
+        "desktop"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "arduino",
+      "name": "Arduino",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "microcontroller",
+        "hardware"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "argocd",
+      "name": "Argocd",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "gitops",
+        "continuous-delivery"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "artixlinux",
+      "name": "Artixlinux",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "linux",
+        "os",
+        "distribution",
+        "desktop"
+      ],
+      "altnames": [
+        "artix"
+      ]
+    },
+    {
+      "slug": "astro",
+      "name": "Astro",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "static site generator",
+        "framework",
+        "web-development"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "atom",
+      "name": "Atom",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "editor"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "awk",
+      "name": "Awk",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "language",
+        "unix"
+      ],
+      "altnames": [
+        "the awk programming language"
+      ]
+    },
+    {
+      "slug": "axios",
+      "name": "Axios",
+      "styles": [
+        "plain",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "http",
+        "promise",
+        "nodejs"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "azure",
+      "name": "Azure",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "cloud",
+        "devops"
+      ],
+      "altnames": [
+        "microsoftazure"
+      ]
+    },
+    {
+      "slug": "azuredevops",
+      "name": "Azuredevops",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "azure",
+        "devops",
+        "cloud",
+        "version control",
+        "vcs"
+      ],
+      "altnames": [
+        "azure-devops"
+      ]
+    },
+    {
+      "slug": "azuresqldatabase",
+      "name": "Azuresqldatabase",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "azure",
+        "database",
+        "tool",
+        "sql"
+      ],
+      "altnames": [
+        "azure-sql-database"
+      ]
+    },
+    {
+      "slug": "babel",
+      "name": "Babel",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "javascript",
+        "transpiler"
+      ],
+      "altnames": [
+        "babeljs"
+      ]
+    },
+    {
+      "slug": "babylonjs",
+      "name": "Babylonjs",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "3d",
+        "javascript",
+        "library",
+        "web"
+      ],
+      "altnames": [
+        "babylon.js"
+      ]
+    },
+    {
+      "slug": "backbonejs",
+      "name": "Backbonejs",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "javascript",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "ballerina",
+      "name": "Ballerina",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "java",
+        "cloud",
+        "server",
+        "networking"
+      ],
+      "altnames": [
+        "bal"
+      ]
+    },
+    {
+      "slug": "bamboo",
+      "name": "Bamboo",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "platform",
+        "integration",
+        "server"
+      ],
+      "altnames": [
+        "atlassianbamboo"
+      ]
+    },
+    {
+      "slug": "bash",
+      "name": "Bash",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "shell",
+        "command",
+        "scripting"
+      ],
+      "altnames": [
+        "bourneagainshell"
+      ]
+    },
+    {
+      "slug": "bazel",
+      "name": "Bazel",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "build",
+        "automation",
+        "open-source"
+      ],
+      "altnames": [
+        "buildtoolbazel"
+      ]
+    },
+    {
+      "slug": "beats",
+      "name": "Beats",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "elastic",
+        "data-transfer"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "behance",
+      "name": "Behance",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "social",
+        "website"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "bevyengine",
+      "name": "Bevyengine",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "game-engine",
+        "game",
+        "rust",
+        "open-source"
+      ],
+      "altnames": [
+        "bevy engine",
+        "bevy"
+      ]
+    },
+    {
+      "slug": "biome",
+      "name": "Biome",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "linter",
+        "javascript",
+        "typescript",
+        "code-quality",
+        "coding-style",
+        "format",
+        "tool"
+      ],
+      "altnames": [
+        "biomejs"
+      ]
+    },
+    {
+      "slug": "bitbucket",
+      "name": "Bitbucket",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "version-control"
+      ],
+      "altnames": [
+        "atlassianbitbucket"
+      ]
+    },
+    {
+      "slug": "blazor",
+      "name": "Blazor",
+      "styles": [
+        "original",
+        "line"
+      ],
+      "tags": [
+        "dotnet",
+        ".net",
+        "framework",
+        "design",
+        "ui"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "blender",
+      "name": "Blender",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "modelling",
+        "python",
+        "3d",
+        "animation"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "bootstrap",
+      "name": "Bootstrap",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "css",
+        "framework",
+        "html",
+        "javascript",
+        "library"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "bower",
+      "name": "Bower",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "package",
+        "manager"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "browserstack",
+      "name": "Browserstack",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "website",
+        "app",
+        "testing",
+        "tool"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "bulma",
+      "name": "Bulma",
+      "styles": [
+        "plain"
+      ],
+      "tags": [
+        "css",
+        "framework"
+      ],
+      "altnames": [
+        "bulmacss"
+      ]
+    },
+    {
+      "slug": "bun",
+      "name": "Bun",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "javascript",
+        "zig",
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "c",
+      "name": "C",
+      "styles": [
+        "original",
+        "line"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "cairo",
+      "name": "Cairo",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "graphic",
+        "library",
+        "c",
+        "open-source"
+      ],
+      "altnames": [
+        "cairographics"
+      ]
+    },
+    {
+      "slug": "cakephp",
+      "name": "Cakephp",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "canva",
+      "name": "Canva",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "design"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "capacitor",
+      "name": "Capacitor",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "javascript",
+        "js",
+        "ionic",
+        "framework",
+        "universal"
+      ],
+      "altnames": [
+        "capacitorjs"
+      ]
+    },
+    {
+      "slug": "carbon",
+      "name": "Carbon",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": [
+        "Carbon Language"
+      ]
+    },
+    {
+      "slug": "cassandra",
+      "name": "Cassandra",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "nosql",
+        "database",
+        "open-source"
+      ],
+      "altnames": [
+        "Apache Cassandra"
+      ]
+    },
+    {
+      "slug": "centos",
+      "name": "Centos",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "server",
+        "linux"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "ceylon",
+      "name": "Ceylon",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": [
+        "eclipseceylon",
+        "ceylonlang"
+      ]
+    },
+    {
+      "slug": "chakraui",
+      "name": "Chakraui",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "ui",
+        "library"
+      ],
+      "altnames": [
+        "chakra ui"
+      ]
+    },
+    {
+      "slug": "chartjs",
+      "name": "Chartjs",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "javascript",
+        "chart",
+        "framework"
+      ],
+      "altnames": [
+        "chart.js"
+      ]
+    },
+    {
+      "slug": "chrome",
+      "name": "Chrome",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "browser"
+      ],
+      "altnames": [
+        "googlechrome"
+      ]
+    },
+    {
+      "slug": "circleci",
+      "name": "Circleci",
+      "styles": [
+        "plain",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "integration",
+        "platform"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "clarity",
+      "name": "Clarity",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "language",
+        "blockchain"
+      ],
+      "altnames": [
+        "clarity-lang"
+      ]
+    },
+    {
+      "slug": "clickhouse",
+      "name": "Clickhouse",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "cloud",
+        "column-oriented",
+        "database",
+        "warehouse"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "clion",
+      "name": "Clion",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "jetbrains",
+        "editor",
+        "c",
+        "c++",
+        "cpp",
+        "cplusplus"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "clojure",
+      "name": "Clojure",
+      "styles": [
+        "original",
+        "line"
+      ],
+      "tags": [
+        "language",
+        "jvm"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "clojurescript",
+      "name": "Clojurescript",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "cloudflare",
+      "name": "Cloudflare",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "web",
+        "cdn",
+        "dns",
+        "proxy",
+        "security"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "cloudflareworkers",
+      "name": "Cloudflareworkers",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "platform",
+        "serverless",
+        "deploy",
+        "performance",
+        "javascript"
+      ],
+      "altnames": [
+        "Cloudflare Workers"
+      ]
+    },
+    {
+      "slug": "cloudrun",
+      "name": "Cloudrun",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "platform",
+        "serverless",
+        "deploy",
+        "cloud-computing-platform"
+      ],
+      "altnames": [
+        "Cloud Run"
+      ]
+    },
+    {
+      "slug": "cmake",
+      "name": "Cmake",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "build"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "cobol",
+      "name": "Cobol",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "codeac",
+      "name": "Codeac",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "platform",
+        "integration"
+      ],
+      "altnames": [
+        "codeacio"
+      ]
+    },
+    {
+      "slug": "codecov",
+      "name": "Codecov",
+      "styles": [
+        "plain"
+      ],
+      "tags": [
+        "platform",
+        "integration"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "codeigniter",
+      "name": "Codeigniter",
+      "styles": [
+        "plain",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "php",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "codepen",
+      "name": "Codepen",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "social",
+        "website",
+        "editor"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "coffeescript",
+      "name": "Coffeescript",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "javascript",
+        "transpiler",
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "composer",
+      "name": "Composer",
+      "styles": [
+        "original",
+        "line",
+        "line-wordmark"
+      ],
+      "tags": [
+        "package",
+        "manager",
+        "php"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "confluence",
+      "name": "Confluence",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "collaboration",
+        "documentation",
+        "wiki"
+      ],
+      "altnames": [
+        "atlassianconfluence"
+      ]
+    },
+    {
+      "slug": "consul",
+      "name": "Consul",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "networking",
+        "infrastructure",
+        "security",
+        "tool"
+      ],
+      "altnames": [
+        "HashiCorp Consul"
+      ]
+    },
+    {
+      "slug": "contao",
+      "name": "Contao",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "cms"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "corejs",
+      "name": "Corejs",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "javascript",
+        "library",
+        "polyfill",
+        "tool"
+      ],
+      "altnames": [
+        "core-js",
+        "core.js"
+      ]
+    },
+    {
+      "slug": "cosmosdb",
+      "name": "Cosmosdb",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "database",
+        "nosql",
+        "cloud",
+        "azure"
+      ],
+      "altnames": [
+        "azurecosmosdb"
+      ]
+    },
+    {
+      "slug": "couchbase",
+      "name": "Couchbase",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "database",
+        "nosql",
+        "cloud"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "couchdb",
+      "name": "Couchdb",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "database"
+      ],
+      "altnames": [
+        "apachecouchdb"
+      ]
+    },
+    {
+      "slug": "cpanel",
+      "name": "Cpanel",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "hosting",
+        "web hosting",
+        "server",
+        "control panel"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "cplusplus",
+      "name": "Cplusplus",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": [
+        "c++",
+        "cpp"
+      ]
+    },
+    {
+      "slug": "crystal",
+      "name": "Crystal",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": [
+        "crystallang"
+      ]
+    },
+    {
+      "slug": "csharp",
+      "name": "Csharp",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": [
+        "c#"
+      ]
+    },
+    {
+      "slug": "css3",
+      "name": "Css3",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "language",
+        "programming"
+      ],
+      "altnames": [
+        "cascadingstylesheets3"
+      ]
+    },
+    {
+      "slug": "cucumber",
+      "name": "Cucumber",
+      "styles": [
+        "plain",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": [
+        "cucumberjs"
+      ]
+    },
+    {
+      "slug": "cypressio",
+      "name": "Cypressio",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "testing",
+        "framework"
+      ],
+      "altnames": [
+        "cypress"
+      ]
+    },
+    {
+      "slug": "d3js",
+      "name": "D3js",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [],
+      "altnames": []
+    },
+    {
+      "slug": "dart",
+      "name": "Dart",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": [
+        "googledart"
+      ]
+    },
+    {
+      "slug": "datadog",
+      "name": "Datadog",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "monitoring",
+        "platform",
+        "integration"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "datagrip",
+      "name": "Datagrip",
+      "styles": [
+        "original",
+        "plain",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "jetbrains",
+        "ide",
+        "sql",
+        "database"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "dataspell",
+      "name": "Dataspell",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "jetbrains",
+        "ide",
+        "jupyter notebook",
+        "data science"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "datatables",
+      "name": "Datatables",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "css",
+        "framework",
+        "html",
+        "javascript",
+        "library"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "dbeaver",
+      "name": "Dbeaver",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "tool",
+        "database"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "debian",
+      "name": "Debian",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "os",
+        "server"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "delphi",
+      "name": "Delphi",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": [
+        "embarcadero"
+      ]
+    },
+    {
+      "slug": "denojs",
+      "name": "Denojs",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "javascript",
+        "rust",
+        "runtime"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "detaspace",
+      "name": "Detaspace",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "cloud",
+        "hosting",
+        "server"
+      ],
+      "altnames": [
+        "Deta",
+        "Deta Space"
+      ]
+    },
+    {
+      "slug": "devicon",
+      "name": "Devicon",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "iconset"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "digitalocean",
+      "name": "Digitalocean",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "cloud",
+        "hosting",
+        "database",
+        "storage"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "discloud",
+      "name": "Discloud",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "cloud",
+        "hosting",
+        "database",
+        "storage"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "discordjs",
+      "name": "Discordjs",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "wrapper",
+        "api_wrapper",
+        "nodejs"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "django",
+      "name": "Django",
+      "styles": [
+        "plain",
+        "plain-wordmark"
+      ],
+      "tags": [],
+      "altnames": []
+    },
+    {
+      "slug": "djangorest",
+      "name": "Djangorest",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "rest",
+        "api",
+        "python",
+        "web"
+      ],
+      "altnames": [
+        "Django REST framework"
+      ]
+    },
+    {
+      "slug": "docker",
+      "name": "Docker",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "platform",
+        "deploy"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "doctrine",
+      "name": "Doctrine",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [],
+      "altnames": []
+    },
+    {
+      "slug": "dot-net",
+      "name": "Dot Net",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": [
+        "dotnet",
+        ".net"
+      ]
+    },
+    {
+      "slug": "dotnetcore",
+      "name": "Dotnetcore",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": [
+        ".netcore"
+      ]
+    },
+    {
+      "slug": "dovecot",
+      "name": "Dovecot",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "imap",
+        "pop3",
+        "e-mail"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "dreamweaver",
+      "name": "Dreamweaver",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "web-development",
+        "editor",
+        "software",
+        "tool"
+      ],
+      "altnames": [
+        "Adobe Dreamweaver"
+      ]
+    },
+    {
+      "slug": "dropwizard",
+      "name": "Dropwizard",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "java",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "drupal",
+      "name": "Drupal",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "cms"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "duckdb",
+      "name": "Duckdb",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "database",
+        "sql"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "dyalog",
+      "name": "Dyalog",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "dynamodb",
+      "name": "Dynamodb",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "key-value",
+        "database",
+        "java"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "dynatrace",
+      "name": "Dynatrace",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "monitoring",
+        "performance",
+        "cloud"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "eclipse",
+      "name": "Eclipse",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "editor",
+        "IDE"
+      ],
+      "altnames": [
+        "Eclipse IDE"
+      ]
+    },
+    {
+      "slug": "ecto",
+      "name": "Ecto",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "data",
+        "elixir",
+        "integration",
+        "query"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "elasticsearch",
+      "name": "Elasticsearch",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "elastic",
+        "data",
+        "logs"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "electron",
+      "name": "Electron",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": [
+        "electronjs"
+      ]
+    },
+    {
+      "slug": "eleventy",
+      "name": "Eleventy",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "ssg",
+        "static site generator"
+      ],
+      "altnames": [
+        "11ty"
+      ]
+    },
+    {
+      "slug": "elixir",
+      "name": "Elixir",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": [
+        "elexirlang"
+      ]
+    },
+    {
+      "slug": "elm",
+      "name": "Elm",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": [
+        "elmlang"
+      ]
+    },
+    {
+      "slug": "emacs",
+      "name": "Emacs",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "editor"
+      ],
+      "altnames": [
+        "editingmacros"
+      ]
+    },
+    {
+      "slug": "embeddedc",
+      "name": "Embeddedc",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "language",
+        "programming"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "ember",
+      "name": "Ember",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "javascript",
+        "web-development",
+        "build"
+      ],
+      "altnames": [
+        "ember.js",
+        "emberjs"
+      ]
+    },
+    {
+      "slug": "entityframeworkcore",
+      "name": "Entityframeworkcore",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "dotnet",
+        ".net",
+        "framework",
+        "database"
+      ],
+      "altnames": [
+        "ef core",
+        "entity framework core"
+      ]
+    },
+    {
+      "slug": "envoy",
+      "name": "Envoy",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "proxy",
+        "cloud"
+      ],
+      "altnames": [
+        "envoyproxy"
+      ]
+    },
+    {
+      "slug": "erlang",
+      "name": "Erlang",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [],
+      "altnames": []
+    },
+    {
+      "slug": "eslint",
+      "name": "Eslint",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "linter",
+        "javascript",
+        "code-quality",
+        "coding-style"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "expo",
+      "name": "Expo",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "react",
+        "react-native"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "express",
+      "name": "Express",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": [
+        "expressjs"
+      ]
+    },
+    {
+      "slug": "facebook",
+      "name": "Facebook",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "auth"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "fastapi",
+      "name": "Fastapi",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "python",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "fastify",
+      "name": "Fastify",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "web",
+        "node.js",
+        "javascript",
+        "performance"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "faunadb",
+      "name": "Faunadb",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "database"
+      ],
+      "altnames": [
+        "fauna"
+      ]
+    },
+    {
+      "slug": "feathersjs",
+      "name": "Feathersjs",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "framework",
+        "rest"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "fedora",
+      "name": "Fedora",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "linux",
+        "distribution",
+        "desktop"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "fiber",
+      "name": "Fiber",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "framework",
+        "go",
+        "web"
+      ],
+      "altnames": [
+        "GoFiber"
+      ]
+    },
+    {
+      "slug": "figma",
+      "name": "Figma",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "design"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "filamentphp",
+      "name": "Filamentphp",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "framework",
+        "laravel"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "filezilla",
+      "name": "Filezilla",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "ftp"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "firebase",
+      "name": "Firebase",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "auth",
+        "hosting",
+        "storage",
+        "cloud"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "firebird",
+      "name": "Firebird",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "database"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "firefox",
+      "name": "Firefox",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "browser"
+      ],
+      "altnames": [
+        "mozillafirefox"
+      ]
+    },
+    {
+      "slug": "flask",
+      "name": "Flask",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "python",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "flutter",
+      "name": "Flutter",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "framework",
+        "sdk"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "forgejo",
+      "name": "Forgejo",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "software",
+        "git",
+        "version-control"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "fortran",
+      "name": "Fortran",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "foundation",
+      "name": "Foundation",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "css"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "framermotion",
+      "name": "Framermotion",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "library",
+        "open-source",
+        "react",
+        "animation"
+      ],
+      "altnames": [
+        "framer-motion",
+        "framer"
+      ]
+    },
+    {
+      "slug": "framework7",
+      "name": "Framework7",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "cross-platform",
+        "development",
+        "mobile",
+        "android",
+        "ios",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "fsharp",
+      "name": "Fsharp",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": [
+        "f#"
+      ]
+    },
+    {
+      "slug": "fusion",
+      "name": "Fusion",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "design"
+      ],
+      "altnames": [
+        "Autodesk Fusion",
+        "Autodesk Fusion 360"
+      ]
+    },
+    {
+      "slug": "gardener",
+      "name": "Gardener",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "kubernetes",
+        "cloud"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "gatling",
+      "name": "Gatling",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "testing"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "gatsby",
+      "name": "Gatsby",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "reactjs",
+        "framework"
+      ],
+      "altnames": [
+        "gatsbyjs"
+      ]
+    },
+    {
+      "slug": "gazebo",
+      "name": "Gazebo",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "robotics",
+        "3d"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "gcc",
+      "name": "Gcc",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "compiler",
+        "linux"
+      ],
+      "altnames": [
+        "gnucompilercollection"
+      ]
+    },
+    {
+      "slug": "gentoo",
+      "name": "Gentoo",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "linux",
+        "distribution",
+        "desktop"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "ghost",
+      "name": "Ghost",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "cms"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "gimp",
+      "name": "Gimp",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "graphic"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "git",
+      "name": "Git",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "version-control"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "gitbook",
+      "name": "Gitbook",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "documentation",
+        "pages",
+        "git",
+        "markup"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "github",
+      "name": "Github",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "version-control"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "githubactions",
+      "name": "Githubactions",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "devops",
+        "integration"
+      ],
+      "altnames": [
+        "GitHub Actions"
+      ]
+    },
+    {
+      "slug": "githubcodespaces",
+      "name": "Githubcodespaces",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "development",
+        "remote-development",
+        "editor",
+        "browser",
+        "cloud"
+      ],
+      "altnames": [
+        "GitHub Codespaces"
+      ]
+    },
+    {
+      "slug": "gitkraken",
+      "name": "Gitkraken",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "git",
+        "version-control"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "gitlab",
+      "name": "Gitlab",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "version-control"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "gitpod",
+      "name": "Gitpod",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "open-source",
+        "remote-development",
+        "cloud",
+        "IDE"
+      ],
+      "altnames": [
+        "gitpod-io"
+      ]
+    },
+    {
+      "slug": "gitter",
+      "name": "Gitter",
+      "styles": [
+        "plain",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "social",
+        "chat"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "gleam",
+      "name": "Gleam",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "language",
+        "programming"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "glitch",
+      "name": "Glitch",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "web-apps",
+        "online-platform",
+        "programming-environment",
+        "collaborative-environment"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "go",
+      "name": "Go",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": [
+        "golang"
+      ]
+    },
+    {
+      "slug": "godot",
+      "name": "Godot",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "game-engine",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "goland",
+      "name": "Goland",
+      "styles": [
+        "original",
+        "plain",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "jetbrains",
+        "ide",
+        "go"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "google",
+      "name": "Google",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "auth"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "googlecloud",
+      "name": "Googlecloud",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "google",
+        "cloud"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "googlecolab",
+      "name": "Googlecolab",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "cloud-computing-platform",
+        "data science",
+        "google",
+        "machine-learning",
+        "python",
+        "virtual machine"
+      ],
+      "altnames": [
+        "googlecolaboratory"
+      ]
+    },
+    {
+      "slug": "gradle",
+      "name": "Gradle",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "open-source",
+        "task-runner"
+      ],
+      "altnames": [
+        "apachegradle",
+        "gradlebuildtool"
+      ]
+    },
+    {
+      "slug": "grafana",
+      "name": "Grafana",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "monitoring",
+        "analytics",
+        "metrics",
+        "logs",
+        "visualization",
+        "web-application"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "grails",
+      "name": "Grails",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "framework",
+        "groovy",
+        "web-development",
+        "jvm",
+        "build"
+      ],
+      "altnames": [
+        "Grails Framework"
+      ]
+    },
+    {
+      "slug": "graphql",
+      "name": "Graphql",
+      "styles": [
+        "plain",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "language",
+        "data",
+        "query"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "groovy",
+      "name": "Groovy",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "programming",
+        "language",
+        "jvm"
+      ],
+      "altnames": [
+        "groovylang",
+        "apachegroovy"
+      ]
+    },
+    {
+      "slug": "grpc",
+      "name": "Grpc",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "programming",
+        "c++",
+        "java",
+        "python",
+        "go",
+        "library"
+      ],
+      "altnames": [
+        "grpcio",
+        "Google Remote Procedure Call"
+      ]
+    },
+    {
+      "slug": "grunt",
+      "name": "Grunt",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "task-runner",
+        "nodejs"
+      ],
+      "altnames": [
+        "gruntjs"
+      ]
+    },
+    {
+      "slug": "gulp",
+      "name": "Gulp",
+      "styles": [
+        "plain"
+      ],
+      "tags": [
+        "task-runner",
+        "nodejs"
+      ],
+      "altnames": [
+        "gulpjs"
+      ]
+    },
+    {
+      "slug": "hadoop",
+      "name": "Hadoop",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "big data",
+        "open-source",
+        "software",
+        "library",
+        "framework",
+        "java"
+      ],
+      "altnames": [
+        "Apache Hadoop"
+      ]
+    },
+    {
+      "slug": "handlebars",
+      "name": "Handlebars",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": [
+        "handlebarsjs"
+      ]
+    },
+    {
+      "slug": "harbor",
+      "name": "Harbor",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "docker",
+        "artifact",
+        "oci",
+        "registry"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "hardhat",
+      "name": "Hardhat",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "ethereum",
+        "development",
+        "solidity",
+        "javascript",
+        "typescript"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "harvester",
+      "name": "Harvester",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "kubernetes",
+        "operating-system",
+        "hypervisor",
+        "rancher"
+      ],
+      "altnames": [
+        "harvesterhci"
+      ]
+    },
+    {
+      "slug": "haskell",
+      "name": "Haskell",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "language",
+        "functional"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "haxe",
+      "name": "Haxe",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "helm",
+      "name": "Helm",
+      "styles": [
+        "original",
+        "line"
+      ],
+      "tags": [
+        "package",
+        "manager",
+        "kubernetes"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "heroku",
+      "name": "Heroku",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "cloud"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "hibernate",
+      "name": "Hibernate",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "database",
+        "framework",
+        "java"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "homebrew",
+      "name": "Homebrew",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "package",
+        "manager",
+        "linux",
+        "apple",
+        "os"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "hoppscotch",
+      "name": "Hoppscotch",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "rest",
+        "testing",
+        "api"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "html5",
+      "name": "Html5",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": [
+        "hypertextmarkdownlanguage5"
+      ]
+    },
+    {
+      "slug": "htmx",
+      "name": "Htmx",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "web",
+        "html",
+        "ui"
+      ],
+      "altnames": [
+        "html ui framework"
+      ]
+    },
+    {
+      "slug": "hugo",
+      "name": "Hugo",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "ssg",
+        "static-site-generator",
+        "go",
+        "html",
+        "css"
+      ],
+      "altnames": [
+        "gohugo"
+      ]
+    },
+    {
+      "slug": "hyperv",
+      "name": "Hyperv",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark"
+      ],
+      "tags": [
+        "hypervisor",
+        "operating-system"
+      ],
+      "altnames": [
+        "hyper-v"
+      ]
+    },
+    {
+      "slug": "ie10",
+      "name": "Ie10",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "browser"
+      ],
+      "altnames": [
+        "internetexplorer10"
+      ]
+    },
+    {
+      "slug": "ifttt",
+      "name": "Ifttt",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "automation",
+        "applets",
+        "programming"
+      ],
+      "altnames": [
+        "ifthisthenthat"
+      ]
+    },
+    {
+      "slug": "illustrator",
+      "name": "Illustrator",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "editor",
+        "vector"
+      ],
+      "altnames": [
+        "adobeillustrator"
+      ]
+    },
+    {
+      "slug": "inertiajs",
+      "name": "Inertiajs",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "javascript",
+        "js",
+        "library"
+      ],
+      "altnames": [
+        "inertia.js"
+      ]
+    },
+    {
+      "slug": "influxdb",
+      "name": "Influxdb",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "database",
+        "monitoring",
+        "open-source",
+        "api"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "inkscape",
+      "name": "Inkscape",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "editor",
+        "vector"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "insomnia",
+      "name": "Insomnia",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "open-source",
+        "Rest API",
+        "Soap API",
+        "JSON-XML"
+      ],
+      "altnames": [
+        "Insomnia Rest Client"
+      ]
+    },
+    {
+      "slug": "intellij",
+      "name": "Intellij",
+      "styles": [
+        "original",
+        "plain",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "jetbrains",
+        "editor",
+        "java"
+      ],
+      "altnames": [
+        "intellijidea"
+      ]
+    },
+    {
+      "slug": "ionic",
+      "name": "Ionic",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "jaegertracing",
+      "name": "Jaegertracing",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "monitoring",
+        "tracing"
+      ],
+      "altnames": [
+        "jaeger"
+      ]
+    },
+    {
+      "slug": "jamstack",
+      "name": "Jamstack",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "javascript",
+        "markup"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "jasmine",
+      "name": "Jasmine",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "testing"
+      ],
+      "altnames": [
+        "jasminejs"
+      ]
+    },
+    {
+      "slug": "java",
+      "name": "Java",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "language",
+        "jvm"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "javascript",
+      "name": "Javascript",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": [
+        "js",
+        "ecmascript"
+      ]
+    },
+    {
+      "slug": "jeet",
+      "name": "Jeet",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "css"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "jekyll",
+      "name": "Jekyll",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "ruby",
+        "blog"
+      ],
+      "altnames": [
+        "jestjs"
+      ]
+    },
+    {
+      "slug": "jenkins",
+      "name": "Jenkins",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "platform",
+        "integration",
+        "server"
+      ],
+      "altnames": [
+        "hudson"
+      ]
+    },
+    {
+      "slug": "jest",
+      "name": "Jest",
+      "styles": [
+        "plain"
+      ],
+      "tags": [
+        "testing",
+        "javascript"
+      ],
+      "altnames": [
+        "jestjs"
+      ]
+    },
+    {
+      "slug": "jetbrains",
+      "name": "Jetbrains",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "ide"
+      ],
+      "altnames": [
+        "intellijsoftware"
+      ]
+    },
+    {
+      "slug": "jetpackcompose",
+      "name": "Jetpackcompose",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "language",
+        "kotlin",
+        "android"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "jhipster",
+      "name": "Jhipster",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "development",
+        "framework",
+        "java",
+        "platform",
+        "web",
+        "web-application",
+        "web-development"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "jira",
+      "name": "Jira",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "platform",
+        "organize"
+      ],
+      "altnames": [
+        "atlassianjira"
+      ]
+    },
+    {
+      "slug": "jiraalign",
+      "name": "Jiraalign",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "development",
+        "integration",
+        "software"
+      ],
+      "altnames": [
+        "Jira Align"
+      ]
+    },
+    {
+      "slug": "jquery",
+      "name": "Jquery",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "library",
+        "javascript"
+      ],
+      "altnames": [
+        "jqueryjs"
+      ]
+    },
+    {
+      "slug": "json",
+      "name": "Json",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "format",
+        "standard",
+        "file-format",
+        "object-notation"
+      ],
+      "altnames": [
+        "JavaScript Object Notation"
+      ]
+    },
+    {
+      "slug": "jule",
+      "name": "Jule",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": [
+        "julelang"
+      ]
+    },
+    {
+      "slug": "julia",
+      "name": "Julia",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": [
+        "julialang"
+      ]
+    },
+    {
+      "slug": "junit",
+      "name": "Junit",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "testing",
+        "framework",
+        "java"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "jupyter",
+      "name": "Jupyter",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": [
+        "jupyternotebook"
+      ]
+    },
+    {
+      "slug": "k3os",
+      "name": "K3os",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "kubernetes",
+        "operating-system",
+        "k3s",
+        "rancher"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "k3s",
+      "name": "K3s",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "kubernetes",
+        "container",
+        "platform"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "k6",
+      "name": "K6",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "testing",
+        "performance",
+        "load"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "kaggle",
+      "name": "Kaggle",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "platform",
+        "auth",
+        "machine-learning"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "kaldi",
+      "name": "Kaldi",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "audio",
+        "open-source",
+        "library"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "kalilinux",
+      "name": "Kalilinux",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "linux",
+        "operating-system",
+        "security"
+      ],
+      "altnames": [
+        "kali"
+      ]
+    },
+    {
+      "slug": "karatelabs",
+      "name": "Karatelabs",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "testing"
+      ],
+      "altnames": [
+        "karate"
+      ]
+    },
+    {
+      "slug": "karma",
+      "name": "Karma",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "testing",
+        "test-runner"
+      ],
+      "altnames": [
+        "karmarunner",
+        "karmajs"
+      ]
+    },
+    {
+      "slug": "kdeneon",
+      "name": "Kdeneon",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "linux",
+        "operating system",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "keras",
+      "name": "Keras",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "machine-learning",
+        "python",
+        "library"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "kibana",
+      "name": "Kibana",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "elastic",
+        "dashboard"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "knexjs",
+      "name": "Knexjs",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "database",
+        "query",
+        "sql",
+        "javascript",
+        "library"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "knockout",
+      "name": "Knockout",
+      "styles": [
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "javascript"
+      ],
+      "altnames": [
+        "knockoutjs"
+      ]
+    },
+    {
+      "slug": "kotlin",
+      "name": "Kotlin",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "language",
+        "jetbrains",
+        "jvm"
+      ],
+      "altnames": [
+        "kotlinlang"
+      ]
+    },
+    {
+      "slug": "krakenjs",
+      "name": "Krakenjs",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "nodejs",
+        "framework"
+      ],
+      "altnames": [
+        "kraken"
+      ]
+    },
+    {
+      "slug": "ktor",
+      "name": "Ktor",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "jetbrains",
+        "kotlin",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "kubeflow",
+      "name": "Kubeflow",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "kubernetes",
+        "deployment",
+        "machine-learning"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "kubernetes",
+      "name": "Kubernetes",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "container",
+        "deployment"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "labview",
+      "name": "Labview",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "laminas",
+      "name": "Laminas",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "php",
+        "framework",
+        "web",
+        "mvc",
+        "middleware"
+      ],
+      "altnames": [
+        "Laminas Project",
+        "Zend Framework"
+      ]
+    },
+    {
+      "slug": "laravel",
+      "name": "Laravel",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "php",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "laraveljetstream",
+      "name": "Laraveljetstream",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "php",
+        "laravel",
+        "tailwind",
+        "scaffolding"
+      ],
+      "altnames": [
+        "jetstream",
+        "Laravel Jetstream"
+      ]
+    },
+    {
+      "slug": "latex",
+      "name": "Latex",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "latex3",
+        "latex2e",
+        "markup",
+        "tex",
+        "typesetting-system"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "leetcode",
+      "name": "Leetcode",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "online-platform",
+        "coding-platform",
+        "platform",
+        "coding",
+        "dsa",
+        "interview-preparation"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "less",
+      "name": "Less",
+      "styles": [
+        "plain-wordmark"
+      ],
+      "tags": [
+        "css",
+        "pre-processor"
+      ],
+      "altnames": [
+        "lesscss"
+      ]
+    },
+    {
+      "slug": "libgdx",
+      "name": "Libgdx",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "framework",
+        "java",
+        "game-development",
+        "cross-platform",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "linkedin",
+      "name": "Linkedin",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "social",
+        "auth"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "linux",
+      "name": "Linux",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "os"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "linuxmint",
+      "name": "Linuxmint",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "os",
+        "linux"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "liquibase",
+      "name": "Liquibase",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "tool",
+        "database"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "livewire",
+      "name": "Livewire",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "laravel",
+        "php",
+        "open-source"
+      ],
+      "altnames": [
+        "laravel-livewire"
+      ]
+    },
+    {
+      "slug": "llvm",
+      "name": "Llvm",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "compiler",
+        "framework",
+        "c++",
+        "open-source"
+      ],
+      "altnames": [
+        "Low Level Virtual Machine"
+      ]
+    },
+    {
+      "slug": "lodash",
+      "name": "Lodash",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "javascript",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "logstash",
+      "name": "Logstash",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "logs",
+        "elastic"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "love2d",
+      "name": "Love2d",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "programming",
+        "game-engine"
+      ],
+      "altnames": [
+        "löve"
+      ]
+    },
+    {
+      "slug": "lua",
+      "name": "Lua",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "programming",
+        "language",
+        "object-oriented",
+        "scripting",
+        "procedural",
+        "prototype-based",
+        "functional"
+      ],
+      "altnames": [
+        "lualang"
+      ]
+    },
+    {
+      "slug": "lumen",
+      "name": "Lumen",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "laravel",
+        "php",
+        "framework",
+        "micro-framework"
+      ],
+      "altnames": [
+        "Laravel Lumen",
+        "Lumen Laravel",
+        "Laravel Lumen Framework",
+        "laravel.lumen"
+      ]
+    },
+    {
+      "slug": "magento",
+      "name": "Magento",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "php",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "mapbox",
+      "name": "Mapbox",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "map",
+        "navigation",
+        "data"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "mariadb",
+      "name": "Mariadb",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "database",
+        "sql",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "markdown",
+      "name": "Markdown",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "markup",
+        "language"
+      ],
+      "altnames": [
+        "md"
+      ]
+    },
+    {
+      "slug": "materializecss",
+      "name": "Materializecss",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "framework",
+        "css",
+        "design",
+        "material-design"
+      ],
+      "altnames": [
+        "materialize",
+        "materialize-css",
+        "materialize css"
+      ]
+    },
+    {
+      "slug": "materialui",
+      "name": "Materialui",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "framework",
+        "design",
+        "ui"
+      ],
+      "altnames": [
+        "mui"
+      ]
+    },
+    {
+      "slug": "matlab",
+      "name": "Matlab",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "matplotlib",
+      "name": "Matplotlib",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "plotting",
+        "library",
+        "math",
+        "visualization",
+        "python",
+        "api"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "mattermost",
+      "name": "Mattermost",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "app",
+        "chat",
+        "collaboration",
+        "open-source",
+        "platform"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "maven",
+      "name": "Maven",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "build"
+      ],
+      "altnames": [
+        "apachemaven",
+        "mvn"
+      ]
+    },
+    {
+      "slug": "maya",
+      "name": "Maya",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "mel",
+        "pymel",
+        "python",
+        "3d",
+        "programming",
+        "vfx",
+        "graphic",
+        "graphics",
+        "game",
+        "animation"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "memcached",
+      "name": "Memcached",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "data",
+        "database",
+        "nosql"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "mercurial",
+      "name": "Mercurial",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "version-control"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "meteor",
+      "name": "Meteor",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "javascript",
+        "framework"
+      ],
+      "altnames": [
+        "meteorjs"
+      ]
+    },
+    {
+      "slug": "microsoftsqlserver",
+      "name": "Microsoftsqlserver",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "database",
+        "sql",
+        "db"
+      ],
+      "altnames": [
+        "msql",
+        "mssql",
+        "Microsoft SQL Server"
+      ]
+    },
+    {
+      "slug": "minitab",
+      "name": "Minitab",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "package",
+        "statistics"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "mithril",
+      "name": "Mithril",
+      "styles": [
+        "original",
+        "line"
+      ],
+      "tags": [
+        "javascript",
+        "framework",
+        "frontend",
+        "js"
+      ],
+      "altnames": [
+        "mithril.js"
+      ]
+    },
+    {
+      "slug": "mobx",
+      "name": "Mobx",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "state-management",
+        "testing",
+        "reactjs",
+        "nodejs"
+      ],
+      "altnames": [
+        "mobxjs"
+      ]
+    },
+    {
+      "slug": "mocha",
+      "name": "Mocha",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "testing"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "modx",
+      "name": "Modx",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "cms",
+        "php",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "moleculer",
+      "name": "Moleculer",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "nodejs",
+        "javascript",
+        "js",
+        "microservices",
+        "micro-services",
+        "framework"
+      ],
+      "altnames": [
+        "moleculerjs",
+        "moleculer.js"
+      ]
+    },
+    {
+      "slug": "mongodb",
+      "name": "Mongodb",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "database"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "mongoose",
+      "name": "Mongoose",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "data-model",
+        "nodejs"
+      ],
+      "altnames": [
+        "mongoosejs"
+      ]
+    },
+    {
+      "slug": "monogame",
+      "name": "Monogame",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "engine",
+        "game-engine",
+        "C#",
+        "c-sharp",
+        "csharp"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "moodle",
+      "name": "Moodle",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "platform"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "msdos",
+      "name": "Msdos",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "os"
+      ],
+      "altnames": [
+        "microsoftdiskoperatingsystem"
+      ]
+    },
+    {
+      "slug": "mysql",
+      "name": "Mysql",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "database",
+        "language"
+      ],
+      "altnames": [
+        "mystructuredquerylanguage"
+      ]
+    },
+    {
+      "slug": "nano",
+      "name": "Nano",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "text editor",
+        "editor",
+        "GNU",
+        "terminal"
+      ],
+      "altnames": [
+        "gnu-nano",
+        "GNU nano"
+      ]
+    },
+    {
+      "slug": "nats",
+      "name": "Nats",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "streaming",
+        "open-source",
+        "go"
+      ],
+      "altnames": [
+        "nats-io",
+        "nats.io",
+        "NATS-io",
+        "NATS.io"
+      ]
+    },
+    {
+      "slug": "neo4j",
+      "name": "Neo4j",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "database"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "neovim",
+      "name": "Neovim",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "text editor",
+        "editor",
+        "ide",
+        "IDE",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "nestjs",
+      "name": "Nestjs",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "netbeans",
+      "name": "Netbeans",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "ide",
+        "java",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "netbox",
+      "name": "Netbox",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "network",
+        "automation",
+        "infrastructure",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "netlify",
+      "name": "Netlify",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "cloud hosting",
+        "serverless",
+        "dynamic websites",
+        "web applications",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "networkx",
+      "name": "Networkx",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "graph",
+        "library",
+        "python"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "newrelic",
+      "name": "Newrelic",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "monitoring",
+        "observability",
+        "analysis"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "nextjs",
+      "name": "Nextjs",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "nginx",
+      "name": "Nginx",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "server"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "ngrok",
+      "name": "Ngrok",
+      "styles": [
+        "original",
+        "line"
+      ],
+      "tags": [
+        "networking",
+        "server"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "ngrx",
+      "name": "Ngrx",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "state-management",
+        "angular",
+        "redux",
+        "store",
+        "javascript"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "nhibernate",
+      "name": "Nhibernate",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "library",
+        "dotnet",
+        ".net",
+        "object-relational mapper",
+        "orm",
+        "C#",
+        "c-sharp"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "nim",
+      "name": "Nim",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "functional",
+        "object-oriented",
+        "procedural"
+      ],
+      "altnames": [
+        "nimlang"
+      ]
+    },
+    {
+      "slug": "nimble",
+      "name": "Nimble",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "package-manager"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "nixos",
+      "name": "Nixos",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "os"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "nodejs",
+      "name": "Nodejs",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "javascript",
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "nodemon",
+      "name": "Nodemon",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "nodejs",
+        "tool",
+        "javascript"
+      ],
+      "altnames": [
+        "nodemonjs"
+      ]
+    },
+    {
+      "slug": "nodered",
+      "name": "Nodered",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "programming",
+        "tool"
+      ],
+      "altnames": [
+        "node-red"
+      ]
+    },
+    {
+      "slug": "nodewebkit",
+      "name": "Nodewebkit",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [],
+      "altnames": [
+        "nwjs"
+      ]
+    },
+    {
+      "slug": "nomad",
+      "name": "Nomad",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "container",
+        "virtual machine",
+        "deployment"
+      ],
+      "altnames": [
+        "HashiCorp Nomad"
+      ]
+    },
+    {
+      "slug": "norg",
+      "name": "Norg",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "note-taking",
+        "organization"
+      ],
+      "altnames": [
+        "neorg"
+      ]
+    },
+    {
+      "slug": "notion",
+      "name": "Notion",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "project-management"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "npm",
+      "name": "Npm",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark"
+      ],
+      "tags": [
+        "package",
+        "manager"
+      ],
+      "altnames": [
+        "npmjs",
+        "nodepackagemanager"
+      ]
+    },
+    {
+      "slug": "npss",
+      "name": "Npss",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [],
+      "altnames": []
+    },
+    {
+      "slug": "nuget",
+      "name": "Nuget",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "package",
+        "manager"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "numpy",
+      "name": "Numpy",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "library",
+        "python"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "nuxt",
+      "name": "Nuxt",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "js",
+        "javascript",
+        "framework",
+        "fullstack",
+        "vuejs"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "nuxtjs",
+      "name": "Nuxtjs",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "js",
+        "javascript",
+        "framework",
+        "frontend",
+        "vuejs"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "oauth",
+      "name": "Oauth",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "authentication",
+        "security"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "objectivec",
+      "name": "Objectivec",
+      "styles": [
+        "plain"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "ocaml",
+      "name": "Ocaml",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "ohmyzsh",
+      "name": "Ohmyzsh",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "shell",
+        "script",
+        "scripting",
+        "language",
+        "command"
+      ],
+      "altnames": [
+        "omz",
+        "ohmyz.sh",
+        "Oh My Zsh"
+      ]
+    },
+    {
+      "slug": "okta",
+      "name": "Okta",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "auth",
+        "security"
+      ],
+      "altnames": [
+        "okta developer"
+      ]
+    },
+    {
+      "slug": "openal",
+      "name": "Openal",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "library",
+        "audio",
+        "game",
+        "3d"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "openapi",
+      "name": "Openapi",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "specification",
+        "api",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "opencl",
+      "name": "Opencl",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "framework",
+        "language",
+        "heterogeneous-computing",
+        "cpp",
+        "api",
+        "khronos",
+        "programming"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "opencv",
+      "name": "Opencv",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "library",
+        "c/c++",
+        "computer-vision"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "opengl",
+      "name": "Opengl",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "library",
+        "graphics",
+        "game",
+        "3d"
+      ],
+      "altnames": [
+        "opengraphicslibrary"
+      ]
+    },
+    {
+      "slug": "openstack",
+      "name": "Openstack",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "infrastructure-as-a-service",
+        "cloud-computing-platform"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "opensuse",
+      "name": "Opensuse",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "linux",
+        "distribution",
+        "desktop"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "opentelemetry",
+      "name": "Opentelemetry",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "telemetry"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "opera",
+      "name": "Opera",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "browser"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "oracle",
+      "name": "Oracle",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "database"
+      ],
+      "altnames": [
+        "oracledatabase"
+      ]
+    },
+    {
+      "slug": "ory",
+      "name": "Ory",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "library",
+        "open-source",
+        "security"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "p5js",
+      "name": "P5js",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "javascript",
+        "js",
+        "library"
+      ],
+      "altnames": [
+        "p5.js"
+      ]
+    },
+    {
+      "slug": "packer",
+      "name": "Packer",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "infrastructure",
+        "infrastructure-as-code",
+        "continuous-delivery"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "pandas",
+      "name": "Pandas",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "library",
+        "python"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "passport",
+      "name": "Passport",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark"
+      ],
+      "tags": [
+        "authentication",
+        "security"
+      ],
+      "altnames": [
+        "passportjs"
+      ]
+    },
+    {
+      "slug": "perl",
+      "name": "Perl",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "pfsense",
+      "name": "Pfsense",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "cloud",
+        "network",
+        "open-source",
+        "security",
+        "software"
+      ],
+      "altnames": [
+        "pfSense"
+      ]
+    },
+    {
+      "slug": "phalcon",
+      "name": "Phalcon",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "php",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "phoenix",
+      "name": "Phoenix",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "build",
+        "web",
+        "web-development",
+        "development",
+        "elixir"
+      ],
+      "altnames": [
+        "Phoenix Framework"
+      ]
+    },
+    {
+      "slug": "photonengine",
+      "name": "Photonengine",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "game",
+        "game-engine"
+      ],
+      "altnames": [
+        "photon"
+      ]
+    },
+    {
+      "slug": "photoshop",
+      "name": "Photoshop",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "editor",
+        "graphic"
+      ],
+      "altnames": [
+        "adobephotoshop"
+      ]
+    },
+    {
+      "slug": "php",
+      "name": "Php",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": [
+        "PHP Hypertext Preprocessor",
+        "Personal Home Page"
+      ]
+    },
+    {
+      "slug": "phpstorm",
+      "name": "Phpstorm",
+      "styles": [
+        "original",
+        "plain",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "jetbrains",
+        "editor",
+        "php",
+        "web",
+        "html"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "pixijs",
+      "name": "Pixijs",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "animation",
+        "graphics",
+        "html",
+        "javascript",
+        "library",
+        "visualization",
+        "ui"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "playwright",
+      "name": "Playwright",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "testing",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "plotly",
+      "name": "Plotly",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "frontend",
+        "machine-learning",
+        "dashboard"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "pm2",
+      "name": "Pm2",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "nodejs",
+        "javascript",
+        "js",
+        "manager",
+        "monitoring"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "pnpm",
+      "name": "Pnpm",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "package",
+        "manager"
+      ],
+      "altnames": [
+        "performant npm"
+      ]
+    },
+    {
+      "slug": "podman",
+      "name": "Podman",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "container",
+        "pods",
+        "docker"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "poetry",
+      "name": "Poetry",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "package-manager",
+        "python"
+      ],
+      "altnames": [
+        "python-poetry"
+      ]
+    },
+    {
+      "slug": "polygon",
+      "name": "Polygon",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "ethereum",
+        "erc20",
+        "blockchain"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "portainer",
+      "name": "Portainer",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "docker",
+        "kubernetes",
+        "orchestrator"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "postcss",
+      "name": "Postcss",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "pre-processor",
+        "css",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "postgresql",
+      "name": "Postgresql",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "database"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "postman",
+      "name": "Postman",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "tool",
+        "testing"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "powershell",
+      "name": "Powershell",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "command-line",
+        "shell",
+        "terminal",
+        "cli",
+        "windows",
+        "cmdlets"
+      ],
+      "altnames": [
+        "ps"
+      ]
+    },
+    {
+      "slug": "premierepro",
+      "name": "Premierepro",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "editor",
+        "video"
+      ],
+      "altnames": [
+        "adobepremierepro"
+      ]
+    },
+    {
+      "slug": "primeng",
+      "name": "Primeng",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "angular",
+        "ui",
+        "component",
+        "library",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "prisma",
+      "name": "Prisma",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "orm",
+        "nodejs",
+        "typescript"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "processing",
+      "name": "Processing",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "java",
+        "python",
+        "android",
+        "application",
+        "ide",
+        "framework"
+      ],
+      "altnames": [
+        "processingpy"
+      ]
+    },
+    {
+      "slug": "processwire",
+      "name": "Processwire",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "cms",
+        "php",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "prolog",
+      "name": "Prolog",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "logic",
+        "language",
+        "open-source"
+      ],
+      "altnames": [
+        "swi-prolog"
+      ]
+    },
+    {
+      "slug": "prometheus",
+      "name": "Prometheus",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "monitoring",
+        "observability",
+        "analysis"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "protractor",
+      "name": "Protractor",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "javascript"
+      ],
+      "altnames": [
+        "protractorjs",
+        "protractortest"
+      ]
+    },
+    {
+      "slug": "proxmox",
+      "name": "Proxmox",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "container",
+        "lxc",
+        "virtual machine"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "pug",
+      "name": "Pug",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "framework",
+        "javascript",
+        "nodejs"
+      ],
+      "altnames": [
+        "pugjs"
+      ]
+    },
+    {
+      "slug": "pulsar",
+      "name": "Pulsar",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "open-source",
+        "cross-platform",
+        "editor"
+      ],
+      "altnames": [
+        "Pulsar Edit"
+      ]
+    },
+    {
+      "slug": "pulumi",
+      "name": "Pulumi",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "infrastructure-as-code",
+        "cloud"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "puppeteer",
+      "name": "Puppeteer",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "open-source",
+        "devtools protocol",
+        "testing",
+        "extension"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "purescript",
+      "name": "Purescript",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "functional",
+        "programming",
+        "javascript"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "putty",
+      "name": "Putty",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "ssh",
+        "server"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "pycharm",
+      "name": "Pycharm",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "jetbrains",
+        "editor"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "pypi",
+      "name": "Pypi",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "python",
+        "package",
+        "programming"
+      ],
+      "altnames": [
+        "Python Package Index"
+      ]
+    },
+    {
+      "slug": "pyscript",
+      "name": "Pyscript",
+      "styles": [
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "browser",
+        "python",
+        "html",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "pytest",
+      "name": "Pytest",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "python",
+        "framework",
+        "testing"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "python",
+      "name": "Python",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "pytorch",
+      "name": "Pytorch",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "framework",
+        "machine-learning",
+        "python"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "qodana",
+      "name": "Qodana",
+      "styles": [
+        "original",
+        "plain",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "jetbrains",
+        "code quality",
+        "security"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "qt",
+      "name": "Qt",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "qtest",
+      "name": "Qtest",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "testing"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "quarkus",
+      "name": "Quarkus",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "java",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "quasar",
+      "name": "Quasar",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "javascript"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "qwik",
+      "name": "Qwik",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "r",
+      "name": "R",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": [
+        "rlang"
+      ]
+    },
+    {
+      "slug": "rabbitmq",
+      "name": "Rabbitmq",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "message-broker",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "racket",
+      "name": "Racket",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "radstudio",
+      "name": "Radstudio",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "editor",
+        "IDE"
+      ],
+      "altnames": [
+        "RAD Studio"
+      ]
+    },
+    {
+      "slug": "rails",
+      "name": "Rails",
+      "styles": [
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": [
+        "rubyonrails"
+      ]
+    },
+    {
+      "slug": "railway",
+      "name": "Railway",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "hosting",
+        "platform",
+        "deployment"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "rancher",
+      "name": "Rancher",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "kubernetes",
+        "orchestrator"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "raspberrypi",
+      "name": "Raspberrypi",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "arm",
+        "computer"
+      ],
+      "altnames": [
+        "rpi"
+      ]
+    },
+    {
+      "slug": "reach",
+      "name": "Reach",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "web3",
+        "blockchain",
+        "development"
+      ],
+      "altnames": [
+        "Reach Lang"
+      ]
+    },
+    {
+      "slug": "react",
+      "name": "React",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": [
+        "reactjs"
+      ]
+    },
+    {
+      "slug": "reactbootstrap",
+      "name": "Reactbootstrap",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "framework",
+        "library",
+        "frontend",
+        "reactjs",
+        "javascript"
+      ],
+      "altnames": [
+        "React-Bootstrap",
+        "react bootstrap"
+      ]
+    },
+    {
+      "slug": "reactnative",
+      "name": "Reactnative",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": [
+        "react-native"
+      ]
+    },
+    {
+      "slug": "reactnavigation",
+      "name": "Reactnavigation",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "routing",
+        "navigation",
+        "react native",
+        "app",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "reactrouter",
+      "name": "Reactrouter",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "react"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "readthedocs",
+      "name": "Readthedocs",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark"
+      ],
+      "tags": [
+        "documentation",
+        "python",
+        "open-source"
+      ],
+      "altnames": [
+        "Read The Docs"
+      ]
+    },
+    {
+      "slug": "realm",
+      "name": "Realm",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "sql",
+        "database",
+        "cloud"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "rect",
+      "name": "Rect",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": [
+        "rectlang"
+      ]
+    },
+    {
+      "slug": "redhat",
+      "name": "Redhat",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "server",
+        "linux"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "redis",
+      "name": "Redis",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "server"
+      ],
+      "altnames": [
+        "remotedictionaryserver"
+      ]
+    },
+    {
+      "slug": "redux",
+      "name": "Redux",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": [
+        "reduxjs"
+      ]
+    },
+    {
+      "slug": "reflex",
+      "name": "Reflex",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "python",
+        "web"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "remix",
+      "name": "Remix",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "fullstack",
+        "web"
+      ],
+      "altnames": [
+        "remix.run"
+      ]
+    },
+    {
+      "slug": "renpy",
+      "name": "Renpy",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "programming",
+        "game-engine",
+        "engine",
+        "python"
+      ],
+      "altnames": [
+        "Ren'Py"
+      ]
+    },
+    {
+      "slug": "replit",
+      "name": "Replit",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "software"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "rexx",
+      "name": "Rexx",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "rider",
+      "name": "Rider",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "jetbrains",
+        "ide",
+        "editor",
+        "dotnet"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "rocksdb",
+      "name": "Rocksdb",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "database"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "rockylinux",
+      "name": "Rockylinux",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "os",
+        "open-source",
+        "linux"
+      ],
+      "altnames": [
+        "rocky"
+      ]
+    },
+    {
+      "slug": "rollup",
+      "name": "Rollup",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "bundler",
+        "build",
+        "javascript"
+      ],
+      "altnames": [
+        "rollupjs",
+        "rollup.js"
+      ]
+    },
+    {
+      "slug": "ros",
+      "name": "Ros",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "robotics"
+      ],
+      "altnames": [
+        "robotoperatingsystem"
+      ]
+    },
+    {
+      "slug": "rspec",
+      "name": "Rspec",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "ruby",
+        "framework",
+        "testing"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "rstudio",
+      "name": "Rstudio",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "editor",
+        "package",
+        "statistics"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "ruby",
+      "name": "Ruby",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": [
+        "rubylang"
+      ]
+    },
+    {
+      "slug": "rubymine",
+      "name": "Rubymine",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "jetbrains",
+        "editor"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "rust",
+      "name": "Rust",
+      "styles": [
+        "original",
+        "line"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": [
+        "rustlang"
+      ]
+    },
+    {
+      "slug": "rxjs",
+      "name": "Rxjs",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "javascript",
+        "library",
+        "observability"
+      ],
+      "altnames": [
+        "Reactive Extensions for JavaScript"
+      ]
+    },
+    {
+      "slug": "safari",
+      "name": "Safari",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "browser"
+      ],
+      "altnames": [
+        "applesafari"
+      ]
+    },
+    {
+      "slug": "salesforce",
+      "name": "Salesforce",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "platform",
+        "ecommerce"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "sanity",
+      "name": "Sanity",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "CMS"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "sass",
+      "name": "Sass",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "pre-processor",
+        "css"
+      ],
+      "altnames": [
+        "scss"
+      ]
+    },
+    {
+      "slug": "scala",
+      "name": "Scala",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "language",
+        "jvm"
+      ],
+      "altnames": [
+        "scalalang"
+      ]
+    },
+    {
+      "slug": "scalingo",
+      "name": "Scalingo",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "cloud",
+        "platform",
+        "hosting"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "scikitlearn",
+      "name": "Scikitlearn",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "machine-learning",
+        "python",
+        "tool",
+        "library"
+      ],
+      "altnames": [
+        "scikit-learn",
+        "scikit",
+        "sklearn"
+      ]
+    },
+    {
+      "slug": "sdl",
+      "name": "Sdl",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "library",
+        "cross-platform",
+        "multimedia",
+        "game"
+      ],
+      "altnames": [
+        "simpledirectmedialayer"
+      ]
+    },
+    {
+      "slug": "selenium",
+      "name": "Selenium",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "webdrive",
+        "automation"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "sema",
+      "name": "Sema",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "software",
+        "development",
+        "company",
+        "code-review",
+        "open-source"
+      ],
+      "altnames": [
+        "Sema Software"
+      ]
+    },
+    {
+      "slug": "sentry",
+      "name": "Sentry",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "monitoring",
+        "analytics",
+        "metrics"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "sequelize",
+      "name": "Sequelize",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "database",
+        "language"
+      ],
+      "altnames": [
+        "sequelizejs"
+      ]
+    },
+    {
+      "slug": "shopware",
+      "name": "Shopware",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "cloud",
+        "platform"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "shotgrid",
+      "name": "Shotgrid",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark"
+      ],
+      "tags": [
+        "web-application",
+        "autodesk",
+        "project-management",
+        "pipeline",
+        "production-tool",
+        "production-tracking"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "sketch",
+      "name": "Sketch",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "application"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "slack",
+      "name": "Slack",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "chat"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "socketio",
+      "name": "Socketio",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "library",
+        "networking",
+        "websockets"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "solidity",
+      "name": "Solidity",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "programming",
+        "language",
+        "blockchain"
+      ],
+      "altnames": [
+        "soliditylang"
+      ]
+    },
+    {
+      "slug": "solidjs",
+      "name": "Solidjs",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "javascript",
+        "framework",
+        "frontend"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "sonarqube",
+      "name": "Sonarqube",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "tool",
+        "security"
+      ],
+      "altnames": [
+        "sonar"
+      ]
+    },
+    {
+      "slug": "sourceengine",
+      "name": "Sourceengine",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "game-engine",
+        "valve",
+        "javascript"
+      ],
+      "altnames": [
+        "source engine"
+      ]
+    },
+    {
+      "slug": "sourcetree",
+      "name": "Sourcetree",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "version-control"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "spack",
+      "name": "Spack",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "package-manager",
+        "package",
+        "manager",
+        "python",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "spicedb",
+      "name": "Spicedb",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "database",
+        "authorization",
+        "access-control",
+        "Zanzibar"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "splunk",
+      "name": "Splunk",
+      "styles": [
+        "original-wordmark"
+      ],
+      "tags": [
+        "platform",
+        "data",
+        "log",
+        "monitoring"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "spring",
+      "name": "Spring",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": [
+        "springframework"
+      ]
+    },
+    {
+      "slug": "spss",
+      "name": "Spss",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "package",
+        "statistics"
+      ],
+      "altnames": [
+        "ibmspss"
+      ]
+    },
+    {
+      "slug": "spyder",
+      "name": "Spyder",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "python",
+        "ide",
+        "editor",
+        "data-science"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "sqlalchemy",
+      "name": "Sqlalchemy",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "python",
+        "orm"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "sqldeveloper",
+      "name": "Sqldeveloper",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "tool",
+        "database"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "sqlite",
+      "name": "Sqlite",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "sql",
+        "database",
+        "db"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "ssh",
+      "name": "Ssh",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "security"
+      ],
+      "altnames": [
+        "secureshell"
+      ]
+    },
+    {
+      "slug": "stackblitz",
+      "name": "Stackblitz",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "IDE",
+        "editor",
+        "remote-development"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "stackoverflow",
+      "name": "Stackoverflow",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "website",
+        "development",
+        "community"
+      ],
+      "altnames": [
+        "Stack Overflow"
+      ]
+    },
+    {
+      "slug": "stata",
+      "name": "Stata",
+      "styles": [
+        "original-wordmark"
+      ],
+      "tags": [
+        "analysis",
+        "data",
+        "data-science",
+        "software",
+        "statistics"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "stenciljs",
+      "name": "Stenciljs",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "ui"
+      ],
+      "altnames": [
+        "stencil"
+      ]
+    },
+    {
+      "slug": "storybook",
+      "name": "Storybook",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "documentation",
+        "ui"
+      ],
+      "altnames": [
+        "storybookjs"
+      ]
+    },
+    {
+      "slug": "streamlit",
+      "name": "Streamlit",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "python",
+        "machine-learning",
+        "data-science"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "styledcomponents",
+      "name": "Styledcomponents",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "css",
+        "javascript",
+        "js",
+        "library",
+        "nodejs",
+        "web"
+      ],
+      "altnames": [
+        "Styled Components",
+        "styled-components"
+      ]
+    },
+    {
+      "slug": "stylus",
+      "name": "Stylus",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "css",
+        "pre-processor"
+      ],
+      "altnames": [
+        "styluslang"
+      ]
+    },
+    {
+      "slug": "subversion",
+      "name": "Subversion",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "svn",
+        "version"
+      ],
+      "altnames": [
+        "apachesubversion"
+      ]
+    },
+    {
+      "slug": "sulu",
+      "name": "Sulu",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "cms",
+        "platform"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "supabase",
+      "name": "Supabase",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "authentication",
+        "cloud-computing-platform",
+        "database",
+        "storage"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "surrealdb",
+      "name": "Surrealdb",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "db",
+        "database",
+        "storage"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "svelte",
+      "name": "Svelte",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "javascript",
+        "framework",
+        "compiler"
+      ],
+      "altnames": [
+        "sveltejs"
+      ]
+    },
+    {
+      "slug": "svgo",
+      "name": "Svgo",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "svg",
+        "optimization",
+        "tool",
+        "javascript",
+        "library",
+        "node.js"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "swagger",
+      "name": "Swagger",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "development",
+        "software",
+        "tool"
+      ],
+      "altnames": [
+        "Swagger"
+      ]
+    },
+    {
+      "slug": "swift",
+      "name": "Swift",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "swiper",
+      "name": "Swiper",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "library",
+        "javascript",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "symfony",
+      "name": "Symfony",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "php"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "tailwindcss",
+      "name": "Tailwindcss",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "css",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "talos",
+      "name": "Talos",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "container",
+        "linux",
+        "distribution"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "tauri",
+      "name": "Tauri",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "nodejs",
+        "rust",
+        "desktop",
+        "framework",
+        "programming"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "teleport",
+      "name": "Teleport",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "ssh",
+        "security",
+        "auth",
+        "authentication",
+        "infrastructure"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "tensorflow",
+      "name": "Tensorflow",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "library",
+        "machine-learning",
+        "deep-learning"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "terraform",
+      "name": "Terraform",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "deployment",
+        "architecture",
+        "automation"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "terramate",
+      "name": "Terramate",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "deployment",
+        "devops",
+        "automation"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "tex",
+      "name": "Tex",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "typesetting-system",
+        "markup",
+        "tex"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "thealgorithms",
+      "name": "Thealgorithms",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "organization",
+        "algorithms"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "threedsmax",
+      "name": "Threedsmax",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "3d",
+        "programming",
+        "vfx",
+        "graphic",
+        "graphics",
+        "game",
+        "animation"
+      ],
+      "altnames": [
+        "Autodesk 3ds Max",
+        "3dsmax"
+      ]
+    },
+    {
+      "slug": "threejs",
+      "name": "Threejs",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "javascript",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "thymeleaf",
+      "name": "Thymeleaf",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "engine",
+        "html",
+        "java",
+        "server"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "titaniumsdk",
+      "name": "Titaniumsdk",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "app",
+        "mobile",
+        "javascript",
+        "cross-platform",
+        "sdk"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "tmux",
+      "name": "Tmux",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "cli",
+        "terminal",
+        "multiplexer"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "tomcat",
+      "name": "Tomcat",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "server"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "tortoisegit",
+      "name": "Tortoisegit",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "git"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "towergit",
+      "name": "Towergit",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "git"
+      ],
+      "altnames": [
+        "towergitclient"
+      ]
+    },
+    {
+      "slug": "traefikmesh",
+      "name": "Traefikmesh",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "mesh",
+        "kubernetes"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "traefikproxy",
+      "name": "Traefikproxy",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "proxy",
+        "router"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "travis",
+      "name": "Travis",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "platform",
+        "integration"
+      ],
+      "altnames": [
+        "travisci"
+      ]
+    },
+    {
+      "slug": "trello",
+      "name": "Trello",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "platform",
+        "organize"
+      ],
+      "altnames": [
+        "atlassiantrello"
+      ]
+    },
+    {
+      "slug": "trpc",
+      "name": "Trpc",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "typescript",
+        "javascript",
+        "typesafe",
+        "api"
+      ],
+      "altnames": [
+        "Typescript Remote Procedure Call"
+      ]
+    },
+    {
+      "slug": "turbo",
+      "name": "Turbo",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "spa",
+        "js"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "twilio",
+      "name": "Twilio",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "api",
+        "automation",
+        "platform"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "twitter",
+      "name": "Twitter",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "auth"
+      ],
+      "altnames": [
+        "x"
+      ]
+    },
+    {
+      "slug": "typescript",
+      "name": "Typescript",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "programming",
+        "transpiler",
+        "javascript",
+        "language"
+      ],
+      "altnames": [
+        "ts"
+      ]
+    },
+    {
+      "slug": "typo3",
+      "name": "Typo3",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "cms",
+        "php"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "ubuntu",
+      "name": "Ubuntu",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "os",
+        "open-source",
+        "linux"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "unifiedmodelinglanguage",
+      "name": "Unifiedmodelinglanguage",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "modeling",
+        "design",
+        "language"
+      ],
+      "altnames": [
+        "uml",
+        "unified modeling language"
+      ]
+    },
+    {
+      "slug": "unity",
+      "name": "Unity",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "C#",
+        "c-sharp",
+        "csharp",
+        "engine",
+        "game-engine"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "unix",
+      "name": "Unix",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "os"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "unrealengine",
+      "name": "Unrealengine",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "c++",
+        "engine",
+        "game-engine"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "uwsgi",
+      "name": "Uwsgi",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "hosting"
+      ],
+      "altnames": [
+        "uwebservergatewayinterface"
+      ]
+    },
+    {
+      "slug": "v8",
+      "name": "V8",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "javascript-runtime",
+        "framework",
+        "javascript",
+        "web",
+        "cpp"
+      ],
+      "altnames": [
+        "v8 engine"
+      ]
+    },
+    {
+      "slug": "vaadin",
+      "name": "Vaadin",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "java",
+        "web"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "vagrant",
+      "name": "Vagrant",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "platform"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "vala",
+      "name": "Vala",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "vault",
+      "name": "Vault",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "tool",
+        "security",
+        "infrastructure"
+      ],
+      "altnames": [
+        "HashiCorp Vault"
+      ]
+    },
+    {
+      "slug": "veevalidate",
+      "name": "Veevalidate",
+      "styles": [
+        "original",
+        "line"
+      ],
+      "tags": [
+        "vuejs",
+        "vuejs-library",
+        "package"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "vercel",
+      "name": "Vercel",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "hosting",
+        "platform",
+        "deployment",
+        "git"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "vertx",
+      "name": "Vertx",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "sdk",
+        "java",
+        "framework"
+      ],
+      "altnames": [
+        "eclipsevertx"
+      ]
+    },
+    {
+      "slug": "vim",
+      "name": "Vim",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "editor"
+      ],
+      "altnames": [
+        "viimproved"
+      ]
+    },
+    {
+      "slug": "visualbasic",
+      "name": "Visualbasic",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": [
+        "vb"
+      ]
+    },
+    {
+      "slug": "visualstudio",
+      "name": "Visualstudio",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "editor"
+      ],
+      "altnames": [
+        "vs"
+      ]
+    },
+    {
+      "slug": "vite",
+      "name": "Vite",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "web3",
+        "blockchain",
+        "DAG"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "vitejs",
+      "name": "Vitejs",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "javascript",
+        "build",
+        "compiler",
+        "esbuild"
+      ],
+      "altnames": [
+        "vite.js",
+        "Vite"
+      ]
+    },
+    {
+      "slug": "vitess",
+      "name": "Vitess",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "sharding",
+        "database",
+        "mysql"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "vitest",
+      "name": "Vitest",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "framework",
+        "open-source",
+        "testing",
+        "vite"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "vscode",
+      "name": "Vscode",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "editor",
+        "ide"
+      ],
+      "altnames": [
+        "visualstudiocode"
+      ]
+    },
+    {
+      "slug": "vscodium",
+      "name": "Vscodium",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "editor",
+        "ide",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "vsphere",
+      "name": "Vsphere",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "hypervisor",
+        "operating-system",
+        "vmware"
+      ],
+      "altnames": [
+        "vmwarevsphere"
+      ]
+    },
+    {
+      "slug": "vuejs",
+      "name": "Vuejs",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "vuestorefront",
+      "name": "Vuestorefront",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "vuetify",
+      "name": "Vuetify",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "css",
+        "framework",
+        "vuejs-library",
+        "material-design"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "vulkan",
+      "name": "Vulkan",
+      "styles": [
+        "original",
+        "line"
+      ],
+      "tags": [
+        "api",
+        "3d",
+        "library",
+        "graphics",
+        "game"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "vyper",
+      "name": "Vyper",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "blockchain",
+        "ethereum",
+        "language",
+        "programming",
+        "python"
+      ],
+      "altnames": [
+        "vyperlang"
+      ]
+    },
+    {
+      "slug": "waku",
+      "name": "Waku",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "react",
+        "javascript",
+        "framework",
+        "web"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "wasm",
+      "name": "Wasm",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "binary",
+        "programming",
+        "virtual machine",
+        "web",
+        "language"
+      ],
+      "altnames": [
+        "WebAssembly"
+      ]
+    },
+    {
+      "slug": "web3js",
+      "name": "Web3js",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "blockchain",
+        "ecommerce"
+      ],
+      "altnames": [
+        "web3.js"
+      ]
+    },
+    {
+      "slug": "webflow",
+      "name": "Webflow",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "cms",
+        "ecommerce"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "webgpu",
+      "name": "Webgpu",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "graphics",
+        "framework",
+        "web"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "weblate",
+      "name": "Weblate",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "localization"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "webpack",
+      "name": "Webpack",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "package",
+        "manager"
+      ],
+      "altnames": [
+        "webpackjs"
+      ]
+    },
+    {
+      "slug": "webstorm",
+      "name": "Webstorm",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "jetbrains",
+        "editor"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "windows11",
+      "name": "Windows11",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "os"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "windows8",
+      "name": "Windows8",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "os"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "wolfram",
+      "name": "Wolfram",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "data-science",
+        "functional",
+        "programming"
+      ],
+      "altnames": [
+        "wolframlanguage"
+      ]
+    },
+    {
+      "slug": "woocommerce",
+      "name": "Woocommerce",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "ecommerce"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "wordpress",
+      "name": "Wordpress",
+      "styles": [
+        "original",
+        "plain",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "cms"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "xamarin",
+      "name": "Xamarin",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "application",
+        "programming",
+        "editor",
+        "ide",
+        "ios",
+        "mobile",
+        "apple",
+        "android",
+        "windows"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "xcode",
+      "name": "Xcode",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "application",
+        "editor",
+        "ide",
+        "ios",
+        "iphone",
+        "mobile",
+        "apple"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "xd",
+      "name": "Xd",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "design",
+        "editor",
+        "ui"
+      ],
+      "altnames": [
+        "adobexd"
+      ]
+    },
+    {
+      "slug": "xml",
+      "name": "Xml",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "markup",
+        "language"
+      ],
+      "altnames": [
+        "extensiblemarkuplanguage"
+      ]
+    },
+    {
+      "slug": "yaml",
+      "name": "Yaml",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "data",
+        "language"
+      ],
+      "altnames": [
+        "YAML Ain't Markup Language"
+      ]
+    },
+    {
+      "slug": "yarn",
+      "name": "Yarn",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "package",
+        "manager",
+        "javascript",
+        "js"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "yii",
+      "name": "Yii",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "php",
+        "framework"
+      ],
+      "altnames": [
+        "yesitis"
+      ]
+    },
+    {
+      "slug": "yugabytedb",
+      "name": "Yugabytedb",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "database",
+        "relational",
+        "sql",
+        "scale",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "yunohost",
+      "name": "Yunohost",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "os"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "zend",
+      "name": "Zend",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "php",
+        "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "zig",
+      "name": "Zig",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "language"
+      ],
+      "altnames": [
+        "ziglang"
+      ]
+    },
+    {
+      "slug": "zsh",
+      "name": "Zsh",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "shell",
+        "script",
+        "scripting",
+        "language",
+        "command"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "zustand",
+      "name": "Zustand",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "framework"
+      ],
+      "altnames": []
+    }
+  ]
+}

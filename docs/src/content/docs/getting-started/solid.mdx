@@ -1,0 +1,28 @@
+---
+title: Solid
+description: Typed SolidJS components with DOM, SSR, and solid-condition builds.
+---
+
+[Devicons](https://github.com/devicons/devicon) as tree-shakeable,
+typed SolidJS components — 578 icons in `original`, `plain`, `line`, and their `-wordmark` variants.
+Ships DOM, SSR, and `solid`-condition JSX source builds.
+
+## Install
+
+```sh
+pnpm add @devicons-pack/solid
+```
+
+## Usage
+
+```tsx
+import {Javascript} from '@devicons-pack/solid/original';
+// or per-icon: import Javascript from '@devicons-pack/solid/plain-wordmark/nodejs';
+
+<Javascript width={32} />
+<Javascript title="Amazon EC2" />  // accessible: role="img" + aria-label
+```
+
+Styles: `@devicons-pack/solid/original`, `/plain`, `/line`, `/original-wordmark`, `/plain-wordmark`, `/line-wordmark`.
+Extra props land on the root `<svg>`. Without `title` the icon is `aria-hidden`.
+

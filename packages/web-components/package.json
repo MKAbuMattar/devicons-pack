@@ -1,0 +1,103 @@
+{
+  "name": "@devicons-pack/web-components",
+  "version": "1.6.0",
+  "description": "Devicons as a framework-less <dev-icon> custom element with tree-shakeable icon data (flat, high-contrast, modern).",
+  "keywords": [
+    "devicons",
+    "icon",
+    "dev-icon",
+    "icons",
+    "svg",
+    "web-components",
+    "custom-elements"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MKAbuMattar/devicons-pack.git",
+    "directory": "packages/web-components"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/devicons-pack/issues"
+  },
+  "homepage": "https://devicons-pack.mkabumattar.com/",
+  "type": "module",
+  "sideEffects": false,
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./original": {
+      "types": "./dist/original/index.d.ts",
+      "default": "./dist/original/index.js"
+    },
+    "./original/*": {
+      "types": "./dist/original/icons/*.d.ts",
+      "default": "./dist/original/icons/*.js"
+    },
+    "./plain": {
+      "types": "./dist/plain/index.d.ts",
+      "default": "./dist/plain/index.js"
+    },
+    "./plain/*": {
+      "types": "./dist/plain/icons/*.d.ts",
+      "default": "./dist/plain/icons/*.js"
+    },
+    "./line": {
+      "types": "./dist/line/index.d.ts",
+      "default": "./dist/line/index.js"
+    },
+    "./line/*": {
+      "types": "./dist/line/icons/*.d.ts",
+      "default": "./dist/line/icons/*.js"
+    },
+    "./original-wordmark": {
+      "types": "./dist/original-wordmark/index.d.ts",
+      "default": "./dist/original-wordmark/index.js"
+    },
+    "./original-wordmark/*": {
+      "types": "./dist/original-wordmark/icons/*.d.ts",
+      "default": "./dist/original-wordmark/icons/*.js"
+    },
+    "./plain-wordmark": {
+      "types": "./dist/plain-wordmark/index.d.ts",
+      "default": "./dist/plain-wordmark/index.js"
+    },
+    "./plain-wordmark/*": {
+      "types": "./dist/plain-wordmark/icons/*.d.ts",
+      "default": "./dist/plain-wordmark/icons/*.js"
+    },
+    "./line-wordmark": {
+      "types": "./dist/line-wordmark/index.d.ts",
+      "default": "./dist/line-wordmark/index.js"
+    },
+    "./line-wordmark/*": {
+      "types": "./dist/line-wordmark/icons/*.d.ts",
+      "default": "./dist/line-wordmark/icons/*.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --out-dir dist && tsx build.ts",
+    "test": "tsx test/smoke.ts"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "happy-dom": "^20.0.11",
+    "tsup": "^8.5.0",
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3"
+  }
+}

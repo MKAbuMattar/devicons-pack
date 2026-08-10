@@ -1,0 +1,22 @@
+{
+  "name": "@devicons-pack/docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "pnpm -F @devicons-pack/svg -F @devicons-pack/react build && node copy-assets.mjs && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/react": "^6.0.2",
+    "@astrojs/starlight": "^0.41.7",
+    "@devicons-pack/astro": "workspace:*",
+    "@devicons-pack/react": "workspace:*",
+    "@devicons-pack/svg": "workspace:*",
+    "astro": "^7.2.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "sharp": "^0.35.3",
+    "starlight-versions": "^0.9.1"
+  }
+}

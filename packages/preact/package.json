@@ -1,0 +1,185 @@
+{
+  "name": "@devicons-pack/preact",
+  "version": "1.6.0",
+  "description": "Devicons as tree-shakeable typed Preact components (flat, high-contrast, modern).",
+  "keywords": [
+    "devicons",
+    "icon",
+    "dev-icon",
+    "icons",
+    "svg",
+    "preact"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MKAbuMattar/devicons-pack.git",
+    "directory": "packages/preact"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/devicons-pack/issues"
+  },
+  "homepage": "https://devicons-pack.mkabumattar.com/",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/core.cjs",
+  "module": "./dist/core.js",
+  "types": "./dist/core.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/core.d.ts",
+        "default": "./dist/core.js"
+      },
+      "require": {
+        "types": "./dist/core.d.cts",
+        "default": "./dist/core.cjs"
+      }
+    },
+    "./original": {
+      "import": {
+        "types": "./dist/original/index.d.ts",
+        "default": "./dist/original/index.js"
+      },
+      "require": {
+        "types": "./dist/original/index.d.cts",
+        "default": "./dist/original/index.cjs"
+      }
+    },
+    "./original/*": {
+      "import": {
+        "types": "./dist/original/icons/*.d.ts",
+        "default": "./dist/original/icons/*.js"
+      },
+      "require": {
+        "types": "./dist/original/icons/*.d.cts",
+        "default": "./dist/original/icons/*.cjs"
+      }
+    },
+    "./plain": {
+      "import": {
+        "types": "./dist/plain/index.d.ts",
+        "default": "./dist/plain/index.js"
+      },
+      "require": {
+        "types": "./dist/plain/index.d.cts",
+        "default": "./dist/plain/index.cjs"
+      }
+    },
+    "./plain/*": {
+      "import": {
+        "types": "./dist/plain/icons/*.d.ts",
+        "default": "./dist/plain/icons/*.js"
+      },
+      "require": {
+        "types": "./dist/plain/icons/*.d.cts",
+        "default": "./dist/plain/icons/*.cjs"
+      }
+    },
+    "./line": {
+      "import": {
+        "types": "./dist/line/index.d.ts",
+        "default": "./dist/line/index.js"
+      },
+      "require": {
+        "types": "./dist/line/index.d.cts",
+        "default": "./dist/line/index.cjs"
+      }
+    },
+    "./line/*": {
+      "import": {
+        "types": "./dist/line/icons/*.d.ts",
+        "default": "./dist/line/icons/*.js"
+      },
+      "require": {
+        "types": "./dist/line/icons/*.d.cts",
+        "default": "./dist/line/icons/*.cjs"
+      }
+    },
+    "./original-wordmark": {
+      "import": {
+        "types": "./dist/original-wordmark/index.d.ts",
+        "default": "./dist/original-wordmark/index.js"
+      },
+      "require": {
+        "types": "./dist/original-wordmark/index.d.cts",
+        "default": "./dist/original-wordmark/index.cjs"
+      }
+    },
+    "./original-wordmark/*": {
+      "import": {
+        "types": "./dist/original-wordmark/icons/*.d.ts",
+        "default": "./dist/original-wordmark/icons/*.js"
+      },
+      "require": {
+        "types": "./dist/original-wordmark/icons/*.d.cts",
+        "default": "./dist/original-wordmark/icons/*.cjs"
+      }
+    },
+    "./plain-wordmark": {
+      "import": {
+        "types": "./dist/plain-wordmark/index.d.ts",
+        "default": "./dist/plain-wordmark/index.js"
+      },
+      "require": {
+        "types": "./dist/plain-wordmark/index.d.cts",
+        "default": "./dist/plain-wordmark/index.cjs"
+      }
+    },
+    "./plain-wordmark/*": {
+      "import": {
+        "types": "./dist/plain-wordmark/icons/*.d.ts",
+        "default": "./dist/plain-wordmark/icons/*.js"
+      },
+      "require": {
+        "types": "./dist/plain-wordmark/icons/*.d.cts",
+        "default": "./dist/plain-wordmark/icons/*.cjs"
+      }
+    },
+    "./line-wordmark": {
+      "import": {
+        "types": "./dist/line-wordmark/index.d.ts",
+        "default": "./dist/line-wordmark/index.js"
+      },
+      "require": {
+        "types": "./dist/line-wordmark/index.d.cts",
+        "default": "./dist/line-wordmark/index.cjs"
+      }
+    },
+    "./line-wordmark/*": {
+      "import": {
+        "types": "./dist/line-wordmark/icons/*.d.ts",
+        "default": "./dist/line-wordmark/icons/*.js"
+      },
+      "require": {
+        "types": "./dist/line-wordmark/icons/*.d.cts",
+        "default": "./dist/line-wordmark/icons/*.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/core.ts --format esm,cjs --dts --out-dir dist --clean --external preact && tsx build.ts",
+    "test": "tsx test/smoke.tsx"
+  },
+  "peerDependencies": {
+    "preact": ">=10"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "preact": "^10.29.8",
+    "preact-render-to-string": "^6.7.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3"
+  }
+}

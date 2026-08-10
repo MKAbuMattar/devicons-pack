@@ -1,0 +1,55 @@
+{
+  "name": "@devicons-pack/astro",
+  "version": "1.6.0",
+  "description": "Devicons for Astro — SVG inlined at build time, zero client JS.",
+  "keywords": [
+    "devicons",
+    "icon",
+    "dev-icon",
+    "icons",
+    "svg",
+    "astro",
+    "astro-component",
+    "withastro"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MKAbuMattar/devicons-pack.git",
+    "directory": "packages/astro"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/devicons-pack/issues"
+  },
+  "homepage": "https://devicons-pack.mkabumattar.com/",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "index.ts",
+    "src"
+  ],
+  "scripts": {
+    "test": "tsx test/smoke.ts"
+  },
+  "dependencies": {
+    "@devicons-pack/svg": "workspace:^"
+  },
+  "peerDependencies": {
+    "astro": ">=4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3"
+  }
+}

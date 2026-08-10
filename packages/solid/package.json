@@ -1,0 +1,110 @@
+{
+  "name": "@devicons-pack/solid",
+  "version": "1.6.0",
+  "description": "Devicons as tree-shakeable typed SolidJS components (flat, high-contrast, modern).",
+  "keywords": [
+    "devicons",
+    "icon",
+    "dev-icon",
+    "icons",
+    "svg",
+    "solid",
+    "solidjs"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MKAbuMattar/devicons-pack.git",
+    "directory": "packages/solid"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/devicons-pack/issues"
+  },
+  "homepage": "https://devicons-pack.mkabumattar.com/",
+  "type": "module",
+  "sideEffects": false,
+  "module": "./dist/core.js",
+  "types": "./dist/core.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/core.d.ts",
+      "solid": "./dist/source/core.jsx",
+      "node": "./dist/core.ssr.js",
+      "default": "./dist/core.js"
+    },
+    "./original": {
+      "types": "./dist/original/index.d.ts",
+      "default": "./dist/original/index.js"
+    },
+    "./original/*": {
+      "types": "./dist/original/icons/*.d.ts",
+      "default": "./dist/original/icons/*.js"
+    },
+    "./plain": {
+      "types": "./dist/plain/index.d.ts",
+      "default": "./dist/plain/index.js"
+    },
+    "./plain/*": {
+      "types": "./dist/plain/icons/*.d.ts",
+      "default": "./dist/plain/icons/*.js"
+    },
+    "./line": {
+      "types": "./dist/line/index.d.ts",
+      "default": "./dist/line/index.js"
+    },
+    "./line/*": {
+      "types": "./dist/line/icons/*.d.ts",
+      "default": "./dist/line/icons/*.js"
+    },
+    "./original-wordmark": {
+      "types": "./dist/original-wordmark/index.d.ts",
+      "default": "./dist/original-wordmark/index.js"
+    },
+    "./original-wordmark/*": {
+      "types": "./dist/original-wordmark/icons/*.d.ts",
+      "default": "./dist/original-wordmark/icons/*.js"
+    },
+    "./plain-wordmark": {
+      "types": "./dist/plain-wordmark/index.d.ts",
+      "default": "./dist/plain-wordmark/index.js"
+    },
+    "./plain-wordmark/*": {
+      "types": "./dist/plain-wordmark/icons/*.d.ts",
+      "default": "./dist/plain-wordmark/icons/*.js"
+    },
+    "./line-wordmark": {
+      "types": "./dist/line-wordmark/index.d.ts",
+      "default": "./dist/line-wordmark/index.js"
+    },
+    "./line-wordmark/*": {
+      "types": "./dist/line-wordmark/icons/*.d.ts",
+      "default": "./dist/line-wordmark/icons/*.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsx build.ts",
+    "test": "tsx test/smoke.ts"
+  },
+  "peerDependencies": {
+    "solid-js": ">=1.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-typescript": "^7.28.0",
+    "babel-preset-solid": "^1.9.9",
+    "solid-js": "^1.9.9",
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3"
+  }
+}

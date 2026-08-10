@@ -1,0 +1,33 @@
+---
+title: Astro
+description: Zero-JS devicons for Astro — SVG inlined at build time.
+---
+
+[Devicons](https://github.com/devicons/devicon) for Astro —
+the SVG is inlined at build time, so pages ship **zero client JS**.
+
+## Install
+
+```sh
+pnpm add @devicons-pack/astro
+```
+
+## Usage
+
+```astro
+---
+import {Icon} from '@devicons-pack/astro';
+---
+
+<Icon name="javascript" />
+<Icon name="javascript" variant="plain" width="32" />
+<Icon name="typescript" title="Types!" />
+```
+
+- `name` — typed icon slug (578 available)
+- `variant` — `original` (default) · `plain` · `line` · `original-wordmark` · `plain-wordmark` · `line-wordmark`
+- `title` — accessible label; omitted → `aria-hidden`
+- any other attribute is passed to the root `<svg>`
+
+Need the raw string (endpoints, MDX helpers)? `loadIconSvg(name, variant, attrs)`.
+
