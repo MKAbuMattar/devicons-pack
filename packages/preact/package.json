@@ -1,6 +1,6 @@
 {
   "name": "@devicons-pack/preact",
-  "version": "1.6.0",
+  "version": "2.0.0-beta.0",
   "description": "Devicons as tree-shakeable typed Preact components (flat, high-contrast, modern).",
   "keywords": [
     "devicons",
