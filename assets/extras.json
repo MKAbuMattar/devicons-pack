@@ -49,6 +49,15 @@
       "ae"
     ]
   },
+  "aiassistant": {
+    "tags": [
+      "ai",
+      "assistant"
+    ],
+    "altnames": [
+      "AI Assistant"
+    ]
+  },
   "akka": {
     "tags": [
       "framework",
@@ -186,6 +195,15 @@
       "Airflow"
     ]
   },
+  "apacheignite": {
+    "tags": [
+      "distributed",
+      "database"
+    ],
+    "altnames": [
+      "Ignite"
+    ]
+  },
   "apachekafka": {
     "tags": [
       "streaming",
@@ -204,6 +222,14 @@
   "apex": {
     "tags": [
       "language"
+    ],
+    "altnames": []
+  },
+  "apify": {
+    "tags": [
+      "web",
+      "scraping",
+      "platform"
     ],
     "altnames": []
   },
@@ -322,6 +348,20 @@
     ],
     "altnames": [
       "microsoftazure"
+    ]
+  },
+  "azuredatafactory": {
+    "tags": [
+      "azure",
+      "ETL",
+      "cloud",
+      "big data",
+      "data-processing",
+      "data science",
+      "data-transfer"
+    ],
+    "altnames": [
+      "azure data factory"
     ]
   },
   "azuredevops": {
@@ -508,6 +548,14 @@
     ],
     "altnames": []
   },
+  "bruno": {
+    "tags": [
+      "api",
+      "tool",
+      "testing"
+    ],
+    "altnames": []
+  },
   "bulma": {
     "tags": [
       "css",
@@ -524,6 +572,16 @@
       "language"
     ],
     "altnames": []
+  },
+  "burpsuite": {
+    "tags": [
+      "application",
+      "security",
+      "testing"
+    ],
+    "altnames": [
+      "burp suite"
+    ]
   },
   "c": {
     "tags": [
@@ -589,6 +647,14 @@
     "tags": [
       "server",
       "linux"
+    ],
+    "altnames": []
+  },
+  "ceph": {
+    "tags": [
+      "distributed",
+      "storage",
+      "resilience"
     ],
     "altnames": []
   },
@@ -732,6 +798,15 @@
       "codeacio"
     ]
   },
+  "codeberg": {
+    "tags": [
+      "non-profit",
+      "git",
+      "hosting",
+      "forgejo"
+    ],
+    "altnames": []
+  },
   "codecov": {
     "tags": [
       "platform",
@@ -796,6 +871,15 @@
       "cms"
     ],
     "altnames": []
+  },
+  "cordova": {
+    "tags": [
+      "mobile",
+      "framework"
+    ],
+    "altnames": [
+      "apache cordova"
+    ]
   },
   "corejs": {
     "tags": [
@@ -871,6 +955,15 @@
       "c#"
     ]
   },
+  "css": {
+    "tags": [
+      "language",
+      "programming"
+    ],
+    "altnames": [
+      "cascadingstylesheets"
+    ]
+  },
   "css3": {
     "tags": [
       "language",
@@ -886,6 +979,17 @@
     ],
     "altnames": [
       "cucumberjs"
+    ]
+  },
+  "cursor": {
+    "tags": [
+      "ide",
+      "ai",
+      "code",
+      "editor"
+    ],
+    "altnames": [
+      "cursorai"
     ]
   },
   "cypressio": {
@@ -1191,6 +1295,12 @@
       "editingmacros"
     ]
   },
+  "emailjs": {
+    "tags": [
+      "javascript"
+    ],
+    "altnames": []
+  },
   "embeddedc": {
     "tags": [
       "language",
@@ -1358,6 +1468,15 @@
       "mozillafirefox"
     ]
   },
+  "fish": {
+    "tags": [
+      "shell",
+      "programming",
+      "language",
+      "unix"
+    ],
+    "altnames": []
+  },
   "flask": {
     "tags": [
       "python",
@@ -1369,6 +1488,14 @@
     "tags": [
       "framework",
       "sdk"
+    ],
+    "altnames": []
+  },
+  "flyway": {
+    "tags": [
+      "java",
+      "migration",
+      "database"
     ],
     "altnames": []
   },
@@ -1394,18 +1521,6 @@
     ],
     "altnames": []
   },
-  "framermotion": {
-    "tags": [
-      "library",
-      "open-source",
-      "react",
-      "animation"
-    ],
-    "altnames": [
-      "framer-motion",
-      "framer"
-    ]
-  },
   "framework7": {
     "tags": [
       "framework",
@@ -1415,6 +1530,14 @@
       "android",
       "ios",
       "open-source"
+    ],
+    "altnames": []
+  },
+  "frankenphp": {
+    "tags": [
+      "programming",
+      "language",
+      "php"
     ],
     "altnames": []
   },
@@ -1482,6 +1605,13 @@
     ],
     "altnames": []
   },
+  "ghidra": {
+    "tags": [
+      "binary-analysis",
+      "reverse-engineering"
+    ],
+    "altnames": []
+  },
   "ghost": {
     "tags": [
       "cms"
@@ -1506,6 +1636,13 @@
       "pages",
       "git",
       "markup"
+    ],
+    "altnames": []
+  },
+  "gitea": {
+    "tags": [
+      "version-control",
+      "git"
     ],
     "altnames": []
   },
@@ -1534,6 +1671,16 @@
     ],
     "altnames": [
       "GitHub Codespaces"
+    ]
+  },
+  "githubcopilot": {
+    "tags": [
+      "automation",
+      "AI",
+      "code-completion"
+    ],
+    "altnames": [
+      "github copilot"
     ]
   },
   "gitkraken": {
@@ -1582,6 +1729,16 @@
       "collaborative-environment"
     ],
     "altnames": []
+  },
+  "gnuradio": {
+    "tags": [
+      "open-source",
+      "software-radio",
+      "signal-processing"
+    ],
+    "altnames": [
+      "gnu radio"
+    ]
   },
   "go": {
     "tags": [
@@ -1738,6 +1895,13 @@
       "handlebarsjs"
     ]
   },
+  "haproxy": {
+    "tags": [
+      "proxy",
+      "loadbalancer"
+    ],
+    "altnames": []
+  },
   "harbor": {
     "tags": [
       "docker",
@@ -1778,6 +1942,16 @@
   "haxe": {
     "tags": [
       "language"
+    ],
+    "altnames": []
+  },
+  "helix": {
+    "tags": [
+      "text editor",
+      "editor",
+      "ide",
+      "IDE",
+      "open-source"
     ],
     "altnames": []
   },
@@ -1841,6 +2015,14 @@
       "html ui framework"
     ]
   },
+  "huggingface": {
+    "tags": [
+      "machinelearning",
+      "ML",
+      "AI"
+    ],
+    "altnames": []
+  },
   "hugo": {
     "tags": [
       "framework",
@@ -1862,6 +2044,14 @@
     "altnames": [
       "hyper-v"
     ]
+  },
+  "hyprland": {
+    "tags": [
+      "tiling",
+      "window manager",
+      "wayland"
+    ],
+    "altnames": []
   },
   "ie10": {
     "tags": [
@@ -1940,6 +2130,14 @@
   "ionic": {
     "tags": [
       "framework"
+    ],
+    "altnames": []
+  },
+  "istio": {
+    "tags": [
+      "service-mesh",
+      "cloud-native",
+      "kubernetes"
     ],
     "altnames": []
   },
@@ -2106,6 +2304,14 @@
       "julialang"
     ]
   },
+  "junie": {
+    "tags": [
+      "ai",
+      "coding",
+      "agent"
+    ],
+    "altnames": []
+  },
   "junit": {
     "tags": [
       "testing",
@@ -2121,6 +2327,16 @@
     ],
     "altnames": [
       "jupyternotebook"
+    ]
+  },
+  "jwt": {
+    "tags": [
+      "security",
+      "authentication",
+      "token"
+    ],
+    "altnames": [
+      "jwt.io"
     ]
   },
   "k3os": {
@@ -2418,6 +2634,12 @@
     ],
     "altnames": []
   },
+  "lovable": {
+    "tags": [
+      "ai"
+    ],
+    "altnames": []
+  },
   "love2d": {
     "tags": [
       "programming",
@@ -2440,6 +2662,18 @@
     "altnames": [
       "lualang"
     ]
+  },
+  "luau": {
+    "tags": [
+      "programming",
+      "language",
+      "object-oriented",
+      "scripting",
+      "procedural",
+      "prototype-based",
+      "functional"
+    ],
+    "altnames": []
   },
   "lumen": {
     "tags": [
@@ -2654,6 +2888,14 @@
       "moleculer.js"
     ]
   },
+  "mongock": {
+    "tags": [
+      "database",
+      "migration",
+      "nosql"
+    ],
+    "altnames": []
+  },
   "mongodb": {
     "tags": [
       "database"
@@ -2685,6 +2927,28 @@
     ],
     "altnames": []
   },
+  "motion": {
+    "tags": [
+      "library",
+      "open-source",
+      "reactjs",
+      "vuejs",
+      "js",
+      "animation"
+    ],
+    "altnames": [
+      "framer-motion",
+      "framer",
+      "framermotion"
+    ]
+  },
+  "msbuild": {
+    "tags": [
+      "build",
+      "dotnet"
+    ],
+    "altnames": []
+  },
   "msdos": {
     "tags": [
       "os"
@@ -2702,6 +2966,12 @@
       "mystructuredquerylanguage"
     ]
   },
+  "n8n": {
+    "tags": [
+      "ai"
+    ],
+    "altnames": []
+  },
   "nano": {
     "tags": [
       "text editor",
@@ -2712,6 +2982,17 @@
     "altnames": [
       "gnu-nano",
       "GNU nano"
+    ]
+  },
+  "nasm": {
+    "tags": [
+      "assembler",
+      "language",
+      "programming"
+    ],
+    "altnames": [
+      "netwideassembler",
+      "net wide assembler"
     ]
   },
   "nats": {
@@ -2913,6 +3194,13 @@
     ],
     "altnames": []
   },
+  "novelwriter": {
+    "tags": [
+      "editor",
+      "text editor"
+    ],
+    "altnames": []
+  },
   "npm": {
     "tags": [
       "package",
@@ -3005,6 +3293,13 @@
       "okta developer"
     ]
   },
+  "ollama": {
+    "tags": [
+      "llm",
+      "server"
+    ],
+    "altnames": []
+  },
   "openal": {
     "tags": [
       "library",
@@ -3080,6 +3375,13 @@
     ],
     "altnames": []
   },
+  "opnsense": {
+    "tags": [
+      "FreeBSD",
+      "firewall"
+    ],
+    "altnames": []
+  },
   "oracle": {
     "tags": [
       "database"
@@ -3128,6 +3430,15 @@
     ],
     "altnames": [
       "passportjs"
+    ]
+  },
+  "payloadcms": {
+    "tags": [
+      "cms",
+      "headless-cms"
+    ],
+    "altnames": [
+      "payload"
     ]
   },
   "perl": {
@@ -3286,6 +3597,15 @@
     ],
     "altnames": []
   },
+  "positron": {
+    "tags": [
+      "ide",
+      "data science",
+      "python",
+      "r"
+    ],
+    "altnames": []
+  },
   "postcss": {
     "tags": [
       "pre-processor",
@@ -3328,6 +3648,14 @@
     "altnames": [
       "adobepremierepro"
     ]
+  },
+  "prestashop": {
+    "tags": [
+      "ecommerce",
+      "cms",
+      "php"
+    ],
+    "altnames": []
   },
   "primeng": {
     "tags": [
@@ -3611,6 +3939,13 @@
       "rpi"
     ]
   },
+  "ravendb": {
+    "tags": [
+      "database",
+      "nosql"
+    ],
+    "altnames": []
+  },
   "reach": {
     "tags": [
       "web3",
@@ -3830,7 +4165,8 @@
   "rubymine": {
     "tags": [
       "jetbrains",
-      "editor"
+      "editor",
+      "IDE"
     ],
     "altnames": []
   },
@@ -3893,6 +4229,16 @@
       "scalalang"
     ]
   },
+  "scaleway": {
+    "tags": [
+      "cloud",
+      "hosting",
+      "server"
+    ],
+    "altnames": [
+      "scw"
+    ]
+  },
   "scalingo": {
     "tags": [
       "cloud",
@@ -3924,6 +4270,14 @@
     "altnames": [
       "simpledirectmedialayer"
     ]
+  },
+  "seaborn": {
+    "tags": [
+      "python",
+      "library",
+      "visualization"
+    ],
+    "altnames": []
   },
   "selenium": {
     "tags": [
@@ -3960,6 +4314,27 @@
     "altnames": [
       "sequelizejs"
     ]
+  },
+  "sfml": {
+    "tags": [
+      "graphics",
+      "game",
+      "development",
+      "c++"
+    ],
+    "altnames": [
+      "Simple and Fast Multimedia",
+      "Simple and Fast Multimedia Library"
+    ]
+  },
+  "shadcn": {
+    "tags": [
+      "ui",
+      "components",
+      "reactjs",
+      "library"
+    ],
+    "altnames": []
   },
   "shopware": {
     "tags": [
@@ -4144,6 +4519,14 @@
       "Stack Overflow"
     ]
   },
+  "starship": {
+    "tags": [
+      "shell",
+      "terminal",
+      "tool"
+    ],
+    "altnames": []
+  },
   "stata": {
     "tags": [
       "analysis",
@@ -4162,6 +4545,15 @@
     "altnames": [
       "stencil"
     ]
+  },
+  "stimulus": {
+    "tags": [
+      "framework",
+      "javascript",
+      "js",
+      "library"
+    ],
+    "altnames": []
   },
   "storybook": {
     "tags": [
@@ -4314,6 +4706,15 @@
     ],
     "altnames": []
   },
+  "teamcity": {
+    "tags": [
+      "cicd",
+      "build",
+      "pipelines",
+      "testing"
+    ],
+    "altnames": []
+  },
   "teleport": {
     "tags": [
       "ssh",
@@ -4332,6 +4733,15 @@
     ],
     "altnames": []
   },
+  "tenzir": {
+    "tags": [
+      "security",
+      "logs",
+      "monitoring",
+      "pipeline"
+    ],
+    "altnames": []
+  },
   "terraform": {
     "tags": [
       "deployment",
@@ -4345,6 +4755,13 @@
       "deployment",
       "devops",
       "automation"
+    ],
+    "altnames": []
+  },
+  "testrail": {
+    "tags": [
+      "testing",
+      "tool"
     ],
     "altnames": []
   },
@@ -4391,6 +4808,14 @@
       "html",
       "java",
       "server"
+    ],
+    "altnames": []
+  },
+  "tigerbeetle": {
+    "tags": [
+      "database",
+      "performance",
+      "zig"
     ],
     "altnames": []
   },
@@ -4498,6 +4923,23 @@
       "x"
     ]
   },
+  "typeorm": {
+    "tags": [
+      "database",
+      "orm",
+      "typescript",
+      "javascript"
+    ],
+    "altnames": []
+  },
+  "typer": {
+    "tags": [
+      "cli"
+    ],
+    "altnames": [
+      "fastapi"
+    ]
+  },
   "typescript": {
     "tags": [
       "programming",
@@ -4559,6 +5001,15 @@
     ],
     "altnames": []
   },
+  "uv": {
+    "tags": [
+      "python",
+      "environment",
+      "package",
+      "manager"
+    ],
+    "altnames": []
+  },
   "uwsgi": {
     "tags": [
       "hosting"
@@ -4597,6 +5048,15 @@
     "tags": [
       "programming",
       "language"
+    ],
+    "altnames": []
+  },
+  "vapor": {
+    "tags": [
+      "programming",
+      "server",
+      "backend",
+      "swift"
     ],
     "altnames": []
   },
@@ -4848,6 +5308,13 @@
     ],
     "altnames": []
   },
+  "wireguard": {
+    "tags": [
+      "linux",
+      "vpn"
+    ],
+    "altnames": []
+  },
   "wolfram": {
     "tags": [
       "data-science",
@@ -4942,6 +5409,15 @@
       "yesitis"
     ]
   },
+  "youtrack": {
+    "tags": [
+      "planning",
+      "project",
+      "management",
+      "team"
+    ],
+    "altnames": []
+  },
   "yugabytedb": {
     "tags": [
       "database",
@@ -4955,6 +5431,13 @@
   "yunohost": {
     "tags": [
       "os"
+    ],
+    "altnames": []
+  },
+  "zed": {
+    "tags": [
+      "editor",
+      "IDE"
     ],
     "altnames": []
   },

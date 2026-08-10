@@ -1,5 +1,5 @@
 {
-  "count": 578,
+  "count": 634,
   "styles": [
     "original",
     "plain",
@@ -92,6 +92,23 @@
       ]
     },
     {
+      "slug": "aiassistant",
+      "name": "Aiassistant",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "ai",
+        "assistant"
+      ],
+      "altnames": [
+        "AI Assistant"
+      ]
+    },
+    {
       "slug": "akka",
       "name": "Akka",
       "styles": [
@@ -162,9 +179,9 @@
       "slug": "amazonwebservices",
       "name": "Amazonwebservices",
       "styles": [
-        "original-wordmark",
-        "plain-wordmark",
-        "line-wordmark"
+        "original",
+        "plain",
+        "line"
       ],
       "tags": [
         "cloud",
@@ -350,6 +367,23 @@
       ]
     },
     {
+      "slug": "apacheignite",
+      "name": "Apacheignite",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "distributed",
+        "database"
+      ],
+      "altnames": [
+        "Ignite"
+      ]
+    },
+    {
       "slug": "apachekafka",
       "name": "Apachekafka",
       "styles": [
@@ -385,6 +419,22 @@
       ],
       "tags": [
         "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "apify",
+      "name": "Apify",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "web",
+        "scraping",
+        "platform"
       ],
       "altnames": []
     },
@@ -603,6 +653,27 @@
       ],
       "altnames": [
         "microsoftazure"
+      ]
+    },
+    {
+      "slug": "azuredatafactory",
+      "name": "Azuredatafactory",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "azure",
+        "ETL",
+        "cloud",
+        "big data",
+        "data-processing",
+        "data science",
+        "data-transfer"
+      ],
+      "altnames": [
+        "azure data factory"
       ]
     },
     {
@@ -931,6 +1002,22 @@
       "altnames": []
     },
     {
+      "slug": "bruno",
+      "name": "Bruno",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "api",
+        "tool",
+        "testing"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "bulma",
       "name": "Bulma",
       "styles": [
@@ -958,6 +1045,26 @@
         "language"
       ],
       "altnames": []
+    },
+    {
+      "slug": "burpsuite",
+      "name": "Burpsuite",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "application",
+        "security",
+        "testing"
+      ],
+      "altnames": [
+        "burp suite"
+      ]
     },
     {
       "slug": "c",
@@ -1079,6 +1186,21 @@
       "tags": [
         "server",
         "linux"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "ceph",
+      "name": "Ceph",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "distributed",
+        "storage",
+        "resilience"
       ],
       "altnames": []
     },
@@ -1336,6 +1458,25 @@
       ]
     },
     {
+      "slug": "codeberg",
+      "name": "Codeberg",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "non-profit",
+        "git",
+        "hosting",
+        "forgejo"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "codecov",
       "name": "Codecov",
       "styles": [
@@ -1454,6 +1595,23 @@
         "cms"
       ],
       "altnames": []
+    },
+    {
+      "slug": "cordova",
+      "name": "Cordova",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "mobile",
+        "framework"
+      ],
+      "altnames": [
+        "apache cordova"
+      ]
     },
     {
       "slug": "corejs",
@@ -1587,6 +1745,21 @@
       ]
     },
     {
+      "slug": "css",
+      "name": "Css",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "language",
+        "programming"
+      ],
+      "altnames": [
+        "cascadingstylesheets"
+      ]
+    },
+    {
       "slug": "css3",
       "name": "Css3",
       "styles": [
@@ -1615,6 +1788,24 @@
       ],
       "altnames": [
         "cucumberjs"
+      ]
+    },
+    {
+      "slug": "cursor",
+      "name": "Cursor",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark"
+      ],
+      "tags": [
+        "ide",
+        "ai",
+        "code",
+        "editor"
+      ],
+      "altnames": [
+        "cursorai"
       ]
     },
     {
@@ -1683,6 +1874,7 @@
       "styles": [
         "original",
         "plain",
+        "original-wordmark",
         "plain-wordmark"
       ],
       "tags": [
@@ -2196,6 +2388,19 @@
       ]
     },
     {
+      "slug": "emailjs",
+      "name": "Emailjs",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "javascript"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "embeddedc",
       "name": "Embeddedc",
       "styles": [
@@ -2518,6 +2723,21 @@
       ]
     },
     {
+      "slug": "fish",
+      "name": "Fish",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "shell",
+        "programming",
+        "language",
+        "unix"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "flask",
       "name": "Flask",
       "styles": [
@@ -2540,6 +2760,20 @@
       "tags": [
         "framework",
         "sdk"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "flyway",
+      "name": "Flyway",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "java",
+        "migration",
+        "database"
       ],
       "altnames": []
     },
@@ -2589,24 +2823,6 @@
       "altnames": []
     },
     {
-      "slug": "framermotion",
-      "name": "Framermotion",
-      "styles": [
-        "original",
-        "original-wordmark"
-      ],
-      "tags": [
-        "library",
-        "open-source",
-        "react",
-        "animation"
-      ],
-      "altnames": [
-        "framer-motion",
-        "framer"
-      ]
-    },
-    {
       "slug": "framework7",
       "name": "Framework7",
       "styles": [
@@ -2621,6 +2837,22 @@
         "android",
         "ios",
         "open-source"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "frankenphp",
+      "name": "Frankenphp",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "language",
+        "php"
       ],
       "altnames": []
     },
@@ -2749,6 +2981,20 @@
       "altnames": []
     },
     {
+      "slug": "ghidra",
+      "name": "Ghidra",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "binary-analysis",
+        "reverse-engineering"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "ghost",
       "name": "Ghost",
       "styles": [
@@ -2808,6 +3054,20 @@
       "altnames": []
     },
     {
+      "slug": "gitea",
+      "name": "Gitea",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "version-control",
+        "git"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "github",
       "name": "Github",
       "styles": [
@@ -2852,6 +3112,26 @@
       ],
       "altnames": [
         "GitHub Codespaces"
+      ]
+    },
+    {
+      "slug": "githubcopilot",
+      "name": "Githubcopilot",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "automation",
+        "AI",
+        "code-completion"
+      ],
+      "altnames": [
+        "github copilot"
       ]
     },
     {
@@ -2943,6 +3223,23 @@
       "altnames": []
     },
     {
+      "slug": "gnuradio",
+      "name": "Gnuradio",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "open-source",
+        "software-radio",
+        "signal-processing"
+      ],
+      "altnames": [
+        "gnu radio"
+      ]
+    },
+    {
       "slug": "go",
       "name": "Go",
       "styles": [
@@ -2979,6 +3276,7 @@
       "styles": [
         "original",
         "plain",
+        "original-wordmark",
         "plain-wordmark"
       ],
       "tags": [
@@ -3214,6 +3512,21 @@
       ]
     },
     {
+      "slug": "haproxy",
+      "name": "Haproxy",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "proxy",
+        "loadbalancer"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "harbor",
       "name": "Harbor",
       "styles": [
@@ -3292,6 +3605,23 @@
       ],
       "tags": [
         "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "helix",
+      "name": "Helix",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "text editor",
+        "editor",
+        "ide",
+        "IDE",
+        "open-source"
       ],
       "altnames": []
     },
@@ -3412,6 +3742,24 @@
       ]
     },
     {
+      "slug": "huggingface",
+      "name": "Huggingface",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "machinelearning",
+        "ML",
+        "AI"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "hugo",
       "name": "Hugo",
       "styles": [
@@ -3447,6 +3795,22 @@
       "altnames": [
         "hyper-v"
       ]
+    },
+    {
+      "slug": "hyprland",
+      "name": "Hyprland",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "tiling",
+        "window manager",
+        "wayland"
+      ],
+      "altnames": []
     },
     {
       "slug": "ie10",
@@ -3565,6 +3929,7 @@
       "styles": [
         "original",
         "plain",
+        "original-wordmark",
         "plain-wordmark"
       ],
       "tags": [
@@ -3585,6 +3950,20 @@
       ],
       "tags": [
         "framework"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "istio",
+      "name": "Istio",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "service-mesh",
+        "cloud-native",
+        "kubernetes"
       ],
       "altnames": []
     },
@@ -3883,6 +4262,21 @@
       ]
     },
     {
+      "slug": "junie",
+      "name": "Junie",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "ai",
+        "coding",
+        "agent"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "junit",
       "name": "Junit",
       "styles": [
@@ -3915,6 +4309,24 @@
       ],
       "altnames": [
         "jupyternotebook"
+      ]
+    },
+    {
+      "slug": "jwt",
+      "name": "Jwt",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "security",
+        "authentication",
+        "token"
+      ],
+      "altnames": [
+        "jwt.io"
       ]
     },
     {
@@ -4468,6 +4880,20 @@
       "altnames": []
     },
     {
+      "slug": "lovable",
+      "name": "Lovable",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "ai"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "love2d",
       "name": "Love2d",
       "styles": [
@@ -4503,6 +4929,25 @@
       "altnames": [
         "lualang"
       ]
+    },
+    {
+      "slug": "luau",
+      "name": "Luau",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "programming",
+        "language",
+        "object-oriented",
+        "scripting",
+        "procedural",
+        "prototype-based",
+        "functional"
+      ],
+      "altnames": []
     },
     {
       "slug": "lumen",
@@ -4871,6 +5316,20 @@
       ]
     },
     {
+      "slug": "mongock",
+      "name": "Mongock",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "database",
+        "migration",
+        "nosql"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "mongodb",
       "name": "Mongodb",
       "styles": [
@@ -4933,6 +5392,40 @@
       "altnames": []
     },
     {
+      "slug": "motion",
+      "name": "Motion",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "library",
+        "open-source",
+        "reactjs",
+        "vuejs",
+        "js",
+        "animation"
+      ],
+      "altnames": [
+        "framer-motion",
+        "framer",
+        "framermotion"
+      ]
+    },
+    {
+      "slug": "msbuild",
+      "name": "Msbuild",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "build",
+        "dotnet"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "msdos",
       "name": "Msdos",
       "styles": [
@@ -4964,6 +5457,18 @@
       ]
     },
     {
+      "slug": "n8n",
+      "name": "N8n",
+      "styles": [
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "ai"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "nano",
       "name": "Nano",
       "styles": [
@@ -4981,6 +5486,25 @@
       "altnames": [
         "gnu-nano",
         "GNU nano"
+      ]
+    },
+    {
+      "slug": "nasm",
+      "name": "Nasm",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "assembler",
+        "language",
+        "programming"
+      ],
+      "altnames": [
+        "netwideassembler",
+        "net wide assembler"
       ]
     },
     {
@@ -5372,6 +5896,19 @@
       "altnames": []
     },
     {
+      "slug": "novelwriter",
+      "name": "Novelwriter",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "editor",
+        "text editor"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "npm",
       "name": "Npm",
       "styles": [
@@ -5541,6 +6078,18 @@
       ]
     },
     {
+      "slug": "ollama",
+      "name": "Ollama",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "llm",
+        "server"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "openal",
       "name": "Openal",
       "styles": [
@@ -5682,6 +6231,21 @@
       "altnames": []
     },
     {
+      "slug": "opnsense",
+      "name": "Opnsense",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "FreeBSD",
+        "firewall"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "oracle",
       "name": "Oracle",
       "styles": [
@@ -5772,6 +6336,21 @@
       ],
       "altnames": [
         "passportjs"
+      ]
+    },
+    {
+      "slug": "payloadcms",
+      "name": "Payloadcms",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "cms",
+        "headless-cms"
+      ],
+      "altnames": [
+        "payload"
       ]
     },
     {
@@ -5891,6 +6470,7 @@
       "styles": [
         "original",
         "plain",
+        "original-wordmark",
         "plain-wordmark"
       ],
       "tags": [
@@ -6050,6 +6630,22 @@
       "altnames": []
     },
     {
+      "slug": "positron",
+      "name": "Positron",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "ide",
+        "data science",
+        "python",
+        "r"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "postcss",
       "name": "Postcss",
       "styles": [
@@ -6126,6 +6722,22 @@
       "altnames": [
         "adobepremierepro"
       ]
+    },
+    {
+      "slug": "prestashop",
+      "name": "Prestashop",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "ecommerce",
+        "cms",
+        "php"
+      ],
+      "altnames": []
     },
     {
       "slug": "primeng",
@@ -6658,6 +7270,21 @@
       ]
     },
     {
+      "slug": "ravendb",
+      "name": "Ravendb",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "database",
+        "nosql"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "reach",
       "name": "Reach",
       "styles": [
@@ -7061,7 +7688,8 @@
       ],
       "tags": [
         "jetbrains",
-        "editor"
+        "editor",
+        "IDE"
       ],
       "altnames": []
     },
@@ -7172,6 +7800,24 @@
       ]
     },
     {
+      "slug": "scaleway",
+      "name": "Scaleway",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "cloud",
+        "hosting",
+        "server"
+      ],
+      "altnames": [
+        "scw"
+      ]
+    },
+    {
       "slug": "scalingo",
       "name": "Scalingo",
       "styles": [
@@ -7225,6 +7871,22 @@
       "altnames": [
         "simpledirectmedialayer"
       ]
+    },
+    {
+      "slug": "seaborn",
+      "name": "Seaborn",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "python",
+        "library",
+        "visualization"
+      ],
+      "altnames": []
     },
     {
       "slug": "selenium",
@@ -7286,6 +7948,38 @@
       "altnames": [
         "sequelizejs"
       ]
+    },
+    {
+      "slug": "sfml",
+      "name": "Sfml",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "graphics",
+        "game",
+        "development",
+        "c++"
+      ],
+      "altnames": [
+        "Simple and Fast Multimedia",
+        "Simple and Fast Multimedia Library"
+      ]
+    },
+    {
+      "slug": "shadcn",
+      "name": "Shadcn",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "ui",
+        "components",
+        "reactjs",
+        "library"
+      ],
+      "altnames": []
     },
     {
       "slug": "shopware",
@@ -7630,6 +8324,22 @@
       ]
     },
     {
+      "slug": "starship",
+      "name": "Starship",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "shell",
+        "terminal",
+        "tool"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "stata",
       "name": "Stata",
       "styles": [
@@ -7660,6 +8370,22 @@
       "altnames": [
         "stencil"
       ]
+    },
+    {
+      "slug": "stimulus",
+      "name": "Stimulus",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "javascript",
+        "js",
+        "library"
+      ],
+      "altnames": []
     },
     {
       "slug": "storybook",
@@ -7939,6 +8665,23 @@
       "altnames": []
     },
     {
+      "slug": "teamcity",
+      "name": "Teamcity",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "cicd",
+        "build",
+        "pipelines",
+        "testing"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "teleport",
       "name": "Teleport",
       "styles": [
@@ -7973,6 +8716,23 @@
       "altnames": []
     },
     {
+      "slug": "tenzir",
+      "name": "Tenzir",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "security",
+        "logs",
+        "monitoring",
+        "pipeline"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "terraform",
       "name": "Terraform",
       "styles": [
@@ -7999,6 +8759,20 @@
         "deployment",
         "devops",
         "automation"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "testrail",
+      "name": "Testrail",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "testing",
+        "tool"
       ],
       "altnames": []
     },
@@ -8078,6 +8852,21 @@
         "html",
         "java",
         "server"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "tigerbeetle",
+      "name": "Tigerbeetle",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark"
+      ],
+      "tags": [
+        "database",
+        "performance",
+        "zig"
       ],
       "altnames": []
     },
@@ -8286,6 +9075,43 @@
       ]
     },
     {
+      "slug": "typeorm",
+      "name": "Typeorm",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "database",
+        "orm",
+        "typescript",
+        "javascript"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "typer",
+      "name": "Typer",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "cli"
+      ],
+      "altnames": [
+        "fastapi"
+      ]
+    },
+    {
       "slug": "typescript",
       "name": "Typescript",
       "styles": [
@@ -8399,6 +9225,21 @@
       "altnames": []
     },
     {
+      "slug": "uv",
+      "name": "Uv",
+      "styles": [
+        "original",
+        "line"
+      ],
+      "tags": [
+        "python",
+        "environment",
+        "package",
+        "manager"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "uwsgi",
       "name": "Uwsgi",
       "styles": [
@@ -8470,6 +9311,23 @@
       "tags": [
         "programming",
         "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "vapor",
+      "name": "Vapor",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "server",
+        "backend",
+        "swift"
       ],
       "altnames": []
     },
@@ -8932,6 +9790,21 @@
       "altnames": []
     },
     {
+      "slug": "wireguard",
+      "name": "Wireguard",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "linux",
+        "vpn"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "wolfram",
       "name": "Wolfram",
       "styles": [
@@ -9097,6 +9970,23 @@
       ]
     },
     {
+      "slug": "youtrack",
+      "name": "Youtrack",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "planning",
+        "project",
+        "management",
+        "team"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "yugabytedb",
       "name": "Yugabytedb",
       "styles": [
@@ -9123,6 +10013,18 @@
       ],
       "tags": [
         "os"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "zed",
+      "name": "Zed",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "editor",
+        "IDE"
       ],
       "altnames": []
     },
