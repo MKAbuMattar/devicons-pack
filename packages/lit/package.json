@@ -1,7 +1,7 @@
 {
   "name": "@devicons-pack/lit",
   "version": "2.0.0",
-  "description": "Devicons for Lit — a <dev-icon> LitElement plus template helpers with tree-shakeable icon data (flat, high-contrast, modern).",
+  "description": "Devicons for Lit \u2014 a <dev-icon> LitElement plus template helpers with tree-shakeable icon data (flat, high-contrast, modern).",
   "keywords": [
     "devicons",
     "icon",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/devicons-pack.git",
+    "url": "git+https://github.com/MKAbuMattar/devicons-pack.git",
     "directory": "packages/lit"
   },
   "bugs": {
@@ -82,7 +82,8 @@
     "./line-wordmark/*": {
       "types": "./dist/line-wordmark/icons/*.d.ts",
       "default": "./dist/line-wordmark/icons/*.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -102,5 +103,8 @@
   },
   "peerDependencies": {
     "lit": ">=3"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

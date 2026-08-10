@@ -7,6 +7,8 @@ export type IconEntry = {
   slug: IconSlug;
   name: string;
   styles: IconVariant[];
+  tags: string[];
+  altnames: string[];
 };
 
 export type IconMetadata = {

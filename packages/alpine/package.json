@@ -1,7 +1,7 @@
 {
   "name": "@devicons-pack/alpine",
   "version": "2.0.0",
-  "description": "Devicons as an Alpine.js plugin — x-dev-icon directive and $devIcon magic with tree-shakeable icon data (flat, high-contrast, modern).",
+  "description": "Devicons as an Alpine.js plugin \u2014 x-dev-icon directive and $devIcon magic with tree-shakeable icon data (flat, high-contrast, modern).",
   "keywords": [
     "devicons",
     "icon",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/devicons-pack.git",
+    "url": "git+https://github.com/MKAbuMattar/devicons-pack.git",
     "directory": "packages/alpine"
   },
   "bugs": {
@@ -82,7 +82,8 @@
     "./line-wordmark/*": {
       "types": "./dist/line-wordmark/icons/*.d.ts",
       "default": "./dist/line-wordmark/icons/*.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -98,5 +99,8 @@
     "tsup": "^8.5.0",
     "tsx": "^4.23.11",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

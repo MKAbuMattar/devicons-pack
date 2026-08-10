@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/devicons-pack.git",
+    "url": "git+https://github.com/MKAbuMattar/devicons-pack.git",
     "directory": "packages/vue"
   },
   "bugs": {
@@ -160,7 +160,8 @@
         "types": "./dist/line-wordmark/icons/*.d.cts",
         "default": "./dist/line-wordmark/icons/*.cjs"
       }
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -181,5 +182,8 @@
     "tsx": "^4.23.11",
     "typescript": "^5.9.3",
     "vue": "^3.5.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

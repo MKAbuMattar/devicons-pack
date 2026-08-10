@@ -30,10 +30,21 @@ const VARIANTS = [
   'line-wordmark',
 ] as const;
 
-const svgoConfig = (slug: string): Config => ({
+const MONO_VARIANTS = new Set([
+  'plain',
+  'line',
+  'plain-wordmark',
+  'line-wordmark',
+]);
+
+const svgoConfig = (slug: string, variant: string): Config => ({
   plugins: [
     'preset-default',
     'removeTitle',
+    // font-glyph variants are single-color — currentColor lets CSS color them
+    ...(MONO_VARIANTS.has(variant)
+      ? ([{name: 'convertColors', params: {currentColor: true}}] as const)
+      : []),
     'convertStyleToAttrs',
     'cleanupIds',
     {
@@ -94,7 +105,7 @@ const main = async (): Promise<void> => {
       const file = path.join(dir, `${slug}-${variant}.svg`);
       if (!fs.existsSync(file)) continue;
       const raw = fs.readFileSync(file, 'utf8');
-      const {data} = optimize(raw, svgoConfig(slug));
+      const {data} = optimize(raw, svgoConfig(slug, variant));
       fs.writeFileSync(path.join(ASSETS, variant, `${slug}.svg`), data);
       written++;
     }
