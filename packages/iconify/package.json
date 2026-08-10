@@ -1,0 +1,62 @@
+{
+  "name": "@devicons-pack/iconify",
+  "version": "2.0.0",
+  "description": "Devicons as Iconify JSON collections \u2014 works with unplugin-icons, the Tailwind Iconify plugin, and every Iconify component.",
+  "keywords": [
+    "fluentui",
+    "icon",
+    "fluentui-icon",
+    "icons",
+    "svg",
+    "iconify"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKAbuMattar/devicons-pack.git",
+    "directory": "packages/iconify"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/devicons-pack/issues"
+  },
+  "homepage": "https://devicons-pack.mkabumattar.com/",
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json",
+    "./original.json": "./dist/original.json",
+    "./plain.json": "./dist/plain.json",
+    "./line.json": "./dist/line.json",
+    "./original-wordmark.json": "./dist/original-wordmark.json",
+    "./plain-wordmark.json": "./dist/plain-wordmark.json",
+    "./line-wordmark.json": "./dist/line-wordmark.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsx build.ts",
+    "test": "tsx test/smoke.ts"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3"
+  }
+}

@@ -83,6 +83,31 @@ const snippets = (
       label: 'htmx',
       code: `// server\nimport {devIconHandler} from '@devicons-pack/htmx';\napp.use(devIconHandler());\n\n<!-- page -->\n<span hx-get="/devicons/${style}/${slug}" hx-trigger="load"></span>`,
     },
+    {
+      id: 'react-native',
+      label: 'React Native',
+      code: `import {${name}} from '@devicons-pack/react-native/${style}';\n\n<${name} width={32} height={32} />`,
+    },
+    {
+      id: 'qwik',
+      label: 'Qwik',
+      code: `import {${name}} from '@devicons-pack/qwik/${style}';\n\n<${name} width={32} />`,
+    },
+    {
+      id: 'iconify',
+      label: 'Iconify',
+      code: `import {addCollection} from '@iconify/react';\nimport collection from '@devicons-pack/iconify/${style}.json';\n\naddCollection(collection);\n\n<Icon icon="devicons-pack-${style}:${slug}" />`,
+    },
+    {
+      id: 'sprite',
+      label: 'Sprite',
+      code: `<!-- copy @devicons-pack/sprite/${style}.svg into your static assets -->\n<svg width="32" height="32">\n  <use href="/sprites/${style}.svg#${slug}" />\n</svg>`,
+    },
+    {
+      id: 'cdn',
+      label: 'CDN',
+      code: `<img\n  src="https://cdn.jsdelivr.net/npm/@devicons-pack/svg@latest/icons/${style}/${slug}.svg"\n  width="32" height="32" alt="${slug}"\n/>`,
+    },
   ];
 };
 
