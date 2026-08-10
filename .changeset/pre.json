@@ -1,0 +1,19 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@devicons-pack/alpine": "1.6.0",
+    "@devicons-pack/angular": "1.6.0",
+    "@devicons-pack/astro": "1.6.0",
+    "@devicons-pack/htmx": "1.6.0",
+    "@devicons-pack/lit": "1.6.0",
+    "@devicons-pack/preact": "1.6.0",
+    "@devicons-pack/react": "1.6.0",
+    "@devicons-pack/solid": "1.6.0",
+    "@devicons-pack/svelte": "1.6.0",
+    "@devicons-pack/svg": "1.6.0",
+    "@devicons-pack/vue": "1.6.0",
+    "@devicons-pack/web-components": "1.6.0"
+  },
+  "changesets": []
+}
