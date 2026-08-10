@@ -1,6 +1,6 @@
 {
   "name": "@devicons-pack/svg",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Devicons as optimized SVGs (flat, high-contrast, modern) with typed metadata. Successor of the dev-icon package.",
   "keywords": [
     "devicons",

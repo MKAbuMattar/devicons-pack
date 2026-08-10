@@ -1,7 +1,7 @@
 {
   "name": "@devicons-pack/lit",
-  "version": "2.0.0",
-  "description": "Devicons for Lit \u2014 a <dev-icon> LitElement plus template helpers with tree-shakeable icon data (flat, high-contrast, modern).",
+  "version": "2.1.0",
+  "description": "Devicons for Lit — a <dev-icon> LitElement plus template helpers with tree-shakeable icon data (flat, high-contrast, modern).",
   "keywords": [
     "devicons",
     "icon",

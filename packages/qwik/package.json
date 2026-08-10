@@ -1,6 +1,6 @@
 {
   "name": "@devicons-pack/qwik",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Devicons as typed Qwik components (flat, high-contrast, modern). ESM only.",
   "keywords": [
     "fluentui",
