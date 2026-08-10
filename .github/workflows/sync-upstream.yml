@@ -1,6 +1,7 @@
-# Weekly sync from the devicons/devicon icons package. If new or
-# changed icons land upstream, this opens a PR with the regenerated assets plus
-# a ready-made changeset — merging the PR rides the normal release train.
+# Weekly sync from devicons/devicon. Two channels:
+#   - master  -> PR against main  (stable releases)
+#   - develop -> PR against next  (beta releases, changesets pre-mode)
+# Merging a sync PR rides the normal release train. Zero manual steps.
 name: Sync upstream icons
 
 on:
@@ -14,10 +15,20 @@ permissions:
 
 jobs:
   sync:
-    name: Sync
+    name: Sync ${{ matrix.upstream }} -> ${{ matrix.base }}
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - upstream: master
+            base: main
+          - upstream: develop
+            base: next
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.base }}
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
@@ -25,20 +36,31 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm sync
+        env:
+          SYNC_BRANCH: ${{ matrix.upstream }}
 
       - name: Add changeset if assets changed
         id: diff
         run: |
           if [ -n "$(git status --porcelain assets/)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
-            cat > .changeset/upstream-sync-${{ github.run_id }}.md <<'EOF'
+            cat > .changeset/upstream-sync-${{ github.run_id }}-${{ matrix.base }}.md <<'EOF'
           ---
           '@devicons-pack/svg': minor
           '@devicons-pack/react': minor
+          '@devicons-pack/preact': minor
+          '@devicons-pack/vue': minor
+          '@devicons-pack/solid': minor
+          '@devicons-pack/svelte': minor
           '@devicons-pack/astro': minor
+          '@devicons-pack/angular': minor
+          '@devicons-pack/lit': minor
+          '@devicons-pack/web-components': minor
+          '@devicons-pack/alpine': minor
+          '@devicons-pack/htmx': minor
           ---
 
-          Sync icon assets from the Devicons package
+          Sync icon assets from devicons/devicon (${{ matrix.upstream }})
           EOF
           fi
 
@@ -46,12 +68,14 @@ jobs:
         if: steps.diff.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
-          branch: sync/upstream
-          title: 'feat: sync upstream icons from Devicons'
-          commit-message: 'feat: sync upstream icons from Devicons'
+          branch: sync/upstream-${{ matrix.base }}
+          base: ${{ matrix.base }}
+          title: 'feat: sync upstream icons from devicons/devicon ${{ matrix.upstream }}'
+          commit-message: 'feat: sync upstream icons from devicons/devicon ${{ matrix.upstream }}'
           body: |
-            Automated weekly sync from the [devicons/devicon icons](https://github.com/devicons/devicon).
+            Automated weekly sync from [devicons/devicon](https://github.com/devicons/devicon)
+            branch `${{ matrix.upstream }}` into `${{ matrix.base }}`.
 
             Review the `assets/` diff, then merge — the release pipeline takes it from there
-            (canary on merge, `latest` via the Version Packages PR).
+            (`${{ matrix.base }}` publishes to the `${{ matrix.base == 'next' && 'beta' || 'latest' }}` channel).
           delete-branch: true
