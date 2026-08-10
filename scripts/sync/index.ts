@@ -19,6 +19,8 @@ const TMP = path.join(ROOT, '.tmp/upstream');
 const ASSETS = path.join(ROOT, 'assets');
 
 const UPSTREAM = 'https://github.com/devicons/devicon.git';
+// master feeds the stable channel (main); develop feeds the beta channel (next)
+const BRANCH = process.env.SYNC_BRANCH ?? 'master';
 const VARIANTS = [
   'original',
   'plain',
@@ -56,9 +58,11 @@ const titleCase = (slug: string): string =>
 
 const main = async (): Promise<void> => {
   fs.rmSync(TMP, {recursive: true, force: true});
-  console.log(`Cloning ${UPSTREAM} (sparse: icons/ + devicon.json)...`);
+  console.log(
+    `Cloning ${UPSTREAM}@${BRANCH} (sparse: icons/ + devicon.json)...`,
+  );
   execSync(
-    `git clone --depth=1 --filter=blob:none --sparse ${UPSTREAM} ${TMP}`,
+    `git clone --depth=1 -b ${BRANCH} --filter=blob:none --sparse ${UPSTREAM} ${TMP}`,
     {stdio: 'inherit'},
   );
   execSync(
