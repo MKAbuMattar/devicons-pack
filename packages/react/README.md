@@ -3,7 +3,7 @@
 [Devicons](https://github.com/devicons/devicon) as tree-shakeable,
 typed React components — 578 icons in `original`, `plain`, `line`, and their `-wordmark` variants.
 
-Successor of the deprecated [`react-dev-icon`](https://www.npmjs.com/package/react-dev-icon) package. Dual ESM + CJS.
+Successor of the deprecated [`devicons-react`](https://www.npmjs.com/package/devicons-react) package. Dual ESM + CJS.
 
 ## Install
 

@@ -1,4 +1,4 @@
-# dev-icon
+# devicons-pack
 
 [Devicons](https://github.com/devicons/devicon) — Microsoft's familiar,
 packaged for every stack, with fully automated releases from the devicons/devicon icon set.
@@ -39,10 +39,9 @@ pnpm build     # build all packages
 pnpm lint
 ```
 
-Previously: [`archived-dev-icons`](https://github.com/MKAbuMattar/archived-dev-icons),
-[`archived-aws-react-icons`](https://github.com/MKAbuMattar/archived-aws-react-icons),
-[`archived-dev-icon-docs`](https://github.com/MKAbuMattar/archived-dev-icon-docs).
-The old npm names `dev-icons` and `aws-react-icons` are deprecated in favor of the scope.
+Previously: [`archived-devicons-react`](https://github.com/MKAbuMattar/archived-devicons-react) and
+[`archived-devicons-react_private`](https://github.com/MKAbuMattar/archived-devicons-react_private).
+The old npm name `devicons-react` is deprecated in favor of `@devicons-pack/react`.
 
 Devicon artwork is from [devicons/devicon](https://github.com/devicons/devicon) (MIT).
 This repo and packages: [MIT](LICENSE).

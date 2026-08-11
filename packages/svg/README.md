@@ -3,7 +3,7 @@
 [Devicons](https://github.com/devicons/devicon) as optimized SVGs —
 578 icons in `original`, `plain`, `line`, and their `-wordmark` variants — with typed metadata.
 
-Successor of the deprecated [`dev-icon`](https://www.npmjs.com/package/dev-icon) package.
+Part of the [devicons-pack](https://github.com/MKAbuMattar/devicons-pack) family.
 
 ## Install
 
