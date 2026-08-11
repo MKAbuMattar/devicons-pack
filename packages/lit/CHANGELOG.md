@@ -1,5 +1,11 @@
 # @devicons-pack/lit
 
+## 2.0.0-beta.1
+
+### Minor Changes
+
+- 2bd2725: Sync icon assets from devicons/devicon (develop)
+
 ## 2.0.0-beta.0
 
 ### Major Changes

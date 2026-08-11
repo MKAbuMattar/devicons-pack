@@ -15,5 +15,7 @@
     "@devicons-pack/vue": "2.0.0-beta.0",
     "@devicons-pack/web-components": "2.0.0-beta.0"
   },
-  "changesets": []
+  "changesets": [
+    "upstream-sync-31386649476-next"
+  ]
 }
