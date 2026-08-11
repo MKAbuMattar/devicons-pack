@@ -1,6 +1,6 @@
 {
   "name": "@devicons-pack/htmx",
-  "version": "2.0.0-beta.0",
+  "version": "2.0.0-beta.1",
   "description": "Devicons for htmx — a server handler and helper that serve icon SVG fragments (flat, high-contrast, modern).",
   "keywords": [
     "devicons",

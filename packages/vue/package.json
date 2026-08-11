@@ -1,6 +1,6 @@
 {
   "name": "@devicons-pack/vue",
-  "version": "2.0.0-beta.0",
+  "version": "2.0.0-beta.1",
   "description": "Devicons as tree-shakeable typed Vue 3 components (flat, high-contrast, modern).",
   "keywords": [
     "devicons",
