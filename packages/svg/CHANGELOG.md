@@ -1,5 +1,12 @@
 # @devicons-pack/svg
 
+## 2.1.1
+
+### Patch Changes
+
+- bf6f5df: Correct `exports` types conditions: CJS consumers now resolve `index.d.cts`
+  instead of ESM-flavored types (publint strict clean).
+
 ## 2.1.0
 
 ### Minor Changes
