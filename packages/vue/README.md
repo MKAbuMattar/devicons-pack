@@ -4,6 +4,8 @@
 typed Vue 3 components — 578 icons in `original`, `plain`, `line`, and their `-wordmark` variants.
 Dual ESM + CJS.
 
+**Docs:** https://devicons-pack.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@devicons-pack/vue) · **All packages:** [@devicons-pack](https://www.npmjs.com/org/devicons-pack)
+
 ## Install
 
 ```sh

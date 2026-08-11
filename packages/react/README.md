@@ -5,6 +5,8 @@ typed React components — 578 icons in `original`, `plain`, `line`, and their `
 
 Successor of the deprecated [`devicons-react`](https://www.npmjs.com/package/devicons-react) package. Dual ESM + CJS.
 
+**Docs:** https://devicons-pack.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@devicons-pack/react) · **All packages:** [@devicons-pack](https://www.npmjs.com/org/devicons-pack)
+
 ## Install
 
 ```sh

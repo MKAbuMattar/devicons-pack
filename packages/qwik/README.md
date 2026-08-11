@@ -2,6 +2,8 @@
 
 [Devicons](https://github.com/devicons/devicon) as typed Qwik components (ESM only) — 578 icons in `flat`, `high-contrast`, and `modern` sets.
 
+**Docs:** https://devicons-pack.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@devicons-pack/qwik) · **All packages:** [@devicons-pack](https://www.npmjs.com/org/devicons-pack)
+
 ## Install
 
 ```sh

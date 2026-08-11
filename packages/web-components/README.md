@@ -4,6 +4,8 @@
 `<dev-icon>` custom element — 578 icons in `flat`, `high-contrast`, and
 `modern` styles. Works in any page, any framework, no build required.
 
+**Docs:** https://devicons-pack.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@devicons-pack/web-components) · **All packages:** [@devicons-pack](https://www.npmjs.com/org/devicons-pack)
+
 ## Install
 
 ```sh

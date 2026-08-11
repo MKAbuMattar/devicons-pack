@@ -5,6 +5,8 @@
 
 Part of the [devicons-pack](https://github.com/MKAbuMattar/devicons-pack) family.
 
+**Docs:** https://devicons-pack.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@devicons-pack/svg) · **All packages:** [@devicons-pack](https://www.npmjs.com/org/devicons-pack)
+
 ## Install
 
 ```sh

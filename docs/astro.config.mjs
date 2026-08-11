@@ -17,6 +17,11 @@ export default defineConfig({
       description: 'Devicons packaged for every stack — SVG, React, Astro.',
       social: [
         {
+          icon: 'seti:npm',
+          label: 'npm',
+          href: 'https://www.npmjs.com/org/devicons-pack',
+        },
+        {
           icon: 'github',
           label: 'GitHub',
           href: 'https://github.com/MKAbuMattar/devicons-pack',

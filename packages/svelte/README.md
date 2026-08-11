@@ -4,6 +4,8 @@
 tree-shakeable icon data plus a single `Icon` component. 578 icons in
 `original`, `plain`, `line`, and their `-wordmark` variants.
 
+**Docs:** https://devicons-pack.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@devicons-pack/svelte) · **All packages:** [@devicons-pack](https://www.npmjs.com/org/devicons-pack)
+
 ## Install
 
 ```sh
