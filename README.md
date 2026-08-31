@@ -1,7 +1,7 @@
 # devicons-pack
 
-[Devicons](https://github.com/devicons/devicon) — Microsoft's familiar,
-packaged for every stack, with fully automated releases from the devicons/devicon icon set.
+[Devicons](https://github.com/devicons/devicon) — the familiar open-source
+technology icon set, packaged for every stack, with fully automated releases from the devicons/devicon icon set.
 
 **Docs:** https://devicons-pack.mkabumattar.com · **All packages on npm:** [@devicons-pack](https://www.npmjs.com/org/devicons-pack)
 
@@ -9,7 +9,7 @@ packaged for every stack, with fully automated releases from the devicons/devico
 
 | Package | Description | npm |
 |---|---|---|
-| [`@devicons-pack/svg`](packages/svg) | Optimized SVGs (4 icon sets) + typed metadata | [npm](https://www.npmjs.com/package/@devicons-pack/svg) |
+| [`@devicons-pack/svg`](packages/svg) | Optimized SVGs (6 icon variants) + typed metadata | [npm](https://www.npmjs.com/package/@devicons-pack/svg) |
 | [`@devicons-pack/react`](packages/react) | Tree-shakeable typed React components | [npm](https://www.npmjs.com/package/@devicons-pack/react) |
 | [`@devicons-pack/preact`](packages/preact) | Tree-shakeable typed Preact components | [npm](https://www.npmjs.com/package/@devicons-pack/preact) |
 | [`@devicons-pack/vue`](packages/vue) | Tree-shakeable typed Vue 3 components | [npm](https://www.npmjs.com/package/@devicons-pack/vue) |
@@ -21,6 +21,10 @@ packaged for every stack, with fully automated releases from the devicons/devico
 | [`@devicons-pack/web-components`](packages/web-components) | Framework-less `<dev-icon>` custom element | [npm](https://www.npmjs.com/package/@devicons-pack/web-components) |
 | [`@devicons-pack/alpine`](packages/alpine) | Alpine.js directive + magic | [npm](https://www.npmjs.com/package/@devicons-pack/alpine) |
 | [`@devicons-pack/htmx`](packages/htmx) | Server handler serving icon fragments for htmx | [npm](https://www.npmjs.com/package/@devicons-pack/htmx) |
+| [`@devicons-pack/react-native`](packages/react-native) | React Native components on react-native-svg | [npm](https://www.npmjs.com/package/@devicons-pack/react-native) |
+| [`@devicons-pack/qwik`](packages/qwik) | Typed Qwik components | [npm](https://www.npmjs.com/package/@devicons-pack/qwik) |
+| [`@devicons-pack/iconify`](packages/iconify) | Iconify JSON collections (unplugin-icons, Tailwind) | [npm](https://www.npmjs.com/package/@devicons-pack/iconify) |
+| [`@devicons-pack/sprite`](packages/sprite) | SVG symbol sprites for use-href sheets | [npm](https://www.npmjs.com/package/@devicons-pack/sprite) |
 
 ## Release channels
 

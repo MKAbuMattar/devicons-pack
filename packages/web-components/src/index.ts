@@ -13,7 +13,7 @@ export type DevIconData = {
 
 const registry = new Map<string, DevIconData>();
 
-/** Makes an icon usable by name: `<dev-icon name="rocket" variant="flat">`. */
+/** Makes an icon usable by name: `<dev-icon name="javascript">`. */
 export const register = (...icons: DevIconData[]): void => {
   for (const icon of icons) registry.set(`${icon.style}/${icon.slug}`, icon);
 };
@@ -37,11 +37,11 @@ const render = (el: HTMLElement, icon: DevIconData | undefined): void => {
  * Defines the `<dev-icon>` custom element (browser only).
  *
  * ```html
- * <dev-icon name="rocket" variant="modern" label="Rocket"></dev-icon>
+ * <dev-icon name="javascript" variant="original" label="JavaScript"></dev-icon>
  * ```
  *
- * Icons resolve from the registry (`register(Rocket)`) or via the `icon`
- * property. `variant` defaults to `flat`; without `label` the svg is
+ * Icons resolve from the registry (`register(Javascript)`) or via the `icon`
+ * property. `variant` defaults to `original`; without `label` the svg is
  * aria-hidden.
  */
 export const defineDevIcon = (tag = 'dev-icon'): void => {

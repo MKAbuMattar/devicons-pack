@@ -3,7 +3,7 @@ title: Sprite
 description: SVG symbol sprites for use-href icon sheets.
 ---
 
-[Devicons](https://github.com/devicons/devicon) as SVG symbol sprites — one `<use href>` sheet per set, ideal for pages with many icons — 578 icons in `flat`, `high-contrast`, and `modern` sets.
+[Devicons](https://github.com/devicons/devicon) as SVG symbol sprites — one `<use href>` sheet per variant, ideal for pages with many icons — 578 icons in `original`, `plain`, `line`, and their `-wordmark` variants.
 
 ## Install
 
@@ -14,12 +14,15 @@ pnpm add @devicons-pack/sprite
 ## Usage
 
 ```html
-<!-- copy dist/flat.svg into your static assets, then: -->
-<svg width="32" height="32"><use href="/sprites/flat.svg#rocket" /></svg>
+<!-- copy dist/original.svg into your static assets, then: -->
+<svg width="32" height="32"><use href="/sprites/original.svg#javascript" /></svg>
 ```
 
 ```ts
 import {spriteHref} from "@devicons-pack/sprite";
-spriteHref("/sprites/flat.svg", "rocket"); // "/sprites/flat.svg#rocket"
+spriteHref("/sprites/original.svg", "javascript"); // "/sprites/original.svg#javascript"
 ```
 
+One sprite per variant: `./original.svg`, `./plain.svg`, `./line.svg`, `./original-wordmark.svg`, `./plain-wordmark.svg`, `./line-wordmark.svg`.
+
+Devicon artwork is from [devicons/devicon](https://github.com/devicons/devicon) (MIT).

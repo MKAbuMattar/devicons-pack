@@ -48,8 +48,8 @@ export const iconHtml = (
  * Standalone directive rendering a registered icon into the host element.
  *
  * ```html
- * <span devIcon="rocket"></span>
- * <span devIcon="rocket" iconStyle="modern" iconLabel="Rocket"></span>
+ * <span devIcon="javascript"></span>
+ * <span devIcon="javascript" iconStyle="original" iconLabel="JavaScript"></span>
  * ```
  */
 @Directive({selector: '[devIcon]', standalone: true})

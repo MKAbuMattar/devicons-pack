@@ -3,9 +3,9 @@ import type {IconSlug, IconVariant} from '@devicons-pack/svg';
 import {loadIconSvg} from './load.js';
 
 interface Props {
-  /** Icon slug, e.g. "rocket" */
+  /** Icon slug, e.g. "javascript" */
   name: IconSlug;
-  /** Icon style — "flat" (default), "high-contrast", or "modern" */
+  /** Icon variant — "original" (default), "plain", "line", or their "-wordmark" forms */
   variant?: IconVariant;
   /** Accessible label; without it the icon is aria-hidden (decorative) */
   title?: string;

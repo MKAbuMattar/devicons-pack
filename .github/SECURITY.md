@@ -2,7 +2,7 @@
 
 ## Scope
 
-dev-icons publishes generated npm packages (`@devicons-pack/*`) containing SVG data and
+devicons-pack publishes generated npm packages (`@devicons-pack/*`) containing SVG data and
 small framework runtimes. The concerns that apply:
 
 - **Malicious SVG content** — the sync pipeline optimizes upstream SVGs with svgo;

@@ -20,12 +20,12 @@ import {Javascript} from '@devicons-pack/react/original';
 // or per-icon (no barrel): import Javascript from '@devicons-pack/react/plain-wordmark/nodejs';
 
 <Javascript width={32} />                     // decorative: aria-hidden
-<Javascript title="Amazon EC2" />          // accessible: role="img" + aria-label
+<Javascript title="JavaScript" />          // accessible: role="img" + aria-label
 ```
 
 Styles: `@devicons-pack/react/original`, `/plain`, `/line`, `/original-wordmark`, `/plain-wordmark`, `/line-wordmark`.
 Every component forwards its ref and accepts all `SVGProps<SVGSVGElement>`.
-Icon names are the PascalCased slug (`1st-place-medal` → `Icon1stPlaceMedal`).
+Icon names are the PascalCased slug (`nodejs` → `Nodejs`).
 
 ## License
 

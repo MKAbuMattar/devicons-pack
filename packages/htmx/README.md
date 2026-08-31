@@ -32,7 +32,7 @@ Page:
 ```
 
 Responses are sent with immutable cache headers. There's also a direct helper
-for template engines: `await iconHtml('javascript', 'architecture-service', 'Javascript')`.
+for template engines: `await iconHtml('javascript', 'original', 'JavaScript')`.
 
 ## License
 

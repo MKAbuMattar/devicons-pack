@@ -2,10 +2,12 @@ import {type IconVariant, metadata} from '@devicons-pack/svg';
 import {useEffect, useMemo, useRef, useState} from 'react';
 
 const STYLES: IconVariant[] = [
-  'architecture-group',
-  'architecture-service',
-  'category',
-  'resource',
+  'original',
+  'plain',
+  'line',
+  'original-wordmark',
+  'plain-wordmark',
+  'line-wordmark',
 ];
 const BATCH = 240; // cells rendered per scroll batch — keeps the DOM light
 
@@ -149,7 +151,7 @@ function InlineIcon({url, size = 34}: {url: string; size?: number}) {
   return (
     <span
       ref={ref}
-      className={svg ? 'fe-icon' : 'fe-icon fe-icon-loading'}
+      className={svg ? 'dev-icon' : 'dev-icon dev-icon-loading'}
       style={{width: size, height: size}}
       aria-hidden="true"
       // biome-ignore lint/security/noDangerouslySetInnerHtml: build-time trusted SVG assets
@@ -170,7 +172,7 @@ export default function Gallery({base}: {base: string}) {
   const sentinelRef = useRef<HTMLDivElement>(null);
   const tablistRef = useRef<HTMLDivElement>(null);
 
-  // debounce typing so 3,145 rows aren't refiltered per keystroke
+  // debounce typing so 578 rows aren't refiltered per keystroke
   useEffect(() => {
     const t = setTimeout(() => setQuery(input), 150);
     return () => clearTimeout(t);
@@ -246,39 +248,39 @@ export default function Gallery({base}: {base: string}) {
   };
 
   return (
-    <div className="fe-gallery not-content">
+    <div className="dev-gallery not-content">
       <style>{`
-        .fe-gallery {--fe-ease: cubic-bezier(0.16, 1, 0.3, 1);}
-        .fe-gallery {margin-top: 1.5rem;}
-        .fe-gallery .fe-toolbar {position: sticky; top: calc(var(--sl-nav-height, 3.5rem) + 0.75rem); z-index: 3; display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; padding: 0.6rem; border: 1px solid var(--sl-color-gray-5); border-radius: 0.75rem; background: var(--sl-color-bg-nav, var(--sl-color-bg)); box-shadow: 0 4px 16px rgb(0 0 0 / 0.08);}
-        .fe-gallery input[type='search'] {flex: 1 1 14rem; min-height: 2.75rem; padding: 0 0.85rem; border: 1px solid var(--sl-color-gray-4); border-radius: 0.375rem; background: var(--sl-color-bg); color: var(--sl-color-text); font-size: var(--sl-text-sm); transition: border-color 150ms var(--fe-ease);}
-        .fe-gallery input[type='search']:hover {border-color: var(--sl-color-gray-3);}
-        .fe-gallery input[type='search']:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px; border-color: var(--sl-color-accent);}
-        .fe-gallery .fe-styles {display: flex; margin: 0; padding: 0.2rem; gap: 0.2rem; border: 1px solid var(--sl-color-gray-4); border-radius: 0.375rem; background: var(--sl-color-gray-6);}
-        .fe-gallery .fe-styles button {min-height: 2.35rem; padding: 0 0.9rem; border: 0; border-radius: 0.25rem; background: transparent; color: var(--sl-color-gray-2); cursor: pointer; font-size: var(--sl-text-sm); transition: background 150ms var(--fe-ease), color 150ms var(--fe-ease);}
-        .fe-gallery .fe-styles button:hover {color: var(--sl-color-text);}
-        .fe-gallery .fe-styles button:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px;}
-        .fe-gallery .fe-styles button[aria-pressed='true'] {background: var(--sl-color-bg); color: var(--sl-color-text); font-weight: 600; box-shadow: 0 1px 2px rgb(0 0 0 / 0.12);}
-        .fe-gallery .fe-count {margin-left: auto; color: var(--sl-color-gray-2); font-size: var(--sl-text-sm); font-variant-numeric: tabular-nums; white-space: nowrap;}
-        .fe-gallery .fe-grid {margin-top: 1rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(3.1rem, 1fr)); gap: 0.25rem;}
-        .fe-gallery .fe-cell {display: grid; place-items: center; width: 100%; aspect-ratio: 1; margin: 0; padding: 0.5rem; border: 1px solid transparent; border-radius: 0.375rem; background: transparent; cursor: pointer; transition: background 150ms var(--fe-ease), border-color 150ms var(--fe-ease), transform 150ms var(--fe-ease);}
-        .fe-gallery .fe-cell:hover {border-color: var(--sl-color-gray-4); background: var(--sl-color-gray-6);}
-        .fe-gallery .fe-cell:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px;}
-        .fe-gallery .fe-cell:active {transform: scale(0.94);}
-        .fe-gallery .fe-cell[aria-current='true'] {border-color: var(--sl-color-text-accent); background: var(--sl-color-gray-6);}
-        .fe-gallery .fe-icon {display: block;}
-        .fe-gallery .fe-icon svg {width: 100%; height: 100%; display: block;}
-        .fe-gallery .fe-icon-loading {border-radius: 0.25rem; background: var(--sl-color-gray-6);}
-        .fe-gallery .fe-empty {margin-top: 1rem; padding: 3rem 1rem; text-align: center; color: var(--sl-color-gray-2); border: 1px dashed var(--sl-color-gray-5); border-radius: 0.375rem;}
-        .fe-gallery .fe-empty code {color: var(--sl-color-text);}
+        .dev-gallery {--dev-ease: cubic-bezier(0.16, 1, 0.3, 1);}
+        .dev-gallery {margin-top: 1.5rem;}
+        .dev-gallery .fe-toolbar {position: sticky; top: calc(var(--sl-nav-height, 3.5rem) + 0.75rem); z-index: 3; display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; padding: 0.6rem; border: 1px solid var(--sl-color-gray-5); border-radius: 0.75rem; background: var(--sl-color-bg-nav, var(--sl-color-bg)); box-shadow: 0 4px 16px rgb(0 0 0 / 0.08);}
+        .dev-gallery input[type='search'] {flex: 1 1 14rem; min-height: 2.75rem; padding: 0 0.85rem; border: 1px solid var(--sl-color-gray-4); border-radius: 0.375rem; background: var(--sl-color-bg); color: var(--sl-color-text); font-size: var(--sl-text-sm); transition: border-color 150ms var(--dev-ease);}
+        .dev-gallery input[type='search']:hover {border-color: var(--sl-color-gray-3);}
+        .dev-gallery input[type='search']:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px; border-color: var(--sl-color-accent);}
+        .dev-gallery .fe-styles {display: flex; margin: 0; padding: 0.2rem; gap: 0.2rem; border: 1px solid var(--sl-color-gray-4); border-radius: 0.375rem; background: var(--sl-color-gray-6);}
+        .dev-gallery .fe-styles button {min-height: 2.35rem; padding: 0 0.9rem; border: 0; border-radius: 0.25rem; background: transparent; color: var(--sl-color-gray-2); cursor: pointer; font-size: var(--sl-text-sm); transition: background 150ms var(--dev-ease), color 150ms var(--dev-ease);}
+        .dev-gallery .fe-styles button:hover {color: var(--sl-color-text);}
+        .dev-gallery .fe-styles button:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px;}
+        .dev-gallery .fe-styles button[aria-pressed='true'] {background: var(--sl-color-bg); color: var(--sl-color-text); font-weight: 600; box-shadow: 0 1px 2px rgb(0 0 0 / 0.12);}
+        .dev-gallery .fe-count {margin-left: auto; color: var(--sl-color-gray-2); font-size: var(--sl-text-sm); font-variant-numeric: tabular-nums; white-space: nowrap;}
+        .dev-gallery .fe-grid {margin-top: 1rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(3.1rem, 1fr)); gap: 0.25rem;}
+        .dev-gallery .fe-cell {display: grid; place-items: center; width: 100%; aspect-ratio: 1; margin: 0; padding: 0.5rem; border: 1px solid transparent; border-radius: 0.375rem; background: transparent; cursor: pointer; transition: background 150ms var(--dev-ease), border-color 150ms var(--dev-ease), transform 150ms var(--dev-ease);}
+        .dev-gallery .fe-cell:hover {border-color: var(--sl-color-gray-4); background: var(--sl-color-gray-6);}
+        .dev-gallery .fe-cell:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px;}
+        .dev-gallery .fe-cell:active {transform: scale(0.94);}
+        .dev-gallery .fe-cell[aria-current='true'] {border-color: var(--sl-color-text-accent); background: var(--sl-color-gray-6);}
+        .dev-gallery .dev-icon {display: block;}
+        .dev-gallery .dev-icon svg {width: 100%; height: 100%; display: block;}
+        .dev-gallery .dev-icon-loading {border-radius: 0.25rem; background: var(--sl-color-gray-6);}
+        .dev-gallery .fe-empty {margin-top: 1rem; padding: 3rem 1rem; text-align: center; color: var(--sl-color-gray-2); border: 1px dashed var(--sl-color-gray-5); border-radius: 0.375rem;}
+        .dev-gallery .fe-empty code {color: var(--sl-color-text);}
         .fe-dialog {position: fixed; inset: 0; margin: auto; width: min(44rem, calc(100vw - 2rem)); max-height: min(84dvh, 44rem); display: flex; flex-direction: column; gap: 0.85rem; border: 1px solid var(--sl-color-gray-4); border-radius: 0.75rem; background: var(--sl-color-bg); color: var(--sl-color-text); padding: 1.1rem 1.25rem 1.25rem;}
         .fe-dialog:not([open]) {display: none;}
         .fe-dialog::backdrop {background: rgb(0 0 0 / 0.5);}
-        .fe-dialog[open] {animation: fe-in 180ms var(--fe-ease);}
+        .fe-dialog[open] {animation: fe-in 180ms var(--dev-ease);}
         @keyframes fe-in {from {opacity: 0; transform: translateY(8px) scale(0.98);} to {opacity: 1; transform: none;}}
         @media (prefers-reduced-motion: reduce) {
           .fe-dialog[open] {animation: none;}
-          .fe-gallery .fe-cell, .fe-gallery .fe-styles button, .fe-gallery input[type='search'] {transition: none;}
+          .dev-gallery .fe-cell, .dev-gallery .fe-styles button, .dev-gallery input[type='search'] {transition: none;}
         }
         .fe-dialog .fe-head {display: flex; align-items: flex-start; gap: 0.85rem;}
         .fe-dialog .fe-tile {display: grid; place-items: center; width: 3.25rem; height: 3.25rem; border-radius: 0.375rem; background: var(--sl-color-gray-6); border: 1px solid var(--sl-color-gray-5); flex: none;}
@@ -286,21 +288,21 @@ export default function Gallery({base}: {base: string}) {
         .fe-dialog .fe-titles h3 {margin: 0; font-size: var(--sl-text-lg); line-height: 1.25;}
         .fe-dialog .fe-meta {display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.35rem;}
         .fe-dialog .fe-meta > code {font-size: var(--sl-text-xs); color: var(--sl-color-gray-2); background: var(--sl-color-gray-6); padding: 0.15rem 0.45rem; border-radius: 0.25rem;}
-        .fe-dialog .fe-set {min-height: 1.7rem; font-size: var(--sl-text-xs); padding: 0 0.55rem; border-radius: 0.25rem; border: 1px solid var(--sl-color-gray-5); background: transparent; color: var(--sl-color-gray-2); cursor: pointer; transition: color 150ms var(--fe-ease), border-color 150ms var(--fe-ease);}
+        .fe-dialog .fe-set {min-height: 1.7rem; font-size: var(--sl-text-xs); padding: 0 0.55rem; border-radius: 0.25rem; border: 1px solid var(--sl-color-gray-5); background: transparent; color: var(--sl-color-gray-2); cursor: pointer; transition: color 150ms var(--dev-ease), border-color 150ms var(--dev-ease);}
         .fe-dialog .fe-set:hover {color: var(--sl-color-text);}
         .fe-dialog .fe-set:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px;}
         .fe-dialog .fe-set[aria-pressed='true'] {border-color: var(--sl-color-text-accent); color: var(--sl-color-text-accent); font-weight: 600;}
-        .fe-dialog .fe-close {flex: none; width: 2.5rem; height: 2.5rem; display: grid; place-items: center; border: 1px solid var(--sl-color-gray-4); background: transparent; color: var(--sl-color-gray-2); border-radius: 0.375rem; font-size: 0.9rem; line-height: 1; cursor: pointer; transition: background 150ms var(--fe-ease), color 150ms var(--fe-ease);}
+        .fe-dialog .fe-close {flex: none; width: 2.5rem; height: 2.5rem; display: grid; place-items: center; border: 1px solid var(--sl-color-gray-4); background: transparent; color: var(--sl-color-gray-2); border-radius: 0.375rem; font-size: 0.9rem; line-height: 1; cursor: pointer; transition: background 150ms var(--dev-ease), color 150ms var(--dev-ease);}
         .fe-dialog .fe-close:hover {background: var(--sl-color-gray-6); color: var(--sl-color-text);}
         .fe-dialog .fe-close:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px;}
         .fe-dialog .fe-tabs {display: flex; gap: 0.25rem; overflow-x: auto; padding-bottom: 0.3rem; scrollbar-width: thin;}
-        .fe-dialog .fe-tabs button {flex: none; min-height: 2.1rem; border: 1px solid var(--sl-color-gray-4); background: transparent; color: var(--sl-color-gray-2); border-radius: 0.375rem; padding: 0 0.7rem; font-size: var(--sl-text-xs); cursor: pointer; transition: background 150ms var(--fe-ease), color 150ms var(--fe-ease);}
+        .fe-dialog .fe-tabs button {flex: none; min-height: 2.1rem; border: 1px solid var(--sl-color-gray-4); background: transparent; color: var(--sl-color-gray-2); border-radius: 0.375rem; padding: 0 0.7rem; font-size: var(--sl-text-xs); cursor: pointer; transition: background 150ms var(--dev-ease), color 150ms var(--dev-ease);}
         .fe-dialog .fe-tabs button:hover {color: var(--sl-color-text); background: var(--sl-color-gray-6);}
         .fe-dialog .fe-tabs button:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px;}
         .fe-dialog .fe-tabs button[aria-selected='true'] {background: var(--sl-color-text-accent); color: var(--sl-color-text-invert); border-color: var(--sl-color-text-accent); font-weight: 600;}
         .fe-dialog .fe-code {display: flex; flex-direction: column; min-height: 0; border: 1px solid var(--sl-color-gray-5); border-radius: 0.375rem; overflow: hidden;}
         .fe-dialog .fe-code-head {display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; padding: 0.35rem 0.5rem 0.35rem 0.75rem; background: var(--sl-color-gray-6); border-bottom: 1px solid var(--sl-color-gray-5); font-size: var(--sl-text-xs); color: var(--sl-color-gray-2); font-family: var(--__sl-font-mono, monospace);}
-        .fe-dialog .fe-copy {min-height: 1.9rem; border: 1px solid var(--sl-color-gray-4); background: var(--sl-color-bg); color: var(--sl-color-text); border-radius: 0.25rem; padding: 0 0.7rem; font-size: var(--sl-text-xs); cursor: pointer; transition: border-color 150ms var(--fe-ease), color 150ms var(--fe-ease), transform 100ms var(--fe-ease);}
+        .fe-dialog .fe-copy {min-height: 1.9rem; border: 1px solid var(--sl-color-gray-4); background: var(--sl-color-bg); color: var(--sl-color-text); border-radius: 0.25rem; padding: 0 0.7rem; font-size: var(--sl-text-xs); cursor: pointer; transition: border-color 150ms var(--dev-ease), color 150ms var(--dev-ease), transform 100ms var(--dev-ease);}
         .fe-dialog .fe-copy:hover {border-color: var(--sl-color-gray-3);}
         .fe-dialog .fe-copy:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px;}
         .fe-dialog .fe-copy:active {transform: scale(0.97);}

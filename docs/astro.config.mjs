@@ -13,7 +13,7 @@ export default defineConfig({
   site: 'https://devicons-pack.mkabumattar.com',
   integrations: [
     starlight({
-      title: 'AWS Icons',
+      title: 'Devicons Pack',
       description: 'Devicons packaged for every stack — SVG, React, Astro.',
       social: [
         {

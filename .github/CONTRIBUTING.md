@@ -1,4 +1,4 @@
-# Contributing to dev-icons
+# Contributing to devicons-pack
 
 Thanks for helping improve the project. It is a pnpm monorepo publishing the
 `@devicons-pack/*` packages, generated from the [devicons/devicon icons](https://github.com/devicons/devicon).

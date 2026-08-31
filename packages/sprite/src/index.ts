@@ -17,7 +17,7 @@ export const sets: readonly SpriteSet[] = [
 
 /**
  * Fragment URL for one icon in a sprite you serve yourself:
- * `spriteHref('/sprites/flat.svg', 'rocket')` -> `/sprites/flat.svg#rocket`.
+ * `spriteHref('/sprites/original.svg', 'javascript')` -> `/sprites/original.svg#javascript`.
  */
 export const spriteHref = (spriteUrl: string, slug: string): string =>
   `${spriteUrl}#${slug}`;

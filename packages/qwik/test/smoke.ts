@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 // @ts-expect-error generated at build time
 import {Javascript} from '../dist/original/index.js';
 // @ts-expect-error generated at build time
-import ModernJavascript from '../dist/plain-wordmark/icons/nodejs.js';
+import NodejsWordmark from '../dist/plain-wordmark/icons/nodejs.js';
 
 const plain = Javascript({}) as {type: unknown; props: Record<string, unknown>};
 assert.equal(plain.type, 'svg', 'renders an svg jsx node');
@@ -13,7 +13,7 @@ assert.ok(
   'body present',
 );
 
-const labeled = ModernJavascript({title: 'Javascript', class: 'x'}) as {
+const labeled = NodejsWordmark({title: 'Javascript', class: 'x'}) as {
   props: Record<string, unknown>;
 };
 assert.equal(

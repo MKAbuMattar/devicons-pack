@@ -6,17 +6,14 @@ import path from 'node:path';
 // output instead of rendering. The core compiles under tsc in CI.
 const dist = path.resolve(import.meta.dirname, '../dist');
 
-const rocket = fs.readFileSync(
+const icon = fs.readFileSync(
   path.join(dist, 'original/icons/javascript.js'),
   'utf8',
 );
-assert.ok(
-  rocket.includes("createDevIcon} from '../../core.js'"),
-  'imports core',
-);
-assert.ok(rocket.includes('createDevIcon("Javascript"'), 'named factory call');
-assert.ok(rocket.includes('<svg'), 'carries full svg xml');
-assert.ok(rocket.includes('export default Javascript'), 'default export');
+assert.ok(icon.includes("createDevIcon} from '../../core.js'"), 'imports core');
+assert.ok(icon.includes('createDevIcon("Javascript"'), 'named factory call');
+assert.ok(icon.includes('<svg'), 'carries full svg xml');
+assert.ok(icon.includes('export default Javascript'), 'default export');
 
 const dts = fs.readFileSync(
   path.join(dist, 'original/icons/javascript.d.ts'),

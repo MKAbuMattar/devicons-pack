@@ -5,13 +5,13 @@ import {spriteHref, spritePath} from '../src/index';
 
 const dist = path.resolve(import.meta.dirname, '../dist');
 
-const flat = fs.readFileSync(path.join(dist, 'original.svg'), 'utf8');
-assert.ok(flat.startsWith('<svg'), 'sprite is an svg');
+const sprite = fs.readFileSync(path.join(dist, 'original.svg'), 'utf8');
+assert.ok(sprite.startsWith('<svg'), 'sprite is an svg');
 assert.ok(
-  flat.includes('<symbol id="javascript" viewBox="0 0 128 128">'),
-  'rocket symbol',
+  sprite.includes('<symbol id="javascript" viewBox="0 0 128 128">'),
+  'javascript symbol',
 );
-assert.ok((flat.match(/<symbol /g) ?? []).length > 90, 'all symbols present');
+assert.ok((sprite.match(/<symbol /g) ?? []).length > 90, 'all symbols present');
 
 assert.equal(
   spriteHref('/sprites/original.svg', 'javascript'),
