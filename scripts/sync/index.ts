@@ -9,7 +9,7 @@
  * svgo ID prefixes are derived from the slug (deterministic), so re-running
  * sync only diffs icons that actually changed upstream.
  */
-import {execSync} from 'node:child_process';
+import {execFileSync} from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import {type Config, optimize} from 'svgo';
@@ -40,6 +40,9 @@ const MONO_VARIANTS = new Set([
 const svgoConfig = (slug: string, variant: string): Config => ({
   plugins: [
     'preset-default',
+    // removeScripts is not part of preset-default; these SVGs are injected raw
+    // into consumer pages (innerHTML, {@html}, dangerouslySetInnerHTML)
+    'removeScripts',
     'removeTitle',
     // font-glyph variants are single-color — currentColor lets CSS color them
     ...(MONO_VARIANTS.has(variant)
@@ -68,19 +71,39 @@ const titleCase = (slug: string): string =>
     .join(' ');
 
 const main = async (): Promise<void> => {
+  if (!/^[a-z][a-z0-9._-]*$/i.test(BRANCH)) {
+    throw new Error(`SYNC_BRANCH looks invalid: ${BRANCH}`);
+  }
   fs.rmSync(TMP, {recursive: true, force: true});
   console.log(
     `Cloning ${UPSTREAM}@${BRANCH} (sparse: icons/ + devicon.json)...`,
   );
-  execSync(
-    `git clone --depth=1 -b ${BRANCH} --filter=blob:none --sparse ${UPSTREAM} ${TMP}`,
+  execFileSync(
+    'git',
+    [
+      'clone',
+      '--depth=1',
+      '-b',
+      BRANCH,
+      '--filter=blob:none',
+      '--sparse',
+      UPSTREAM,
+      TMP,
+    ],
     {stdio: 'inherit'},
   );
-  execSync(
-    `git -C ${TMP} sparse-checkout set --no-cone '/icons/**' '/devicon.json'`,
-    {
-      stdio: 'inherit',
-    },
+  execFileSync(
+    'git',
+    [
+      '-C',
+      TMP,
+      'sparse-checkout',
+      'set',
+      '--no-cone',
+      '/icons/**',
+      '/devicon.json',
+    ],
+    {stdio: 'inherit'},
   );
 
   const upstream: DeviconEntry[] = JSON.parse(

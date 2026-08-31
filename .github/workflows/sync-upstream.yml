@@ -44,20 +44,16 @@ jobs:
         run: |
           if [ -n "$(git status --porcelain assets/)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
-            cat > .changeset/upstream-sync-${{ github.run_id }}-${{ matrix.base }}.md <<'EOF'
+            # every package regenerates its published output from assets/ at
+            # build time, so an asset change is a release for all of them
+            changeset=""
+            for dir in packages/*/; do
+              name=$(node -p "require('./${dir}package.json').name")
+              changeset+="'${name}': minor"$'\n'
+            done
+            cat > .changeset/upstream-sync-${{ github.run_id }}-${{ matrix.base }}.md <<EOF
           ---
-          '@devicons-pack/svg': minor
-          '@devicons-pack/react': minor
-          '@devicons-pack/preact': minor
-          '@devicons-pack/vue': minor
-          '@devicons-pack/solid': minor
-          '@devicons-pack/svelte': minor
-          '@devicons-pack/astro': minor
-          '@devicons-pack/angular': minor
-          '@devicons-pack/lit': minor
-          '@devicons-pack/web-components': minor
-          '@devicons-pack/alpine': minor
-          '@devicons-pack/htmx': minor
+          ${changeset}
           ---
 
           Sync icon assets from devicons/devicon (${{ matrix.upstream }})
