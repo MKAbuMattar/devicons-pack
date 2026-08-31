@@ -1,7 +1,7 @@
 {
   "name": "@devicons-pack/alpine",
   "version": "2.1.0",
-  "description": "Devicons as an Alpine.js plugin — x-dev-icon directive and $devIcon magic with tree-shakeable icon data (flat, high-contrast, modern).",
+  "description": "Devicons as an Alpine.js plugin — x-dev-icon directive and $devIcon magic with tree-shakeable icon data (6 icon variants).",
   "keywords": [
     "devicons",
     "icon",
@@ -97,7 +97,7 @@
   },
   "devDependencies": {
     "tsup": "^8.5.0",
-    "tsx": "^4.23.11",
+    "tsx": "^4.23.12",
     "typescript": "^5.9.3"
   },
   "engines": {

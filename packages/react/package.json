@@ -1,7 +1,7 @@
 {
   "name": "@devicons-pack/react",
   "version": "2.1.0",
-  "description": "Devicons as tree-shakeable typed React components (flat, high-contrast, modern). Successor of the react-dev-icon package.",
+  "description": "Devicons as tree-shakeable typed React components (6 icon variants). Successor of the devicons-react package.",
   "keywords": [
     "devicons",
     "icon",
@@ -181,7 +181,7 @@
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "tsup": "^8.5.0",
-    "tsx": "^4.23.11",
+    "tsx": "^4.23.12",
     "typescript": "^5.9.3"
   },
   "engines": {

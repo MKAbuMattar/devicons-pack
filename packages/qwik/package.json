@@ -1,11 +1,11 @@
 {
   "name": "@devicons-pack/qwik",
   "version": "2.1.0",
-  "description": "Devicons as typed Qwik components (flat, high-contrast, modern). ESM only.",
+  "description": "Devicons as typed Qwik components (6 icon variants). ESM only.",
   "keywords": [
-    "fluentui",
+    "devicons",
     "icon",
-    "fluentui-icon",
+    "devicon",
     "icons",
     "svg",
     "qwik"
@@ -103,7 +103,7 @@
   "devDependencies": {
     "@builder.io/qwik": "^1.20.0",
     "tsup": "^8.5.0",
-    "tsx": "^4.23.11",
+    "tsx": "^4.23.12",
     "typescript": "^5.9.3"
   }
 }
