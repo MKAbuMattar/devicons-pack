@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@astrojs/react": "^6.0.4",
-    "@astrojs/starlight": "^0.41.7",
+    "@astrojs/starlight": "^0.41.10",
     "@devicons-pack/astro": "workspace:*",
     "@devicons-pack/react": "workspace:*",
     "@devicons-pack/svg": "workspace:*",
