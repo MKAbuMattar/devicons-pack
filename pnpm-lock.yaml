@@ -31,7 +31,7 @@ importers:
     dependencies:
       '@astrojs/react':
         specifier: ^6.0.4
-        version: 6.0.4(@types/node@26.4.0)(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(less@4.8.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.12)(yaml@2.9.0)
+        version: 6.0.4(@types/node@26.4.0)(@types/react-dom@19.2.4(@types/react@19.3.0))(@types/react@19.3.0)(esbuild@0.28.2)(less@4.8.1)(react-dom@19.2.8(react@19.3.0))(react@19.3.0)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.12)(yaml@2.9.0)
       '@astrojs/starlight':
         specifier: ^0.41.10
         version: 0.41.10(@astrojs/markdown-remark@7.2.4)(astro@7.2.9(@astrojs/markdown-remark@7.2.4)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.4.0)(less@4.8.1)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.12)(yaml@2.9.0))(typescript@7.0.2)
@@ -48,11 +48,11 @@ importers:
         specifier: ^7.2.4
         version: 7.2.9(@astrojs/markdown-remark@7.2.4)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.4.0)(less@4.8.1)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.12)(yaml@2.9.0)
       react:
-        specifier: ^19.2.8
-        version: 19.2.8
+        specifier: ^19.3.0
+        version: 19.3.0
       react-dom:
         specifier: ^19.2.8
-        version: 19.2.8(react@19.2.8)
+        version: 19.2.8(react@19.3.0)
       sharp:
         specifier: ^0.35.4
         version: 0.35.4(@types/node@26.4.0)
@@ -195,14 +195,14 @@ importers:
   packages/react:
     devDependencies:
       '@types/react':
-        specifier: ^19.2.9
-        version: 19.2.18
+        specifier: ^19.3.0
+        version: 19.3.0
       react:
-        specifier: ^19.2.4
-        version: 19.2.8
+        specifier: ^19.3.0
+        version: 19.3.0
       react-dom:
         specifier: ^19.2.4
-        version: 19.2.8(react@19.2.8)
+        version: 19.2.8(react@19.3.0)
       tsup:
         specifier: ^8.5.0
         version: 8.5.1(postcss@8.5.26)(tsx@4.23.12)(typescript@5.9.3)(yaml@2.9.0)
@@ -216,14 +216,14 @@ importers:
   packages/react-native:
     devDependencies:
       '@types/react':
-        specifier: ^19.2.9
-        version: 19.2.18
+        specifier: ^19.3.0
+        version: 19.3.0
       react:
-        specifier: ^19.2.4
-        version: 19.2.8
+        specifier: ^19.3.0
+        version: 19.3.0
       react-native-svg:
         specifier: ^15.15.5
-        version: 15.15.5(react-native@0.86.2(@babel/core@8.0.1)(@types/react@19.2.18)(react@19.2.8))(react@19.2.8)
+        version: 15.15.5(react-native@0.86.2(@babel/core@8.0.1)(@types/react@19.3.0)(react@19.3.0))(react@19.3.0)
       tsup:
         specifier: ^8.5.0
         version: 8.5.1(postcss@8.5.26)(tsx@4.23.12)(typescript@5.9.3)(yaml@2.9.0)
@@ -2264,8 +2264,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.2.0
 
-  '@types/react@19.2.18':
-    resolution: {integrity: sha512-AnzbBERsrLKtk2XSfTbYRLjQPdy116Sty4q+T+Bp3IC4l6jNBvreVPAHmpq9qhXQM7CXZPjLVmGMw9sy+hxQ3w==}
+  '@types/react@19.3.0':
+    resolution: {integrity: sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==}
 
   '@types/sax@1.2.7':
     resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
@@ -4178,8 +4178,8 @@ packages:
     resolution: {integrity: sha512-QgT5//D3jfjJb6Gsjxv0Slpj23ip+HtOpnNgnb2S5zU3CB26G/IDPGoy4RJB42wzFE46DRsstbW6tKHoKbhAxw==}
     engines: {node: '>=0.10.0'}
 
-  react@19.2.8:
-    resolution: {integrity: sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw==}
+  react@19.3.0:
+    resolution: {integrity: sha512-E8LUcbtBWt20bbl2YoHfx4ZDBdxVTfOKtCZn9cDSJ4l6/nuoApcpIBcj47t2wZoVX8g2ZHuMHbiShgCR1T5Sog==}
     engines: {node: '>=0.10.0'}
 
   readdirp@4.1.2:
@@ -5199,15 +5199,15 @@ snapshots:
     dependencies:
       prismjs: 1.30.0
 
-  '@astrojs/react@6.0.4(@types/node@26.4.0)(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(less@4.8.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.12)(yaml@2.9.0)':
+  '@astrojs/react@6.0.4(@types/node@26.4.0)(@types/react-dom@19.2.4(@types/react@19.3.0))(@types/react@19.3.0)(esbuild@0.28.2)(less@4.8.1)(react-dom@19.2.8(react@19.3.0))(react@19.3.0)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.12)(yaml@2.9.0)':
     dependencies:
       '@astrojs/internal-helpers': 0.10.4
-      '@types/react': 19.2.18
-      '@types/react-dom': 19.2.4(@types/react@19.2.18)
+      '@types/react': 19.3.0
+      '@types/react-dom': 19.2.4(@types/react@19.3.0)
       '@vitejs/plugin-react': 5.2.0(vite@8.2.1(@types/node@26.4.0)(esbuild@0.28.2)(less@4.8.1)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.12)(yaml@2.9.0))
       devalue: 5.9.0
-      react: 19.2.8
-      react-dom: 19.2.8(react@19.2.8)
+      react: 19.3.0
+      react-dom: 19.2.8(react@19.3.0)
       ultrahtml: 1.7.0
       vite: 8.2.1(@types/node@26.4.0)(esbuild@0.28.2)(less@4.8.1)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.12)(yaml@2.9.0)
     transitivePeerDependencies:
@@ -6422,14 +6422,14 @@ snapshots:
 
   '@react-native/normalize-colors@0.86.2': {}
 
-  '@react-native/virtualized-lists@0.86.2(@types/react@19.2.18)(react-native@0.86.2(@babel/core@8.0.1)(@types/react@19.2.18)(react@19.2.8))(react@19.2.8)':
+  '@react-native/virtualized-lists@0.86.2(@types/react@19.3.0)(react-native@0.86.2(@babel/core@8.0.1)(@types/react@19.3.0)(react@19.3.0))(react@19.3.0)':
     dependencies:
       invariant: 2.2.4
       nullthrows: 1.1.1
-      react: 19.2.8
-      react-native: 0.86.2(@babel/core@8.0.1)(@types/react@19.2.18)(react@19.2.8)
+      react: 19.3.0
+      react-native: 0.86.2(@babel/core@8.0.1)(@types/react@19.3.0)(react@19.3.0)
     optionalDependencies:
-      '@types/react': 19.2.18
+      '@types/react': 19.3.0
 
   '@rolldown/binding-android-arm64@1.2.3':
     optional: true
@@ -6733,11 +6733,11 @@ snapshots:
     dependencies:
       undici-types: 8.3.0
 
-  '@types/react-dom@19.2.4(@types/react@19.2.18)':
+  '@types/react-dom@19.2.4(@types/react@19.3.0)':
     dependencies:
-      '@types/react': 19.2.18
+      '@types/react': 19.3.0
 
-  '@types/react@19.2.18':
+  '@types/react@19.3.0':
     dependencies:
       csstype: 3.2.3
 
@@ -9237,21 +9237,21 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  react-dom@19.2.8(react@19.2.8):
+  react-dom@19.2.8(react@19.3.0):
     dependencies:
-      react: 19.2.8
+      react: 19.3.0
       scheduler: 0.27.0
 
   react-is@18.3.1: {}
 
-  react-native-svg@15.15.5(react-native@0.86.2(@babel/core@8.0.1)(@types/react@19.2.18)(react@19.2.8))(react@19.2.8):
+  react-native-svg@15.15.5(react-native@0.86.2(@babel/core@8.0.1)(@types/react@19.3.0)(react@19.3.0))(react@19.3.0):
     dependencies:
       css-select: 5.2.2
       css-tree: 1.1.3
-      react: 19.2.8
-      react-native: 0.86.2(@babel/core@8.0.1)(@types/react@19.2.18)(react@19.2.8)
+      react: 19.3.0
+      react-native: 0.86.2(@babel/core@8.0.1)(@types/react@19.3.0)(react@19.3.0)
 
-  react-native@0.86.2(@babel/core@8.0.1)(@types/react@19.2.18)(react@19.2.8):
+  react-native@0.86.2(@babel/core@8.0.1)(@types/react@19.3.0)(react@19.3.0):
     dependencies:
       '@react-native/assets-registry': 0.86.2
       '@react-native/codegen': 0.86.2(@babel/core@8.0.1)
@@ -9259,7 +9259,7 @@ snapshots:
       '@react-native/gradle-plugin': 0.86.2
       '@react-native/js-polyfills': 0.86.2
       '@react-native/normalize-colors': 0.86.2
-      '@react-native/virtualized-lists': 0.86.2(@types/react@19.2.18)(react-native@0.86.2(@babel/core@8.0.1)(@types/react@19.2.18)(react@19.2.8))(react@19.2.8)
+      '@react-native/virtualized-lists': 0.86.2(@types/react@19.3.0)(react-native@0.86.2(@babel/core@8.0.1)(@types/react@19.3.0)(react@19.3.0))(react@19.3.0)
       abort-controller: 3.0.0
       anser: 1.4.10
       ansi-regex: 5.0.1
@@ -9275,7 +9275,7 @@ snapshots:
       nullthrows: 1.1.1
       pretty-format: 29.7.0
       promise: 8.3.0
-      react: 19.2.8
+      react: 19.3.0
       react-devtools-core: 6.1.5
       react-refresh: 0.14.2
       regenerator-runtime: 0.13.11
@@ -9287,7 +9287,7 @@ snapshots:
       ws: 7.5.13
       yargs: 17.7.3
     optionalDependencies:
-      '@types/react': 19.2.18
+      '@types/react': 19.3.0
     transitivePeerDependencies:
       - '@babel/core'
       - '@react-native-community/cli'
@@ -9300,7 +9300,7 @@ snapshots:
 
   react-refresh@0.18.0: {}
 
-  react@19.2.8: {}
+  react@19.3.0: {}
 
   readdirp@4.1.2: {}
 
