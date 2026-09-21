@@ -1,5 +1,5 @@
 {
-  "count": 634,
+  "count": 648,
   "styles": [
     "original",
     "plain",
@@ -1079,6 +1079,23 @@
       "altnames": []
     },
     {
+      "slug": "cachyos",
+      "name": "Cachyos",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "arch",
+        "os",
+        "open-source",
+        "linux"
+      ],
+      "altnames": [
+        "Cachy OS"
+      ]
+    },
+    {
       "slug": "cairo",
       "name": "Cairo",
       "styles": [
@@ -1095,6 +1112,24 @@
       ],
       "altnames": [
         "cairographics"
+      ]
+    },
+    {
+      "slug": "cake",
+      "name": "Cake",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "programming",
+        "C#",
+        "c-sharp",
+        "automation",
+        "build"
+      ],
+      "altnames": [
+        "cakebuild"
       ]
     },
     {
@@ -1302,6 +1337,34 @@
       "altnames": [
         "clarity-lang"
       ]
+    },
+    {
+      "slug": "claude",
+      "name": "Claude",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "ai",
+        "assistant",
+        "language-model",
+        "llm"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "claudecode",
+      "name": "Claudecode",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "ai",
+        "coding",
+        "assistant"
+      ],
+      "altnames": []
     },
     {
       "slug": "clickhouse",
@@ -1516,6 +1579,24 @@
         "editor"
       ],
       "altnames": []
+    },
+    {
+      "slug": "codex",
+      "name": "Codex",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "ai",
+        "agent",
+        "cli",
+        "assistant",
+        "code"
+      ],
+      "altnames": [
+        "openaicodex"
+      ]
     },
     {
       "slug": "coffeescript",
@@ -3301,6 +3382,23 @@
       "altnames": []
     },
     {
+      "slug": "googleappscript",
+      "name": "Googleappscript",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "google",
+        "javascript",
+        "automation",
+        "cloud"
+      ],
+      "altnames": [
+        "Apps Script"
+      ]
+    },
+    {
       "slug": "googlecloud",
       "name": "Googlecloud",
       "styles": [
@@ -3368,6 +3466,23 @@
         "logs",
         "visualization",
         "web-application"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "grafanaloki",
+      "name": "Grafanaloki",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "loki",
+        "logging",
+        "monitoring",
+        "grafana"
       ],
       "altnames": []
     },
@@ -5182,6 +5297,20 @@
       "altnames": []
     },
     {
+      "slug": "metabase",
+      "name": "Metabase",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "dashboard",
+        "data",
+        "analytics"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "meteor",
       "name": "Meteor",
       "styles": [
@@ -5460,6 +5589,7 @@
       "slug": "n8n",
       "name": "N8n",
       "styles": [
+        "original",
         "original-wordmark",
         "plain-wordmark"
       ],
@@ -6028,6 +6158,21 @@
     {
       "slug": "ocaml",
       "name": "Ocaml",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "odin",
+      "name": "Odin",
       "styles": [
         "original",
         "plain",
@@ -7058,6 +7203,17 @@
         "framework",
         "machine-learning",
         "python"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "qiskit",
+      "name": "Qiskit",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "programming"
       ],
       "altnames": []
     },
@@ -8871,6 +9027,21 @@
       "altnames": []
     },
     {
+      "slug": "tinygo",
+      "name": "Tinygo",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "golang",
+        "compiler",
+        "microcontroller",
+        "hardware"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "titaniumsdk",
       "name": "Titaniumsdk",
       "styles": [
@@ -9511,6 +9682,21 @@
       "altnames": []
     },
     {
+      "slug": "vlang",
+      "name": "Vlang",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "programming",
+        "language"
+      ],
+      "altnames": [
+        "v"
+      ]
+    },
+    {
       "slug": "vscode",
       "name": "Vscode",
       "styles": [
@@ -9673,6 +9859,41 @@
       "altnames": [
         "WebAssembly"
       ]
+    },
+    {
+      "slug": "wasp",
+      "name": "Wasp",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "framework",
+        "fullstack",
+        "web",
+        "react",
+        "nodejs",
+        "prisma",
+        "dsl"
+      ],
+      "altnames": [
+        "Wasp-lang"
+      ]
+    },
+    {
+      "slug": "web2py",
+      "name": "Web2py",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "python",
+        "programming",
+        "framework",
+        "web"
+      ],
+      "altnames": []
     },
     {
       "slug": "web3js",

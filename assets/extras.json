@@ -589,6 +589,17 @@
     ],
     "altnames": []
   },
+  "cachyos": {
+    "tags": [
+      "arch",
+      "os",
+      "open-source",
+      "linux"
+    ],
+    "altnames": [
+      "Cachy OS"
+    ]
+  },
   "cairo": {
     "tags": [
       "graphic",
@@ -598,6 +609,18 @@
     ],
     "altnames": [
       "cairographics"
+    ]
+  },
+  "cake": {
+    "tags": [
+      "programming",
+      "C#",
+      "c-sharp",
+      "automation",
+      "build"
+    ],
+    "altnames": [
+      "cakebuild"
     ]
   },
   "cakephp": {
@@ -710,6 +733,23 @@
     "altnames": [
       "clarity-lang"
     ]
+  },
+  "claude": {
+    "tags": [
+      "ai",
+      "assistant",
+      "language-model",
+      "llm"
+    ],
+    "altnames": []
+  },
+  "claudecode": {
+    "tags": [
+      "ai",
+      "coding",
+      "assistant"
+    ],
+    "altnames": []
   },
   "clickhouse": {
     "tags": [
@@ -828,6 +868,18 @@
       "editor"
     ],
     "altnames": []
+  },
+  "codex": {
+    "tags": [
+      "ai",
+      "agent",
+      "cli",
+      "assistant",
+      "code"
+    ],
+    "altnames": [
+      "openaicodex"
+    ]
   },
   "coffeescript": {
     "tags": [
@@ -1769,6 +1821,17 @@
     ],
     "altnames": []
   },
+  "googleappscript": {
+    "tags": [
+      "google",
+      "javascript",
+      "automation",
+      "cloud"
+    ],
+    "altnames": [
+      "Apps Script"
+    ]
+  },
   "googlecloud": {
     "tags": [
       "google",
@@ -1807,6 +1870,15 @@
       "logs",
       "visualization",
       "web-application"
+    ],
+    "altnames": []
+  },
+  "grafanaloki": {
+    "tags": [
+      "loki",
+      "logging",
+      "monitoring",
+      "grafana"
     ],
     "altnames": []
   },
@@ -2810,6 +2882,14 @@
     ],
     "altnames": []
   },
+  "metabase": {
+    "tags": [
+      "dashboard",
+      "data",
+      "analytics"
+    ],
+    "altnames": []
+  },
   "meteor": {
     "tags": [
       "javascript",
@@ -3264,6 +3344,13 @@
     "altnames": []
   },
   "ocaml": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": []
+  },
+  "odin": {
     "tags": [
       "programming",
       "language"
@@ -3831,6 +3918,12 @@
       "framework",
       "machine-learning",
       "python"
+    ],
+    "altnames": []
+  },
+  "qiskit": {
+    "tags": [
+      "programming"
     ],
     "altnames": []
   },
@@ -4819,6 +4912,15 @@
     ],
     "altnames": []
   },
+  "tinygo": {
+    "tags": [
+      "golang",
+      "compiler",
+      "microcontroller",
+      "hardware"
+    ],
+    "altnames": []
+  },
   "titaniumsdk": {
     "tags": [
       "app",
@@ -5159,6 +5261,15 @@
     ],
     "altnames": []
   },
+  "vlang": {
+    "tags": [
+      "programming",
+      "language"
+    ],
+    "altnames": [
+      "v"
+    ]
+  },
   "vscode": {
     "tags": [
       "editor",
@@ -5249,6 +5360,29 @@
     "altnames": [
       "WebAssembly"
     ]
+  },
+  "wasp": {
+    "tags": [
+      "framework",
+      "fullstack",
+      "web",
+      "react",
+      "nodejs",
+      "prisma",
+      "dsl"
+    ],
+    "altnames": [
+      "Wasp-lang"
+    ]
+  },
+  "web2py": {
+    "tags": [
+      "python",
+      "programming",
+      "framework",
+      "web"
+    ],
+    "altnames": []
   },
   "web3js": {
     "tags": [
