@@ -33,7 +33,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git fetch origin main
           before=$(git rev-parse HEAD)
-          bash scripts/sync-next.sh
+          # run main's copy: next may not have the script (or its latest version)
+          bash <(git show origin/main:scripts/sync-next.sh)
           if [ "$(git rev-parse HEAD)" != "$before" ]; then
             git push origin HEAD:next
             gh workflow run ci.yml --ref next
