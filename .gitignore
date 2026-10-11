@@ -9,3 +9,4 @@ packages/*/icons/
 packages/*/metadata.json
 packages/*/src/icon.generated.ts
 docs/public/icon/
+.serena/
