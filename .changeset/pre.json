@@ -1,4 +1,23 @@
 {
   "mode": "pre",
-  "tag": "beta"
+  "tag": "beta",
+  "initialVersions": {
+    "@devicons-pack/alpine": "2.2.0-beta.0",
+    "@devicons-pack/angular": "2.2.0-beta.0",
+    "@devicons-pack/astro": "2.2.0-beta.0",
+    "@devicons-pack/htmx": "2.2.0-beta.0",
+    "@devicons-pack/iconify": "2.1.0",
+    "@devicons-pack/lit": "2.2.0-beta.0",
+    "@devicons-pack/preact": "2.2.0-beta.0",
+    "@devicons-pack/qwik": "2.1.0",
+    "@devicons-pack/react": "2.2.0-beta.0",
+    "@devicons-pack/react-native": "2.1.0",
+    "@devicons-pack/solid": "2.2.0-beta.0",
+    "@devicons-pack/sprite": "2.1.0",
+    "@devicons-pack/svelte": "2.2.0-beta.0",
+    "@devicons-pack/svg": "2.2.0-beta.0",
+    "@devicons-pack/vue": "2.2.0-beta.0",
+    "@devicons-pack/web-components": "2.2.0-beta.0"
+  },
+  "changesets": []
 }
