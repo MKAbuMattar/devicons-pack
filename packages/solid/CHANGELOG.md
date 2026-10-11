@@ -1,5 +1,12 @@
 # @devicons-pack/solid
 
+## 2.2.0-beta.0
+
+### Minor Changes
+
+- 2bd2725: Sync icon assets from devicons/devicon (develop)
+- f92892f: Sync icon assets from devicons/devicon (develop)
+
 ## 2.1.0
 
 ### Minor Changes
