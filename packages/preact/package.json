@@ -1,7 +1,7 @@
 {
   "name": "@devicons-pack/preact",
-  "version": "2.0.0-beta.2",
-  "description": "Devicons as tree-shakeable typed Preact components (flat, high-contrast, modern).",
+  "version": "2.1.0",
+  "description": "Devicons as tree-shakeable typed Preact components (6 icon variants).",
   "keywords": [
     "devicons",
     "icon",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/devicons-pack.git",
+    "url": "git+https://github.com/MKAbuMattar/devicons-pack.git",
     "directory": "packages/preact"
   },
   "bugs": {
@@ -160,7 +160,8 @@
         "types": "./dist/line-wordmark/icons/*.d.cts",
         "default": "./dist/line-wordmark/icons/*.cjs"
       }
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -176,10 +177,13 @@
     "access": "public"
   },
   "devDependencies": {
-    "preact": "^10.29.8",
-    "preact-render-to-string": "^6.7.0",
+    "preact": "^11.0.0",
+    "preact-render-to-string": "^6.8.0",
     "tsup": "^8.5.0",
-    "tsx": "^4.23.11",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

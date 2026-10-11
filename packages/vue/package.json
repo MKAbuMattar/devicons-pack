@@ -1,7 +1,7 @@
 {
   "name": "@devicons-pack/vue",
-  "version": "2.0.0-beta.2",
-  "description": "Devicons as tree-shakeable typed Vue 3 components (flat, high-contrast, modern).",
+  "version": "2.1.0",
+  "description": "Devicons as tree-shakeable typed Vue 3 components (6 icon variants).",
   "keywords": [
     "devicons",
     "icon",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/devicons-pack.git",
+    "url": "git+https://github.com/MKAbuMattar/devicons-pack.git",
     "directory": "packages/vue"
   },
   "bugs": {
@@ -160,7 +160,8 @@
         "types": "./dist/line-wordmark/icons/*.d.cts",
         "default": "./dist/line-wordmark/icons/*.cjs"
       }
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -176,10 +177,13 @@
     "access": "public"
   },
   "devDependencies": {
-    "@vue/server-renderer": "^3.5.0",
+    "@vue/server-renderer": "^3.5.43",
     "tsup": "^8.5.0",
-    "tsx": "^4.23.11",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.3",
-    "vue": "^3.5.0"
+    "vue": "^3.5.43"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

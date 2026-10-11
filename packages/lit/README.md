@@ -4,6 +4,8 @@
 `<dev-icon>` LitElement plus template helpers, with tree-shakeable icon
 data. 578 icons in `original`, `plain`, `line`, and their `-wordmark` variants.
 
+**Docs:** https://devicons-pack.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@devicons-pack/lit) · **All packages:** [@devicons-pack](https://www.npmjs.com/org/devicons-pack)
+
 ## Install
 
 ```sh

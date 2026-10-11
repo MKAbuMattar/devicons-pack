@@ -26,5 +26,6 @@ export const createDevIcon = (
       />
     );
   };
+  (Component as {displayName?: string}).displayName = name;
   return Component;
 };

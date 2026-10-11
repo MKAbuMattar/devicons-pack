@@ -1,7 +1,7 @@
 {
   "name": "@devicons-pack/web-components",
-  "version": "2.0.0-beta.2",
-  "description": "Devicons as a framework-less <dev-icon> custom element with tree-shakeable icon data (flat, high-contrast, modern).",
+  "version": "2.1.0",
+  "description": "Devicons as a framework-less <dev-icon> custom element with tree-shakeable icon data (6 icon variants).",
   "keywords": [
     "devicons",
     "icon",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/devicons-pack.git",
+    "url": "git+https://github.com/MKAbuMattar/devicons-pack.git",
     "directory": "packages/web-components"
   },
   "bugs": {
@@ -82,7 +82,8 @@
     "./line-wordmark/*": {
       "types": "./dist/line-wordmark/icons/*.d.ts",
       "default": "./dist/line-wordmark/icons/*.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -95,9 +96,12 @@
     "access": "public"
   },
   "devDependencies": {
-    "happy-dom": "^20.0.11",
+    "happy-dom": "^20.14.5",
     "tsup": "^8.5.0",
-    "tsx": "^4.23.11",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

@@ -3,6 +3,8 @@
 [Devicons](https://github.com/devicons/devicon) for Astro —
 the SVG is inlined at build time, so pages ship **zero client JS**.
 
+**Docs:** https://devicons-pack.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@devicons-pack/astro) · **All packages:** [@devicons-pack](https://www.npmjs.com/org/devicons-pack)
+
 ## Install
 
 ```sh

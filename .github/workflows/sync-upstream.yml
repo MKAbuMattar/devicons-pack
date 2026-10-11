@@ -26,11 +26,11 @@ jobs:
           - upstream: develop
             base: next
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: ${{ matrix.base }}
-      - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v4
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: pnpm
@@ -44,20 +44,16 @@ jobs:
         run: |
           if [ -n "$(git status --porcelain assets/)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
-            cat > .changeset/upstream-sync-${{ github.run_id }}-${{ matrix.base }}.md <<'EOF'
+            # every package regenerates its published output from assets/ at
+            # build time, so an asset change is a release for all of them
+            changeset=""
+            for dir in packages/*/; do
+              name=$(node -p "require('./${dir}package.json').name")
+              changeset+="'${name}': minor"$'\n'
+            done
+            cat > .changeset/upstream-sync-${{ github.run_id }}-${{ matrix.base }}.md <<EOF
           ---
-          '@devicons-pack/svg': minor
-          '@devicons-pack/react': minor
-          '@devicons-pack/preact': minor
-          '@devicons-pack/vue': minor
-          '@devicons-pack/solid': minor
-          '@devicons-pack/svelte': minor
-          '@devicons-pack/astro': minor
-          '@devicons-pack/angular': minor
-          '@devicons-pack/lit': minor
-          '@devicons-pack/web-components': minor
-          '@devicons-pack/alpine': minor
-          '@devicons-pack/htmx': minor
+          ${changeset}
           ---
 
           Sync icon assets from devicons/devicon (${{ matrix.upstream }})
@@ -66,7 +62,7 @@ jobs:
 
       - name: Open PR
         if: steps.diff.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: sync/upstream-${{ matrix.base }}
           base: ${{ matrix.base }}

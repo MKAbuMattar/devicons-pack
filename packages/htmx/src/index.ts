@@ -43,7 +43,7 @@ const SLUG = /^[a-z0-9-]+$/;
  * app.use(devIconHandler());   // GET /devicons/:style/:slug?label=...
  * ```
  * ```html
- * <span hx-get="/devicons/flat/rocket" hx-trigger="load"></span>
+ * <span hx-get="/devicons/original/javascript" hx-trigger="load"></span>
  * ```
  */
 export const devIconHandler = ({prefix = '/devicons'} = {}) => {

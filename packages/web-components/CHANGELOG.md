@@ -1,18 +1,19 @@
 # @devicons-pack/web-components
 
-## 2.0.0-beta.2
+## 2.1.0
 
 ### Minor Changes
 
-- f92892f: Sync icon assets from devicons/devicon (develop)
+- 790442d: - **`currentColor` for the font-glyph variants** — `plain`, `line`,
+  `plain-wordmark`, and `line-wordmark` are single-color and now inherit CSS
+  `color`, so `color: #f0db4f` just works. `original` variants keep their brand
+  colors.
+  - **Search-friendly metadata** — `tags` and `altnames` from devicon.json are in
+    `metadata.json` and the `IconEntry` type; the docs gallery matches them
+    (searching "js" finds JavaScript).
+  - `"./package.json"` added to every package's exports map; `engines.node >= 18`.
 
-## 2.0.0-beta.1
-
-### Minor Changes
-
-- 2bd2725: Sync icon assets from devicons/devicon (develop)
-
-## 2.0.0-beta.0
+## 2.0.0
 
 ### Major Changes
 

@@ -17,7 +17,7 @@ export type DevIconData = {
 
 const registry = new Map<string, DevIconData>();
 
-/** Makes icons usable by name: `<dev-icon name="rocket">`. */
+/** Makes icons usable by name: `<dev-icon name="javascript">`. */
 export const register = (...icons: DevIconData[]): void => {
   for (const icon of icons) registry.set(`${icon.style}/${icon.slug}`, icon);
 };
@@ -34,7 +34,7 @@ export const iconSvg = (icon: DevIconData, label?: string): string => {
   return `<svg${attrs} role="img"${aria}>${icon.html}</svg>`;
 };
 
-/** For use inside your own `html` templates: `${iconTemplate(Rocket)}`. */
+/** For use inside your own `html` templates: `${iconTemplate(Javascript)}`. */
 export const iconTemplate = (
   icon: DevIconData,
   label?: string,

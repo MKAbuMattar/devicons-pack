@@ -4,6 +4,8 @@
 tiny server handler that serves icon SVG fragments for htmx to swap in.
 578 icons in `original`, `plain`, `line`, and their `-wordmark` variants.
 
+**Docs:** https://devicons-pack.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@devicons-pack/htmx) · **All packages:** [@devicons-pack](https://www.npmjs.com/org/devicons-pack)
+
 ## Install
 
 ```sh
@@ -30,7 +32,7 @@ Page:
 ```
 
 Responses are sent with immutable cache headers. There's also a direct helper
-for template engines: `await iconHtml('javascript', 'architecture-service', 'Javascript')`.
+for template engines: `await iconHtml('javascript', 'original', 'JavaScript')`.
 
 ## License
 

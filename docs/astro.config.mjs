@@ -13,9 +13,14 @@ export default defineConfig({
   site: 'https://devicons-pack.mkabumattar.com',
   integrations: [
     starlight({
-      title: 'AWS Icons',
+      title: 'Devicons Pack',
       description: 'Devicons packaged for every stack — SVG, React, Astro.',
       social: [
+        {
+          icon: 'seti:npm',
+          label: 'npm',
+          href: 'https://www.npmjs.com/org/devicons-pack',
+        },
         {
           icon: 'github',
           label: 'GitHub',
@@ -39,9 +44,18 @@ export default defineConfig({
             {label: 'Web Components', slug: 'getting-started/web-components'},
             {label: 'Alpine.js', slug: 'getting-started/alpine'},
             {label: 'htmx', slug: 'getting-started/htmx'},
+            {label: 'React Native', slug: 'getting-started/react-native'},
+            {label: 'Qwik', slug: 'getting-started/qwik'},
+            {label: 'Iconify', slug: 'getting-started/iconify'},
+            {label: 'Sprite', slug: 'getting-started/sprite'},
+            {
+              label: 'Other frameworks',
+              slug: 'getting-started/other-frameworks',
+            },
           ],
         },
         {label: 'Icon Gallery', slug: 'gallery'},
+        {label: 'CDN', slug: 'cdn'},
       ],
     }),
     react(),

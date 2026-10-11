@@ -1,0 +1,26 @@
+---
+title: CDN
+description: Use the SVGs straight from jsDelivr or unpkg, no install needed.
+slug: 2.1/cdn
+---
+
+Every published version of `@devicons-pack/svg` is mirrored by the public npm CDNs, so you
+can hotlink any icon without installing anything.
+
+## jsDelivr
+
+```html
+<img src="https://cdn.jsdelivr.net/npm/@devicons-pack/svg@latest/icons/original/javascript.svg" width="32" height="32" alt="" />
+```
+
+## unpkg
+
+```html
+<img src="https://unpkg.com/@devicons-pack/svg@latest/icons/original/javascript.svg" width="32" height="32" alt="" />
+```
+
+## Notes
+
+* Pin a version for production (`@latest` follows releases): `@devicons-pack/svg@2.0.0/...`.
+* The URL pattern is `/{set}/{slug}.svg` — find both in the [gallery](../gallery/).
+* Metadata is on the CDN too: `https://cdn.jsdelivr.net/npm/@devicons-pack/svg@latest/metadata.json`.

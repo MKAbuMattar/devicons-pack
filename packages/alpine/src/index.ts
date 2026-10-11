@@ -44,17 +44,15 @@ type Expression =
  * Alpine plugin: `Alpine.plugin(devIcon)`.
  *
  * ```html
- * <span x-dev-icon="'rocket'"></span>
- * <span x-dev-icon="{name: 'rocket', style: 'modern', label: 'Rocket'}"></span>
- * <span x-html="$devIcon('rocket', 'flat')"></span>
+ * <span x-dev-icon="'javascript'"></span>
+ * <span x-dev-icon="{name: 'javascript', style: 'original', label: 'JavaScript'}"></span>
+ * <span x-html="$devIcon('javascript', 'original')"></span>
  * ```
  */
-// biome-ignore lint/suspicious/noExplicitAny: Alpine has no bundled types
 export default function devIcon(Alpine: any): void {
   Alpine.magic('devIcon', () => iconHtml);
   Alpine.directive(
     'dev-icon',
-    // biome-ignore lint/suspicious/noExplicitAny: Alpine directive signature
     (el: HTMLElement, {expression}: any, {evaluateLater, effect}: any) => {
       const getValue = evaluateLater(expression);
       effect(() =>

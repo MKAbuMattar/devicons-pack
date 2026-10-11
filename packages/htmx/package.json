@@ -1,7 +1,7 @@
 {
   "name": "@devicons-pack/htmx",
-  "version": "2.0.0-beta.2",
-  "description": "Devicons for htmx — a server handler and helper that serve icon SVG fragments (flat, high-contrast, modern).",
+  "version": "2.1.0",
+  "description": "Devicons for htmx — a server handler and helper that serve icon SVG fragments (6 icon variants).",
   "keywords": [
     "devicons",
     "icon",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/devicons-pack.git",
+    "url": "git+https://github.com/MKAbuMattar/devicons-pack.git",
     "directory": "packages/htmx"
   },
   "bugs": {
@@ -40,7 +40,8 @@
         "types": "./dist/index.d.cts",
         "default": "./dist/index.cjs"
       }
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -57,7 +58,10 @@
   },
   "devDependencies": {
     "tsup": "^8.5.0",
-    "tsx": "^4.23.11",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

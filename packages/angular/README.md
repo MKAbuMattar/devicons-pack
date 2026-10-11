@@ -4,6 +4,8 @@
 standalone `devIcon` directive with tree-shakeable icon data. 578 icons
 in `original`, `plain`, `line`, and their `-wordmark` variants. Angular 17+.
 
+**Docs:** https://devicons-pack.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@devicons-pack/angular) · **All packages:** [@devicons-pack](https://www.npmjs.com/org/devicons-pack)
+
 ## Install
 
 ```sh

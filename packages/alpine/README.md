@@ -4,6 +4,8 @@
 an `x-dev-icon` directive and `$devIcon` magic with tree-shakeable icon
 data. 578 icons in `original`, `plain`, `line`, and their `-wordmark` variants.
 
+**Docs:** https://devicons-pack.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@devicons-pack/alpine) · **All packages:** [@devicons-pack](https://www.npmjs.com/org/devicons-pack)
+
 ## Install
 
 ```sh
@@ -25,7 +27,7 @@ Alpine.start();
 ```html
 <span x-dev-icon="'javascript'"></span>
 <span x-dev-icon="{name: 'javascript', style: 'plain-wordmark', label: 'Javascript'}"></span>
-<span x-data x-html="$devIcon('javascript', 'architecture-service')"></span>
+<span x-data x-html="$devIcon('javascript', 'original')"></span>
 ```
 
 Only registered icons end up in your bundle. Without `label` the svg is `aria-hidden`.

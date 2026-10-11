@@ -9,7 +9,7 @@
  * svgo ID prefixes are derived from the slug (deterministic), so re-running
  * sync only diffs icons that actually changed upstream.
  */
-import {execSync} from 'node:child_process';
+import {execFileSync} from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import {type Config, optimize} from 'svgo';
@@ -30,10 +30,24 @@ const VARIANTS = [
   'line-wordmark',
 ] as const;
 
-const svgoConfig = (slug: string): Config => ({
+const MONO_VARIANTS = new Set([
+  'plain',
+  'line',
+  'plain-wordmark',
+  'line-wordmark',
+]);
+
+const svgoConfig = (slug: string, variant: string): Config => ({
   plugins: [
     'preset-default',
+    // removeScripts is not part of preset-default; these SVGs are injected raw
+    // into consumer pages (innerHTML, {@html}, dangerouslySetInnerHTML)
+    'removeScripts',
     'removeTitle',
+    // font-glyph variants are single-color — currentColor lets CSS color them
+    ...(MONO_VARIANTS.has(variant)
+      ? ([{name: 'convertColors', params: {currentColor: true}}] as const)
+      : []),
     'convertStyleToAttrs',
     'cleanupIds',
     {
@@ -57,19 +71,39 @@ const titleCase = (slug: string): string =>
     .join(' ');
 
 const main = async (): Promise<void> => {
+  if (!/^[a-z][a-z0-9._-]*$/i.test(BRANCH)) {
+    throw new Error(`SYNC_BRANCH looks invalid: ${BRANCH}`);
+  }
   fs.rmSync(TMP, {recursive: true, force: true});
   console.log(
     `Cloning ${UPSTREAM}@${BRANCH} (sparse: icons/ + devicon.json)...`,
   );
-  execSync(
-    `git clone --depth=1 -b ${BRANCH} --filter=blob:none --sparse ${UPSTREAM} ${TMP}`,
+  execFileSync(
+    'git',
+    [
+      'clone',
+      '--depth=1',
+      '-b',
+      BRANCH,
+      '--filter=blob:none',
+      '--sparse',
+      UPSTREAM,
+      TMP,
+    ],
     {stdio: 'inherit'},
   );
-  execSync(
-    `git -C ${TMP} sparse-checkout set --no-cone '/icons/**' '/devicon.json'`,
-    {
-      stdio: 'inherit',
-    },
+  execFileSync(
+    'git',
+    [
+      '-C',
+      TMP,
+      'sparse-checkout',
+      'set',
+      '--no-cone',
+      '/icons/**',
+      '/devicon.json',
+    ],
+    {stdio: 'inherit'},
   );
 
   const upstream: DeviconEntry[] = JSON.parse(
@@ -94,7 +128,7 @@ const main = async (): Promise<void> => {
       const file = path.join(dir, `${slug}-${variant}.svg`);
       if (!fs.existsSync(file)) continue;
       const raw = fs.readFileSync(file, 'utf8');
-      const {data} = optimize(raw, svgoConfig(slug));
+      const {data} = optimize(raw, svgoConfig(slug, variant));
       fs.writeFileSync(path.join(ASSETS, variant, `${slug}.svg`), data);
       written++;
     }
