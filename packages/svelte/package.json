@@ -1,6 +1,6 @@
 {
   "name": "@devicons-pack/svelte",
-  "version": "2.1.0",
+  "version": "2.2.0-beta.0",
   "description": "Devicons for Svelte 5 — tree-shakeable icon data plus a single Icon component (6 icon variants).",
   "keywords": [
     "devicons",

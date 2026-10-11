@@ -1,5 +1,18 @@
 # @devicons-pack/astro
 
+## 2.2.0-beta.0
+
+### Minor Changes
+
+- 2bd2725: Sync icon assets from devicons/devicon (develop)
+- f92892f: Sync icon assets from devicons/devicon (develop)
+
+### Patch Changes
+
+- Updated dependencies [2bd2725]
+- Updated dependencies [f92892f]
+  - @devicons-pack/svg@2.2.0-beta.0
+
 ## 2.1.0
 
 ### Minor Changes
