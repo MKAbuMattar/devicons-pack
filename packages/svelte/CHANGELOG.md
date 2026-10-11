@@ -1,5 +1,11 @@
 # @devicons-pack/svelte
 
+## 2.0.0-beta.2
+
+### Minor Changes
+
+- f92892f: Sync icon assets from devicons/devicon (develop)
+
 ## 2.0.0-beta.1
 
 ### Minor Changes

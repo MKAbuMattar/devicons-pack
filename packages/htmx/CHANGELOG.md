@@ -1,5 +1,16 @@
 # @devicons-pack/htmx
 
+## 2.0.0-beta.2
+
+### Minor Changes
+
+- f92892f: Sync icon assets from devicons/devicon (develop)
+
+### Patch Changes
+
+- Updated dependencies [f92892f]
+  - @devicons-pack/svg@2.0.0-beta.2
+
 ## 2.0.0-beta.1
 
 ### Minor Changes
