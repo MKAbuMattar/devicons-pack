@@ -1,5 +1,11 @@
 # @devicons-pack/sprite
 
+## 2.2.0-beta.0
+
+### Minor Changes
+
+- 9b7784f: Sync icon assets from devicons/devicon (develop)
+
 ## 2.1.0
 
 ### Minor Changes
