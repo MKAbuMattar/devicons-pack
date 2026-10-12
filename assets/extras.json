@@ -176,6 +176,20 @@
     ],
     "altnames": []
   },
+  "antigravity": {
+    "tags": [
+      "ide",
+      "ai",
+      "coding-agent",
+      "tool",
+      "code",
+      "assistant"
+    ],
+    "altnames": [
+      "antigravityide",
+      "antigravity-agent"
+    ]
+  },
   "apache": {
     "tags": [
       "php"
@@ -308,6 +322,14 @@
     "altnames": [
       "artix"
     ]
+  },
+  "aspire": {
+    "tags": [
+      "tool",
+      "development",
+      "orchestrator"
+    ],
+    "altnames": []
   },
   "astro": {
     "tags": [
@@ -2133,6 +2155,15 @@
       "devops"
     ],
     "altnames": []
+  },
+  "idris": {
+    "tags": [
+      "language",
+      "functional"
+    ],
+    "altnames": [
+      "idris2"
+    ]
   },
   "ie10": {
     "tags": [
@@ -4789,6 +4820,18 @@
     ],
     "altnames": []
   },
+  "systemverilog": {
+    "tags": [
+      "programming",
+      "language",
+      "hardware",
+      "fpga"
+    ],
+    "altnames": [
+      "system verilog",
+      "sv"
+    ]
+  },
   "tailwindcss": {
     "tags": [
       "css",
@@ -5204,6 +5247,17 @@
     ],
     "altnames": []
   },
+  "verilog": {
+    "tags": [
+      "programming",
+      "language",
+      "hardware",
+      "fpga"
+    ],
+    "altnames": [
+      "verilog hdl"
+    ]
+  },
   "vertx": {
     "tags": [
       "sdk",
@@ -5412,6 +5466,14 @@
     "tags": [
       "cms",
       "ecommerce"
+    ],
+    "altnames": []
+  },
+  "webgl": {
+    "tags": [
+      "graphics",
+      "web",
+      "3d"
     ],
     "altnames": []
   },

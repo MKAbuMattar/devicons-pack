@@ -1,5 +1,5 @@
 {
-  "count": 650,
+  "count": 656,
   "styles": [
     "original",
     "plain",
@@ -330,6 +330,26 @@
       "altnames": []
     },
     {
+      "slug": "antigravity",
+      "name": "Antigravity",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "ide",
+        "ai",
+        "coding-agent",
+        "tool",
+        "code",
+        "assistant"
+      ],
+      "altnames": [
+        "antigravityide",
+        "antigravity-agent"
+      ]
+    },
+    {
       "slug": "apache",
       "name": "Apache",
       "styles": [
@@ -578,6 +598,21 @@
       "altnames": [
         "artix"
       ]
+    },
+    {
+      "slug": "aspire",
+      "name": "Aspire",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "tool",
+        "development",
+        "orchestrator"
+      ],
+      "altnames": []
     },
     {
       "slug": "astro",
@@ -3941,6 +3976,20 @@
         "devops"
       ],
       "altnames": []
+    },
+    {
+      "slug": "idris",
+      "name": "Idris",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "language",
+        "functional"
+      ],
+      "altnames": [
+        "idris2"
+      ]
     },
     {
       "slug": "ie10",
@@ -8804,6 +8853,23 @@
       "altnames": []
     },
     {
+      "slug": "systemverilog",
+      "name": "Systemverilog",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "programming",
+        "language",
+        "hardware",
+        "fpga"
+      ],
+      "altnames": [
+        "system verilog",
+        "sv"
+      ]
+    },
+    {
       "slug": "tailwindcss",
       "name": "Tailwindcss",
       "styles": [
@@ -9580,6 +9646,22 @@
       "altnames": []
     },
     {
+      "slug": "verilog",
+      "name": "Verilog",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "programming",
+        "language",
+        "hardware",
+        "fpga"
+      ],
+      "altnames": [
+        "verilog hdl"
+      ]
+    },
+    {
       "slug": "vertx",
       "name": "Vertx",
       "styles": [
@@ -9948,6 +10030,19 @@
       "tags": [
         "cms",
         "ecommerce"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "webgl",
+      "name": "Webgl",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "graphics",
+        "web",
+        "3d"
       ],
       "altnames": []
     },
