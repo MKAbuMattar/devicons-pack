@@ -1,5 +1,11 @@
 # @devicons-pack/web-components
 
+## 2.2.0-beta.1
+
+### Minor Changes
+
+- 9b7784f: Sync icon assets from devicons/devicon (develop)
+
 ## 2.2.0-beta.0
 
 ### Minor Changes
