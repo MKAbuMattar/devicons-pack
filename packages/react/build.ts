@@ -13,16 +13,29 @@ const ASSETS = path.resolve(PKG, '../../assets');
 const DIST = path.join(PKG, 'dist');
 
 // React wants camelCase SVG props (xmlns:xlink -> xmlnsXlink, xml:space ->
-// xmlSpace, fill-rule -> fillRule) and warns on the raw names; it renders them
-// back to the real attribute names. data-* / aria-* stay as they are.
+// xmlSpace, fill-rule -> fillRule), className for class and a style object,
+// and warns or throws on the raw forms; it renders them back to the real
+// attributes. data-* / aria-* stay as they are.
+const camel = (name: string) =>
+  name.replace(/[:-](\w)/g, (_, c: string) => c.toUpperCase());
+
 const reactProps = (attrs: Record<string, string>) =>
   Object.fromEntries(
-    Object.entries(attrs).map(([key, value]) => [
-      /^(data|aria)-/.test(key)
-        ? key
-        : key.replace(/[:-](\w)/g, (_, c: string) => c.toUpperCase()),
-      value,
-    ]),
+    Object.entries(attrs).map(([key, value]) => {
+      if (key === 'class') return ['className', value];
+      if (key === 'style')
+        return [
+          'style',
+          Object.fromEntries(
+            value
+              .split(';')
+              .map((decl) => decl.split(':').map((part) => part.trim()))
+              .filter(([prop, val]) => prop && val)
+              .map(([prop, val]) => [camel(prop), val]),
+          ),
+        ];
+      return [/^(data|aria)-/.test(key) ? key : camel(key), value];
+    }),
   );
 
 let total = 0;
