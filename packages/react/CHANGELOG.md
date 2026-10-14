@@ -1,24 +1,11 @@
 # @devicons-pack/react
 
-## 2.2.0-beta.2
+## 2.1.1
 
 ### Patch Changes
 
 - 47409cf: Pass root SVG attributes as React props (`xmlnsXlink`, `xmlSpace`, `fillRule`) so icons like Go no longer trigger "Invalid DOM property" warnings.
 - f182945: Convert root `style` strings to style objects and `class` to `className`, so icons such as Cursor no longer throw in React.
-
-## 2.2.0-beta.1
-
-### Minor Changes
-
-- 9b7784f: Sync icon assets from devicons/devicon (develop)
-
-## 2.2.0-beta.0
-
-### Minor Changes
-
-- 2bd2725: Sync icon assets from devicons/devicon (develop)
-- f92892f: Sync icon assets from devicons/devicon (develop)
 
 ## 2.1.0
 
