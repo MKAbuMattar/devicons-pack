@@ -15,7 +15,7 @@ export type DevIconComponent = React.ForwardRefExoticComponent<
 /** Factory used by the generated icon modules — not meant for direct use. */
 export const createDevIcon = (
   displayName: string,
-  attrs: Record<string, string>,
+  attrs: Record<string, unknown>,
   html: string,
 ): DevIconComponent => {
   const Component = forwardRef<SVGSVGElement, DevIconProps>(
