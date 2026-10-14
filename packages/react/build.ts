@@ -12,6 +12,19 @@ const PKG = import.meta.dirname;
 const ASSETS = path.resolve(PKG, '../../assets');
 const DIST = path.join(PKG, 'dist');
 
+// React wants camelCase SVG props (xmlns:xlink -> xmlnsXlink, xml:space ->
+// xmlSpace, fill-rule -> fillRule) and warns on the raw names; it renders them
+// back to the real attribute names. data-* / aria-* stay as they are.
+const reactProps = (attrs: Record<string, string>) =>
+  Object.fromEntries(
+    Object.entries(attrs).map(([key, value]) => [
+      /^(data|aria)-/.test(key)
+        ? key
+        : key.replace(/[:-](\w)/g, (_, c: string) => c.toUpperCase()),
+      value,
+    ]),
+  );
+
 let total = 0;
 for (const style of STYLES) {
   const iconsDir = path.join(DIST, style, 'icons');
@@ -22,7 +35,7 @@ for (const style of STYLES) {
   const indexCjs: string[] = [];
 
   for (const {slug, name, attrs, html} of eachIcon(ASSETS, style)) {
-    const args = `${JSON.stringify(name)}, ${JSON.stringify(attrs)}, ${JSON.stringify(html)}`;
+    const args = `${JSON.stringify(name)}, ${JSON.stringify(reactProps(attrs))}, ${JSON.stringify(html)}`;
 
     fs.writeFileSync(
       path.join(iconsDir, `${slug}.js`),
