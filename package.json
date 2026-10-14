@@ -1,7 +1,7 @@
 {
   "name": "@devicons-pack/root",
   "private": true,
-  "description": "Devicons as SVG, React, Astro & more \u2014 automated releases from the official devicon set",
+  "description": "Devicons as SVG, React, Astro & more — automated releases from the official devicon set",
   "keywords": [
     "devicons",
     "icon",
@@ -38,7 +38,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.5.15",
     "@changesets/cli": "^3.0.3",
-    "@types/node": "26.6.4",
+    "@types/node": "26.6.5",
     "svgo": "4.1.0",
     "tsx": "4.23.15",
     "typescript": "7.0.2"
