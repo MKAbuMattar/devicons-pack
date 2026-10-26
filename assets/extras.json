@@ -5003,6 +5003,12 @@
     ],
     "altnames": []
   },
+  "toml": {
+    "tags": [
+      "language"
+    ],
+    "altnames": []
+  },
   "tortoisegit": {
     "tags": [
       "git"
