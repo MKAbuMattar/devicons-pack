@@ -1,0 +1,28 @@
+---
+title: Qwik
+description: Typed Qwik components for devicons.
+slug: 2.2/getting-started/qwik
+---
+
+[Devicons](https://github.com/devicons/devicon) as typed Qwik components (ESM only) — 578 icons in `original`, `plain`, `line`, and their `-wordmark` variants.
+
+## Install
+
+```sh
+pnpm add @devicons-pack/qwik
+```
+
+## Usage
+
+```tsx
+import {Javascript} from '@devicons-pack/qwik/original';
+// or per-icon (no barrel): import Nodejs from '@devicons-pack/qwik/plain-wordmark/nodejs';
+
+<Javascript width={32} />                     // decorative: aria-hidden
+<Javascript title="JavaScript" />          // accessible: role="img" + aria-label
+```
+
+Variants: `@devicons-pack/qwik/original`, `/plain`, `/line`, `/original-wordmark`, `/plain-wordmark`, `/line-wordmark`.
+Icon names are the PascalCased slug (`nodejs` → `Nodejs`).
+
+Devicon artwork is from [devicons/devicon](https://github.com/devicons/devicon) (MIT).
