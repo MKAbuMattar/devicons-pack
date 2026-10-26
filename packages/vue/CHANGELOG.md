@@ -1,5 +1,11 @@
 # @devicons-pack/vue
 
+## 2.2.0
+
+### Minor Changes
+
+- 0542397: Sync icon assets from devicons/devicon (master)
+
 ## 2.1.0
 
 ### Minor Changes

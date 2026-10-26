@@ -1,6 +1,6 @@
 {
   "name": "@devicons-pack/react",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "Devicons as tree-shakeable typed React components (6 icon variants). Successor of the devicons-react package.",
   "keywords": [
     "devicons",

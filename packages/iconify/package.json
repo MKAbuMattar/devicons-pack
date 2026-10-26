@@ -1,6 +1,6 @@
 {
   "name": "@devicons-pack/iconify",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Devicons as Iconify JSON collections — works with unplugin-icons, the Tailwind Iconify plugin, and every Iconify component.",
   "keywords": [
     "devicons",
