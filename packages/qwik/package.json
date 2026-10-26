@@ -1,6 +1,6 @@
 {
   "name": "@devicons-pack/qwik",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Devicons as typed Qwik components (6 icon variants). ESM only.",
   "keywords": [
     "devicons",
