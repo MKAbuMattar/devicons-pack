@@ -1,5 +1,5 @@
 {
-  "count": 657,
+  "count": 681,
   "styles": [
     "original",
     "plain",
@@ -26,6 +26,21 @@
       "altnames": [
         "arm64"
       ]
+    },
+    {
+      "slug": "adminer",
+      "name": "Adminer",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "database",
+        "sql",
+        "php",
+        "tool"
+      ],
+      "altnames": []
     },
     {
       "slug": "adonisjs",
@@ -347,6 +362,22 @@
       "altnames": [
         "antigravityide",
         "antigravity-agent"
+      ]
+    },
+    {
+      "slug": "antlr",
+      "name": "Antlr",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "programming",
+        "tool",
+        "parser"
+      ],
+      "altnames": [
+        "ANTLR4"
       ]
     },
     {
@@ -2047,6 +2078,22 @@
       "altnames": []
     },
     {
+      "slug": "dbvisualizer",
+      "name": "Dbvisualizer",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "database",
+        "sql",
+        "tool"
+      ],
+      "altnames": [
+        "DbVis"
+      ]
+    },
+    {
       "slug": "debian",
       "name": "Debian",
       "styles": [
@@ -2121,6 +2168,20 @@
       ],
       "tags": [
         "iconset"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "dialogflow",
+      "name": "Dialogflow",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "google",
+        "ai",
+        "chat"
       ],
       "altnames": []
     },
@@ -2297,6 +2358,22 @@
       ]
     },
     {
+      "slug": "drizzle",
+      "name": "Drizzle",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "database",
+        "orm",
+        "typescript",
+        "javascript"
+      ],
+      "altnames": [
+        "Drizzle ORM"
+      ]
+    },
+    {
       "slug": "dropwizard",
       "name": "Dropwizard",
       "styles": [
@@ -2441,6 +2518,25 @@
       ],
       "altnames": [
         "electronjs"
+      ]
+    },
+    {
+      "slug": "elementplus",
+      "name": "Elementplus",
+      "styles": [
+        "original",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "ui",
+        "library",
+        "vue",
+        "framework"
+      ],
+      "altnames": [
+        "element-plus"
       ]
     },
     {
@@ -3079,6 +3175,26 @@
       ]
     },
     {
+      "slug": "gemini",
+      "name": "Gemini",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "AI",
+        "llm",
+        "assistant"
+      ],
+      "altnames": [
+        "google gemini"
+      ]
+    },
+    {
       "slug": "gentoo",
       "name": "Gentoo",
       "styles": [
@@ -3337,6 +3453,21 @@
         "collaborative-environment"
       ],
       "altnames": []
+    },
+    {
+      "slug": "gnu",
+      "name": "Gnu",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "os",
+        "free software",
+        "linux"
+      ],
+      "altnames": [
+        "gnu project"
+      ]
     },
     {
       "slug": "gnuradio",
@@ -4069,6 +4200,25 @@
       "altnames": []
     },
     {
+      "slug": "informatica",
+      "name": "Informatica",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "data",
+        "etl",
+        "integration",
+        "cloud"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "inkscape",
       "name": "Inkscape",
       "styles": [
@@ -4407,6 +4557,25 @@
       "altnames": [
         "JavaScript Object Notation"
       ]
+    },
+    {
+      "slug": "juce",
+      "name": "Juce",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "framework",
+        "audio",
+        "c++",
+        "plugins"
+      ],
+      "altnames": []
     },
     {
       "slug": "jule",
@@ -5162,6 +5331,25 @@
       ]
     },
     {
+      "slug": "lwc",
+      "name": "Lwc",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "framework",
+        "frontend",
+        "html",
+        "javascript",
+        "css"
+      ],
+      "altnames": [
+        "Lightning Web Components"
+      ]
+    },
+    {
       "slug": "magento",
       "name": "Magento",
       "styles": [
@@ -5749,6 +5937,23 @@
       "altnames": []
     },
     {
+      "slug": "neon",
+      "name": "Neon",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "serverless",
+        "database",
+        "sql"
+      ],
+      "altnames": [
+        "neondb"
+      ]
+    },
+    {
       "slug": "neovim",
       "name": "Neovim",
       "styles": [
@@ -6207,6 +6412,23 @@
         "vuejs"
       ],
       "altnames": []
+    },
+    {
+      "slug": "nx",
+      "name": "Nx",
+      "styles": [
+        "original",
+        "line"
+      ],
+      "tags": [
+        "build",
+        "monorepo",
+        "javascript",
+        "typescript"
+      ],
+      "altnames": [
+        "nrwl"
+      ]
     },
     {
       "slug": "oauth",
@@ -6688,6 +6910,23 @@
       ]
     },
     {
+      "slug": "phpmyadmin",
+      "name": "Phpmyadmin",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "database",
+        "sql",
+        "php",
+        "tool"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "phpstorm",
       "name": "Phpstorm",
       "styles": [
@@ -6755,6 +6994,24 @@
       "altnames": []
     },
     {
+      "slug": "plsql",
+      "name": "Plsql",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "language",
+        "database",
+        "oracle",
+        "sql"
+      ],
+      "altnames": [
+        "pl/sql"
+      ]
+    },
+    {
       "slug": "pm2",
       "name": "Pm2",
       "styles": [
@@ -6789,6 +7046,25 @@
       ],
       "altnames": [
         "performant npm"
+      ]
+    },
+    {
+      "slug": "pocketbase",
+      "name": "Pocketbase",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "database",
+        "backend",
+        "api"
+      ],
+      "altnames": [
+        "pocketbase.io"
       ]
     },
     {
@@ -6884,6 +7160,26 @@
       "altnames": []
     },
     {
+      "slug": "postgis",
+      "name": "Postgis",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "database",
+        "gis",
+        "geospatial",
+        "postgresql",
+        "spatial"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "postgresql",
       "name": "Postgresql",
       "styles": [
@@ -6911,6 +7207,24 @@
         "testing"
       ],
       "altnames": []
+    },
+    {
+      "slug": "powerbi",
+      "name": "Powerbi",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "data",
+        "analytics",
+        "visualization"
+      ],
+      "altnames": [
+        "Power BI",
+        "microsoftpowerbi"
+      ]
     },
     {
       "slug": "powershell",
@@ -6983,7 +7297,11 @@
       "name": "Prisma",
       "styles": [
         "original",
-        "original-wordmark"
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
       ],
       "tags": [
         "orm",
@@ -7737,6 +8055,20 @@
       ]
     },
     {
+      "slug": "render",
+      "name": "Render",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "hosting",
+        "platform",
+        "deployment"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "renpy",
       "name": "Renpy",
       "styles": [
@@ -8153,6 +8485,22 @@
       ]
     },
     {
+      "slug": "semanticui",
+      "name": "Semanticui",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "css",
+        "framework",
+        "ui"
+      ],
+      "altnames": [
+        "Semantic UI"
+      ]
+    },
+    {
       "slug": "sentry",
       "name": "Sentry",
       "styles": [
@@ -8182,6 +8530,21 @@
       "altnames": [
         "sequelizejs"
       ]
+    },
+    {
+      "slug": "servicenow",
+      "name": "Servicenow",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "cloud",
+        "platform",
+        "devops"
+      ],
+      "altnames": []
     },
     {
       "slug": "sfml",
@@ -9724,6 +10087,21 @@
       ]
     },
     {
+      "slug": "visualparadigm",
+      "name": "Visualparadigm",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "design",
+        "modeling",
+        "tool"
+      ],
+      "altnames": [
+        "Visual Paradigm"
+      ]
+    },
+    {
       "slug": "visualstudio",
       "name": "Visualstudio",
       "styles": [
@@ -9947,6 +10325,19 @@
       "altnames": [
         "vyperlang"
       ]
+    },
+    {
+      "slug": "wakatime",
+      "name": "Wakatime",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "development",
+        "monitoring",
+        "tool"
+      ],
+      "altnames": []
     },
     {
       "slug": "waku",
@@ -10205,6 +10596,23 @@
         "cms"
       ],
       "altnames": []
+    },
+    {
+      "slug": "xai",
+      "name": "Xai",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "AI",
+        "assistant",
+        "language-model",
+        "llm"
+      ],
+      "altnames": [
+        "X AI",
+        "X.ai"
+      ]
     },
     {
       "slug": "xamarin",
