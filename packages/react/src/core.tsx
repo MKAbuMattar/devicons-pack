@@ -18,6 +18,7 @@ export const createDevIcon = (
   attrs: Record<string, unknown>,
   html: string,
 ): DevIconComponent => {
+  // biome-ignore lint/correctness/noComponentHookFactories: runs once per icon at module load, so the component identity is stable
   const Component = forwardRef<SVGSVGElement, DevIconProps>(
     ({title, ...props}, ref) =>
       createElement('svg', {
