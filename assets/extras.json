@@ -10,6 +10,15 @@
       "arm64"
     ]
   },
+  "adminer": {
+    "tags": [
+      "database",
+      "sql",
+      "php",
+      "tool"
+    ],
+    "altnames": []
+  },
   "adonisjs": {
     "tags": [
       "nodejs",
@@ -188,6 +197,16 @@
     "altnames": [
       "antigravityide",
       "antigravity-agent"
+    ]
+  },
+  "antlr": {
+    "tags": [
+      "programming",
+      "tool",
+      "parser"
+    ],
+    "altnames": [
+      "ANTLR4"
     ]
   },
   "apache": {
@@ -1131,6 +1150,16 @@
     ],
     "altnames": []
   },
+  "dbvisualizer": {
+    "tags": [
+      "database",
+      "sql",
+      "tool"
+    ],
+    "altnames": [
+      "DbVis"
+    ]
+  },
   "debian": {
     "tags": [
       "os",
@@ -1168,6 +1197,14 @@
   "devicon": {
     "tags": [
       "iconset"
+    ],
+    "altnames": []
+  },
+  "dialogflow": {
+    "tags": [
+      "google",
+      "ai",
+      "chat"
     ],
     "altnames": []
   },
@@ -1260,6 +1297,17 @@
       "Adobe Dreamweaver"
     ]
   },
+  "drizzle": {
+    "tags": [
+      "database",
+      "orm",
+      "typescript",
+      "javascript"
+    ],
+    "altnames": [
+      "Drizzle ORM"
+    ]
+  },
   "dropwizard": {
     "tags": [
       "java",
@@ -1334,6 +1382,17 @@
     ],
     "altnames": [
       "electronjs"
+    ]
+  },
+  "elementplus": {
+    "tags": [
+      "ui",
+      "library",
+      "vue",
+      "framework"
+    ],
+    "altnames": [
+      "element-plus"
     ]
   },
   "eleventy": {
@@ -1671,6 +1730,16 @@
       "gnucompilercollection"
     ]
   },
+  "gemini": {
+    "tags": [
+      "AI",
+      "llm",
+      "assistant"
+    ],
+    "altnames": [
+      "google gemini"
+    ]
+  },
   "gentoo": {
     "tags": [
       "linux",
@@ -1803,6 +1872,16 @@
       "collaborative-environment"
     ],
     "altnames": []
+  },
+  "gnu": {
+    "tags": [
+      "os",
+      "free software",
+      "linux"
+    ],
+    "altnames": [
+      "gnu project"
+    ]
   },
   "gnuradio": {
     "tags": [
@@ -2211,6 +2290,15 @@
     ],
     "altnames": []
   },
+  "informatica": {
+    "tags": [
+      "data",
+      "etl",
+      "integration",
+      "cloud"
+    ],
+    "altnames": []
+  },
   "inkscape": {
     "tags": [
       "editor",
@@ -2397,6 +2485,15 @@
     "altnames": [
       "JavaScript Object Notation"
     ]
+  },
+  "juce": {
+    "tags": [
+      "framework",
+      "audio",
+      "c++",
+      "plugins"
+    ],
+    "altnames": []
   },
   "jule": {
     "tags": [
@@ -2807,6 +2904,18 @@
       "laravel.lumen"
     ]
   },
+  "lwc": {
+    "tags": [
+      "framework",
+      "frontend",
+      "html",
+      "javascript",
+      "css"
+    ],
+    "altnames": [
+      "Lightning Web Components"
+    ]
+  },
   "magento": {
     "tags": [
       "php",
@@ -3140,6 +3249,16 @@
     ],
     "altnames": []
   },
+  "neon": {
+    "tags": [
+      "serverless",
+      "database",
+      "sql"
+    ],
+    "altnames": [
+      "neondb"
+    ]
+  },
   "neovim": {
     "tags": [
       "text editor",
@@ -3374,6 +3493,17 @@
       "vuejs"
     ],
     "altnames": []
+  },
+  "nx": {
+    "tags": [
+      "build",
+      "monorepo",
+      "javascript",
+      "typescript"
+    ],
+    "altnames": [
+      "nrwl"
+    ]
   },
   "oauth": {
     "tags": [
@@ -3641,6 +3771,15 @@
       "Personal Home Page"
     ]
   },
+  "phpmyadmin": {
+    "tags": [
+      "database",
+      "sql",
+      "php",
+      "tool"
+    ],
+    "altnames": []
+  },
   "phpstorm": {
     "tags": [
       "jetbrains",
@@ -3678,6 +3817,17 @@
     ],
     "altnames": []
   },
+  "plsql": {
+    "tags": [
+      "language",
+      "database",
+      "oracle",
+      "sql"
+    ],
+    "altnames": [
+      "pl/sql"
+    ]
+  },
   "pm2": {
     "tags": [
       "nodejs",
@@ -3695,6 +3845,16 @@
     ],
     "altnames": [
       "performant npm"
+    ]
+  },
+  "pocketbase": {
+    "tags": [
+      "database",
+      "backend",
+      "api"
+    ],
+    "altnames": [
+      "pocketbase.io"
     ]
   },
   "podman": {
@@ -3747,6 +3907,16 @@
     ],
     "altnames": []
   },
+  "postgis": {
+    "tags": [
+      "database",
+      "gis",
+      "geospatial",
+      "postgresql",
+      "spatial"
+    ],
+    "altnames": []
+  },
   "postgresql": {
     "tags": [
       "database"
@@ -3759,6 +3929,17 @@
       "testing"
     ],
     "altnames": []
+  },
+  "powerbi": {
+    "tags": [
+      "data",
+      "analytics",
+      "visualization"
+    ],
+    "altnames": [
+      "Power BI",
+      "microsoftpowerbi"
+    ]
   },
   "powershell": {
     "tags": [
@@ -4209,6 +4390,14 @@
       "remix.run"
     ]
   },
+  "render": {
+    "tags": [
+      "hosting",
+      "platform",
+      "deployment"
+    ],
+    "altnames": []
+  },
   "renpy": {
     "tags": [
       "programming",
@@ -4437,6 +4626,16 @@
       "Sema Software"
     ]
   },
+  "semanticui": {
+    "tags": [
+      "css",
+      "framework",
+      "ui"
+    ],
+    "altnames": [
+      "Semantic UI"
+    ]
+  },
   "sentry": {
     "tags": [
       "monitoring",
@@ -4453,6 +4652,14 @@
     "altnames": [
       "sequelizejs"
     ]
+  },
+  "servicenow": {
+    "tags": [
+      "cloud",
+      "platform",
+      "devops"
+    ],
+    "altnames": []
   },
   "sfml": {
     "tags": [
@@ -5291,6 +5498,16 @@
       "vb"
     ]
   },
+  "visualparadigm": {
+    "tags": [
+      "design",
+      "modeling",
+      "tool"
+    ],
+    "altnames": [
+      "Visual Paradigm"
+    ]
+  },
   "visualstudio": {
     "tags": [
       "editor"
@@ -5414,6 +5631,14 @@
     "altnames": [
       "vyperlang"
     ]
+  },
+  "wakatime": {
+    "tags": [
+      "development",
+      "monitoring",
+      "tool"
+    ],
+    "altnames": []
   },
   "waku": {
     "tags": [
@@ -5553,6 +5778,18 @@
       "cms"
     ],
     "altnames": []
+  },
+  "xai": {
+    "tags": [
+      "AI",
+      "assistant",
+      "language-model",
+      "llm"
+    ],
+    "altnames": [
+      "X AI",
+      "X.ai"
+    ]
   },
   "xamarin": {
     "tags": [
