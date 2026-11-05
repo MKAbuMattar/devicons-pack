@@ -1,17 +1,10 @@
 # @devicons-pack/qwik
 
-## 2.2.0-beta.1
+## 2.2.0
 
 ### Minor Changes
 
 - 0542397: Sync icon assets from devicons/devicon (master)
-- 5a0ff80: Sync icon assets from devicons/devicon (develop)
-
-## 2.2.0-beta.0
-
-### Minor Changes
-
-- 9b7784f: Sync icon assets from devicons/devicon (develop)
 
 ## 2.1.0
 
