@@ -13,6 +13,7 @@ export const createDevIcon = (
   displayName: string,
   xml: string,
 ): DevIconComponent => {
+  // biome-ignore lint/correctness/noComponentHookFactories: runs once per icon at module load, so the component identity is stable
   const Component: DevIconComponent = ({title, ...props}) =>
     createElement(SvgXml, {
       xml,
