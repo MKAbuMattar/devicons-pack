@@ -1,5 +1,11 @@
 # @devicons-pack/alpine
 
+## 2.3.0-beta.0
+
+### Minor Changes
+
+- 4d8e480: Sync icon assets from devicons/devicon (develop)
+
 ## 2.2.0
 
 ### Minor Changes
