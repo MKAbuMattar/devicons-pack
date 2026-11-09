@@ -750,6 +750,16 @@
       "chart.js"
     ]
   },
+  "checkmk": {
+    "tags": [
+      "monitoring",
+      "infrastructure",
+      "devops"
+    ],
+    "altnames": [
+      "check-mk"
+    ]
+  },
   "chrome": {
     "tags": [
       "browser"
@@ -1149,6 +1159,17 @@
       "database"
     ],
     "altnames": []
+  },
+  "dbt": {
+    "tags": [
+      "analytics",
+      "data",
+      "sql",
+      "tool"
+    ],
+    "altnames": [
+      "data build tool"
+    ]
   },
   "dbvisualizer": {
     "tags": [
@@ -2014,6 +2035,16 @@
       "apachegroovy"
     ]
   },
+  "groq": {
+    "tags": [
+      "AI",
+      "llm",
+      "hardware",
+      "inference",
+      "tool"
+    ],
+    "altnames": []
+  },
   "grpc": {
     "tags": [
       "programming",
@@ -2114,7 +2145,8 @@
   },
   "haxe": {
     "tags": [
-      "language"
+      "language",
+      "programming"
     ],
     "altnames": []
   },
@@ -2136,6 +2168,16 @@
     ],
     "altnames": []
   },
+  "hermes": {
+    "tags": [
+      "javascript",
+      "engine",
+      "react-native"
+    ],
+    "altnames": [
+      "Hermes Engine"
+    ]
+  },
   "heroku": {
     "tags": [
       "cloud"
@@ -2149,6 +2191,16 @@
       "java"
     ],
     "altnames": []
+  },
+  "homeassistant": {
+    "tags": [
+      "automation",
+      "platform",
+      "open-source"
+    ],
+    "altnames": [
+      "Home Assistant"
+    ]
   },
   "homebrew": {
     "tags": [
@@ -2446,6 +2498,16 @@
       "web-development"
     ],
     "altnames": []
+  },
+  "jinja": {
+    "tags": [
+      "python",
+      "template",
+      "library"
+    ],
+    "altnames": [
+      "Jinja2"
+    ]
   },
   "jira": {
     "tags": [
@@ -3054,6 +3116,17 @@
       "meteorjs"
     ]
   },
+  "microsoftgraph": {
+    "tags": [
+      "api",
+      "cloud"
+    ],
+    "altnames": [
+      "Microsoft Graph",
+      "msgraph",
+      "graphapi"
+    ]
+  },
   "microsoftsqlserver": {
     "tags": [
       "database",
@@ -3072,6 +3145,16 @@
       "statistics"
     ],
     "altnames": []
+  },
+  "mise": {
+    "tags": [
+      "tool",
+      "manager",
+      "development"
+    ],
+    "altnames": [
+      "mise-en-place"
+    ]
   },
   "mithril": {
     "tags": [
@@ -3201,6 +3284,17 @@
       "mystructuredquerylanguage"
     ]
   },
+  "mysqlworkbench": {
+    "tags": [
+      "database",
+      "sql",
+      "mysql",
+      "tool"
+    ],
+    "altnames": [
+      "MySQL Workbench"
+    ]
+  },
   "n8n": {
     "tags": [
       "ai"
@@ -3326,7 +3420,10 @@
   },
   "nginx": {
     "tags": [
-      "server"
+      "server",
+      "web",
+      "proxy",
+      "open-source"
     ],
     "altnames": []
   },
@@ -4855,6 +4952,14 @@
     ],
     "altnames": []
   },
+  "stackit": {
+    "tags": [
+      "cloud",
+      "hosting",
+      "infrastructure"
+    ],
+    "altnames": []
+  },
   "stackoverflow": {
     "tags": [
       "website",
@@ -5451,6 +5556,14 @@
     ],
     "altnames": []
   },
+  "velite": {
+    "tags": [
+      "library",
+      "markdown",
+      "typescript"
+    ],
+    "altnames": []
+  },
   "vercel": {
     "tags": [
       "hosting",
@@ -5802,6 +5915,14 @@
       "apple",
       "android",
       "windows"
+    ],
+    "altnames": []
+  },
+  "xampp": {
+    "tags": [
+      "server",
+      "php",
+      "database"
     ],
     "altnames": []
   },
