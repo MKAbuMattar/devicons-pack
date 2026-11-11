@@ -1,5 +1,11 @@
 # @devicons-pack/iconify
 
+## 2.3.0-beta.1
+
+### Minor Changes
+
+- 0ad37f4: Sync icon assets from devicons/devicon (develop)
+
 ## 2.3.0-beta.0
 
 ### Minor Changes
