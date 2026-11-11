@@ -1,5 +1,5 @@
 {
-  "count": 681,
+  "count": 693,
   "styles": [
     "original",
     "plain",
@@ -1358,6 +1358,22 @@
       ]
     },
     {
+      "slug": "checkmk",
+      "name": "Checkmk",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "monitoring",
+        "infrastructure",
+        "devops"
+      ],
+      "altnames": [
+        "check-mk"
+      ]
+    },
+    {
       "slug": "chrome",
       "name": "Chrome",
       "styles": [
@@ -2076,6 +2092,23 @@
         "database"
       ],
       "altnames": []
+    },
+    {
+      "slug": "dbt",
+      "name": "Dbt",
+      "styles": [
+        "original",
+        "line"
+      ],
+      "tags": [
+        "analytics",
+        "data",
+        "sql",
+        "tool"
+      ],
+      "altnames": [
+        "data build tool"
+      ]
     },
     {
       "slug": "dbvisualizer",
@@ -3702,6 +3735,23 @@
       ]
     },
     {
+      "slug": "groq",
+      "name": "Groq",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark"
+      ],
+      "tags": [
+        "AI",
+        "llm",
+        "hardware",
+        "inference",
+        "tool"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "grpc",
       "name": "Grpc",
       "styles": [
@@ -3885,7 +3935,8 @@
         "plain"
       ],
       "tags": [
-        "language"
+        "language",
+        "programming"
       ],
       "altnames": []
     },
@@ -3921,6 +3972,22 @@
       "altnames": []
     },
     {
+      "slug": "hermes",
+      "name": "Hermes",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "javascript",
+        "engine",
+        "react-native"
+      ],
+      "altnames": [
+        "Hermes Engine"
+      ]
+    },
+    {
       "slug": "heroku",
       "name": "Heroku",
       "styles": [
@@ -3949,6 +4016,24 @@
         "java"
       ],
       "altnames": []
+    },
+    {
+      "slug": "homeassistant",
+      "name": "Homeassistant",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "automation",
+        "platform",
+        "open-source"
+      ],
+      "altnames": [
+        "Home Assistant"
+      ]
     },
     {
       "slug": "homebrew",
@@ -4488,6 +4573,21 @@
         "web-development"
       ],
       "altnames": []
+    },
+    {
+      "slug": "jinja",
+      "name": "Jinja",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "python",
+        "template",
+        "library"
+      ],
+      "altnames": [
+        "Jinja2"
+      ]
     },
     {
       "slug": "jira",
@@ -5594,6 +5694,23 @@
       ]
     },
     {
+      "slug": "microsoftgraph",
+      "name": "Microsoftgraph",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "api",
+        "cloud"
+      ],
+      "altnames": [
+        "Microsoft Graph",
+        "msgraph",
+        "graphapi"
+      ]
+    },
+    {
       "slug": "microsoftsqlserver",
       "name": "Microsoftsqlserver",
       "styles": [
@@ -5627,6 +5744,22 @@
         "statistics"
       ],
       "altnames": []
+    },
+    {
+      "slug": "mise",
+      "name": "Mise",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "tool",
+        "manager",
+        "development"
+      ],
+      "altnames": [
+        "mise-en-place"
+      ]
     },
     {
       "slug": "mithril",
@@ -5849,6 +5982,23 @@
       ],
       "altnames": [
         "mystructuredquerylanguage"
+      ]
+    },
+    {
+      "slug": "mysqlworkbench",
+      "name": "Mysqlworkbench",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "database",
+        "sql",
+        "mysql",
+        "tool"
+      ],
+      "altnames": [
+        "MySQL Workbench"
       ]
     },
     {
@@ -6092,10 +6242,16 @@
       "slug": "nginx",
       "name": "Nginx",
       "styles": [
-        "original"
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
       ],
       "tags": [
-        "server"
+        "server",
+        "web",
+        "proxy",
+        "open-source"
       ],
       "altnames": []
     },
@@ -6694,7 +6850,8 @@
       "slug": "oracle",
       "name": "Oracle",
       "styles": [
-        "original"
+        "original",
+        "original-wordmark"
       ],
       "tags": [
         "database"
@@ -8901,6 +9058,21 @@
       "altnames": []
     },
     {
+      "slug": "stackit",
+      "name": "Stackit",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark"
+      ],
+      "tags": [
+        "cloud",
+        "hosting",
+        "infrastructure"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "stackoverflow",
       "name": "Stackoverflow",
       "styles": [
@@ -10004,6 +10176,22 @@
       "altnames": []
     },
     {
+      "slug": "velite",
+      "name": "Velite",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "library",
+        "markdown",
+        "typescript"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "vercel",
       "name": "Vercel",
       "styles": [
@@ -10631,6 +10819,20 @@
         "apple",
         "android",
         "windows"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "xampp",
+      "name": "Xampp",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "server",
+        "php",
+        "database"
       ],
       "altnames": []
     },
