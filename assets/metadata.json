@@ -1,5 +1,5 @@
 {
-  "count": 693,
+  "count": 715,
   "styles": [
     "original",
     "plain",
@@ -56,6 +56,21 @@
       "altnames": [
         "adonis"
       ]
+    },
+    {
+      "slug": "aerospace",
+      "name": "Aerospace",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "window manager",
+        "macos",
+        "tiling"
+      ],
+      "altnames": []
     },
     {
       "slug": "aerospike",
@@ -758,6 +773,25 @@
       ],
       "altnames": [
         "azure-devops"
+      ]
+    },
+    {
+      "slug": "azurelogicapps",
+      "name": "Azurelogicapps",
+      "styles": [
+        "original",
+        "plain",
+        "line"
+      ],
+      "tags": [
+        "azure",
+        "cloud",
+        "low-code",
+        "no-code",
+        "workflow"
+      ],
+      "altnames": [
+        "azure logic apps"
       ]
     },
     {
@@ -2018,6 +2052,24 @@
       ]
     },
     {
+      "slug": "databricks",
+      "name": "Databricks",
+      "styles": [
+        "original",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "data",
+        "analytics",
+        "machine-learning",
+        "data-science",
+        "cloud",
+        "platform"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "datadog",
       "name": "Datadog",
       "styles": [
@@ -2142,6 +2194,20 @@
       "altnames": []
     },
     {
+      "slug": "deepseek",
+      "name": "Deepseek",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "AI",
+        "LLM",
+        "tool"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "delphi",
       "name": "Delphi",
       "styles": [
@@ -2166,6 +2232,23 @@
         "javascript",
         "rust",
         "runtime"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "dependabot",
+      "name": "Dependabot",
+      "styles": [
+        "original",
+        "plain",
+        "line",
+        "original-wordmark",
+        "plain-wordmark",
+        "line-wordmark"
+      ],
+      "tags": [
+        "dependency",
+        "security"
       ],
       "altnames": []
     },
@@ -3009,6 +3092,24 @@
       "altnames": []
     },
     {
+      "slug": "fluxcd",
+      "name": "Fluxcd",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "gitops",
+        "continuous-delivery",
+        "kubernetes"
+      ],
+      "altnames": [
+        "Flux"
+      ]
+    },
+    {
       "slug": "flyway",
       "name": "Flyway",
       "styles": [
@@ -3486,6 +3587,21 @@
         "collaborative-environment"
       ],
       "altnames": []
+    },
+    {
+      "slug": "gnome",
+      "name": "Gnome",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "desktop-environment",
+        "linux"
+      ],
+      "altnames": [
+        "gnome-desktop"
+      ]
     },
     {
       "slug": "gnu",
@@ -4908,6 +5024,20 @@
       ]
     },
     {
+      "slug": "kate",
+      "name": "Kate",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "editor",
+        "text editor",
+        "open-source"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "kdeneon",
       "name": "Kdeneon",
       "styles": [
@@ -4936,6 +5066,26 @@
         "machine-learning",
         "python",
         "library"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "keycloak",
+      "name": "Keycloak",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "auth",
+        "security",
+        "application",
+        "server",
+        "open-source",
+        "infrastructure",
+        "web"
       ],
       "altnames": []
     },
@@ -6818,6 +6968,22 @@
       "altnames": []
     },
     {
+      "slug": "opentofu",
+      "name": "Opentofu",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "infrastructure",
+        "deployment",
+        "automation"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "opera",
       "name": "Opera",
       "styles": [
@@ -7782,6 +7948,22 @@
         "jetbrains",
         "code quality",
         "security"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "qodo",
+      "name": "Qodo",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "AI",
+        "tool",
+        "code-review"
       ],
       "altnames": []
     },
@@ -8951,6 +9133,20 @@
       ]
     },
     {
+      "slug": "springboot",
+      "name": "Springboot",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "framework",
+        "java"
+      ],
+      "altnames": [
+        "Spring Boot"
+      ]
+    },
+    {
       "slug": "spss",
       "name": "Spss",
       "styles": [
@@ -9213,6 +9409,20 @@
       ]
     },
     {
+      "slug": "stylelint",
+      "name": "Stylelint",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "linter",
+        "css",
+        "code-quality"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "stylus",
       "name": "Stylus",
       "styles": [
@@ -9224,6 +9434,21 @@
       ],
       "altnames": [
         "styluslang"
+      ]
+    },
+    {
+      "slug": "sublimetext",
+      "name": "Sublimetext",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "editor",
+        "text editor"
+      ],
+      "altnames": [
+        "sublime"
       ]
     },
     {
@@ -9388,6 +9613,21 @@
       "altnames": []
     },
     {
+      "slug": "systemd",
+      "name": "Systemd",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "linux",
+        "tool"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "systemverilog",
       "name": "Systemverilog",
       "styles": [
@@ -9431,6 +9671,52 @@
         "distribution"
       ],
       "altnames": []
+    },
+    {
+      "slug": "tanstack",
+      "name": "Tanstack",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "library",
+        "framework",
+        "react",
+        "frontend",
+        "data-fetching",
+        "state-management",
+        "router",
+        "typescript"
+      ],
+      "altnames": [
+        "tanStack query",
+        "react query",
+        "tanstack router",
+        "tanstack start",
+        "tanstack table"
+      ]
+    },
+    {
+      "slug": "taskade",
+      "name": "Taskade",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "ai",
+        "agents",
+        "automation",
+        "workspace",
+        "productivity"
+      ],
+      "altnames": [
+        "taskade genesis",
+        "taskade ai"
+      ]
     },
     {
       "slug": "tauri",
@@ -9484,6 +9770,23 @@
         "infrastructure"
       ],
       "altnames": []
+    },
+    {
+      "slug": "temporal",
+      "name": "Temporal",
+      "styles": [
+        "original",
+        "original-wordmark"
+      ],
+      "tags": [
+        "AI",
+        "tool",
+        "workflows",
+        "automation"
+      ],
+      "altnames": [
+        "temporal.io"
+      ]
     },
     {
       "slug": "tensorflow",
@@ -9547,6 +9850,23 @@
         "automation"
       ],
       "altnames": []
+    },
+    {
+      "slug": "testinglibrary",
+      "name": "Testinglibrary",
+      "styles": [
+        "original",
+        "plain"
+      ],
+      "tags": [
+        "testing",
+        "tool"
+      ],
+      "altnames": [
+        "testing-library",
+        "react-testing-library",
+        "Testing Library"
+      ]
     },
     {
       "slug": "testrail",
@@ -9861,6 +10181,21 @@
       "altnames": []
     },
     {
+      "slug": "turborepo",
+      "name": "Turborepo",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark"
+      ],
+      "tags": [
+        "build",
+        "javascript",
+        "monorepo"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "twilio",
       "name": "Twilio",
       "styles": [
@@ -9958,6 +10293,19 @@
       "altnames": []
     },
     {
+      "slug": "typst",
+      "name": "Typst",
+      "styles": [
+        "original"
+      ],
+      "tags": [
+        "markup",
+        "typesetting-system",
+        "language"
+      ],
+      "altnames": []
+    },
+    {
       "slug": "ubuntu",
       "name": "Ubuntu",
       "styles": [
@@ -10020,6 +10368,23 @@
       ],
       "tags": [
         "os"
+      ],
+      "altnames": []
+    },
+    {
+      "slug": "unraid",
+      "name": "Unraid",
+      "styles": [
+        "original",
+        "plain",
+        "original-wordmark",
+        "plain-wordmark"
+      ],
+      "tags": [
+        "os",
+        "nas",
+        "server",
+        "linux"
       ],
       "altnames": []
     },

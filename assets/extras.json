@@ -28,6 +28,14 @@
       "adonis"
     ]
   },
+  "aerospace": {
+    "tags": [
+      "window manager",
+      "macos",
+      "tiling"
+    ],
+    "altnames": []
+  },
   "aerospike": {
     "tags": [
       "data",
@@ -415,6 +423,18 @@
     ],
     "altnames": [
       "azure-devops"
+    ]
+  },
+  "azurelogicapps": {
+    "tags": [
+      "azure",
+      "cloud",
+      "low-code",
+      "no-code",
+      "workflow"
+    ],
+    "altnames": [
+      "azure logic apps"
     ]
   },
   "azuresqldatabase": {
@@ -1117,6 +1137,17 @@
       "googledart"
     ]
   },
+  "databricks": {
+    "tags": [
+      "data",
+      "analytics",
+      "machine-learning",
+      "data-science",
+      "cloud",
+      "platform"
+    ],
+    "altnames": []
+  },
   "datadog": {
     "tags": [
       "monitoring",
@@ -1188,6 +1219,14 @@
     ],
     "altnames": []
   },
+  "deepseek": {
+    "tags": [
+      "AI",
+      "LLM",
+      "tool"
+    ],
+    "altnames": []
+  },
   "delphi": {
     "tags": [
       "language"
@@ -1201,6 +1240,13 @@
       "javascript",
       "rust",
       "runtime"
+    ],
+    "altnames": []
+  },
+  "dependabot": {
+    "tags": [
+      "dependency",
+      "security"
     ],
     "altnames": []
   },
@@ -1645,6 +1691,16 @@
     ],
     "altnames": []
   },
+  "fluxcd": {
+    "tags": [
+      "gitops",
+      "continuous-delivery",
+      "kubernetes"
+    ],
+    "altnames": [
+      "Flux"
+    ]
+  },
   "flyway": {
     "tags": [
       "java",
@@ -1893,6 +1949,15 @@
       "collaborative-environment"
     ],
     "altnames": []
+  },
+  "gnome": {
+    "tags": [
+      "desktop-environment",
+      "linux"
+    ],
+    "altnames": [
+      "gnome-desktop"
+    ]
   },
   "gnu": {
     "tags": [
@@ -2680,6 +2745,14 @@
       "karmajs"
     ]
   },
+  "kate": {
+    "tags": [
+      "editor",
+      "text editor",
+      "open-source"
+    ],
+    "altnames": []
+  },
   "kdeneon": {
     "tags": [
       "linux",
@@ -2693,6 +2766,18 @@
       "machine-learning",
       "python",
       "library"
+    ],
+    "altnames": []
+  },
+  "keycloak": {
+    "tags": [
+      "auth",
+      "security",
+      "application",
+      "server",
+      "open-source",
+      "infrastructure",
+      "web"
     ],
     "altnames": []
   },
@@ -3729,6 +3814,14 @@
     ],
     "altnames": []
   },
+  "opentofu": {
+    "tags": [
+      "infrastructure",
+      "deployment",
+      "automation"
+    ],
+    "altnames": []
+  },
   "opera": {
     "tags": [
       "browser"
@@ -4256,6 +4349,14 @@
       "jetbrains",
       "code quality",
       "security"
+    ],
+    "altnames": []
+  },
+  "qodo": {
+    "tags": [
+      "AI",
+      "tool",
+      "code-review"
     ],
     "altnames": []
   },
@@ -4896,6 +4997,15 @@
       "springframework"
     ]
   },
+  "springboot": {
+    "tags": [
+      "framework",
+      "java"
+    ],
+    "altnames": [
+      "Spring Boot"
+    ]
+  },
   "spss": {
     "tags": [
       "package",
@@ -5038,6 +5148,14 @@
       "styled-components"
     ]
   },
+  "stylelint": {
+    "tags": [
+      "linter",
+      "css",
+      "code-quality"
+    ],
+    "altnames": []
+  },
   "stylus": {
     "tags": [
       "css",
@@ -5045,6 +5163,15 @@
     ],
     "altnames": [
       "styluslang"
+    ]
+  },
+  "sublimetext": {
+    "tags": [
+      "editor",
+      "text editor"
+    ],
+    "altnames": [
+      "sublime"
     ]
   },
   "subversion": {
@@ -5132,6 +5259,13 @@
     ],
     "altnames": []
   },
+  "systemd": {
+    "tags": [
+      "linux",
+      "tool"
+    ],
+    "altnames": []
+  },
   "systemverilog": {
     "tags": [
       "programming",
@@ -5158,6 +5292,38 @@
       "distribution"
     ],
     "altnames": []
+  },
+  "tanstack": {
+    "tags": [
+      "library",
+      "framework",
+      "react",
+      "frontend",
+      "data-fetching",
+      "state-management",
+      "router",
+      "typescript"
+    ],
+    "altnames": [
+      "tanStack query",
+      "react query",
+      "tanstack router",
+      "tanstack start",
+      "tanstack table"
+    ]
+  },
+  "taskade": {
+    "tags": [
+      "ai",
+      "agents",
+      "automation",
+      "workspace",
+      "productivity"
+    ],
+    "altnames": [
+      "taskade genesis",
+      "taskade ai"
+    ]
   },
   "tauri": {
     "tags": [
@@ -5187,6 +5353,17 @@
       "infrastructure"
     ],
     "altnames": []
+  },
+  "temporal": {
+    "tags": [
+      "AI",
+      "tool",
+      "workflows",
+      "automation"
+    ],
+    "altnames": [
+      "temporal.io"
+    ]
   },
   "tensorflow": {
     "tags": [
@@ -5220,6 +5397,17 @@
       "automation"
     ],
     "altnames": []
+  },
+  "testinglibrary": {
+    "tags": [
+      "testing",
+      "tool"
+    ],
+    "altnames": [
+      "testing-library",
+      "react-testing-library",
+      "Testing Library"
+    ]
   },
   "testrail": {
     "tags": [
@@ -5385,6 +5573,14 @@
     ],
     "altnames": []
   },
+  "turborepo": {
+    "tags": [
+      "build",
+      "javascript",
+      "monorepo"
+    ],
+    "altnames": []
+  },
   "twilio": {
     "tags": [
       "api",
@@ -5436,6 +5632,14 @@
     ],
     "altnames": []
   },
+  "typst": {
+    "tags": [
+      "markup",
+      "typesetting-system",
+      "language"
+    ],
+    "altnames": []
+  },
   "ubuntu": {
     "tags": [
       "os",
@@ -5468,6 +5672,15 @@
   "unix": {
     "tags": [
       "os"
+    ],
+    "altnames": []
+  },
+  "unraid": {
+    "tags": [
+      "os",
+      "nas",
+      "server",
+      "linux"
     ],
     "altnames": []
   },
