@@ -1,5 +1,11 @@
 # @devicons-pack/vue
 
+## 2.3.0-beta.2
+
+### Minor Changes
+
+- 4b1bc19: Sync icon assets from devicons/devicon (develop)
+
 ## 2.3.0-beta.1
 
 ### Minor Changes
